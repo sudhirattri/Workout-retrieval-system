@@ -28,19 +28,6 @@ function Copyright() {
 
 const steps = ['Equipment', 'Body Part', 'Ranked search'];
 
-function getStepContent(step) {
-  switch (step) {
-    case 0:
-      return <SelectEquipment/>;
-    case 1:
-      return <SelectMuscle/>;
-    case 2:
-      return <RankedResults/>;
-    default:
-      throw new Error('Unknown step');
-  }
-}
-
 const theme = createTheme();
 
 const buttonName = ["Muscle Group","Find exercises"]
@@ -48,9 +35,34 @@ const pageTitle = ["Select gym equipment","Select Muscle Group","Ranked query re
 
 export default function Checkout() {
 
+  function updateEquipments(list){
+    setEquipments(oldArray => list)
+    console.log("ref func",list)
+  }
+  
+  function updateMuscleGroup(list){
+    setMuscleGroups(oldArray => list)
+    console.log("ref func",list)
+  }
+
+  function getStepContent(step) {
+    switch (step) {
+      case 0:
+        return <SelectEquipment equipments={equipments} ref_func={updateEquipments}/>;
+      case 1:
+        return <SelectMuscle muscleGroups={muscleGroups} ref_func={updateMuscleGroup}/>;
+      case 2:
+        return <RankedResults rankedResults={rankedResults}/>;
+      default:
+        throw new Error('Unknown step');
+    }
+  }
+
+  
   const [activeStep, setActiveStep] = React.useState(0);
   const [equipments, setEquipments] = React.useState([]);
-  const [muscle_groups, setMuscleGroups] = React.useState([]);
+  const [muscleGroups, setMuscleGroups] = React.useState([]);
+  const [rankedResults, setRankedResults] = React.useState([]);
 
   const selectEquipmentRef = React.useRef(null);;
   const selectMuscleRef = React.useRef(null);;
@@ -107,7 +119,7 @@ export default function Checkout() {
               </React.Fragment>
             ) : (
               <React.Fragment>
-                {getStepContent(activeStep)}
+                {getStepContent(activeStep,equipments,muscleGroups,rankedResults)}
                 <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                   {activeStep !== 0 && (
                     <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>

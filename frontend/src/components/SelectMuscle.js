@@ -28,17 +28,22 @@ function generate_muscle_groups(){
 
 const muscle_options = generate_muscle_groups();
 
-console.log(muscle_options)
+console.log("options",muscle_options)
 
-export default function SelectMuscle() {
+export default function SelectMuscle(props) {
     
-    const [muscle_groups, setMuscleGroups] = React.useState([]);
+    console.log("props", props)
+    const [muscleGroups, setMuscleGroups] = React.useState([]);
     const [checked, setChecked] = React.useState([0]);
+
+    // setMuscleGroups(oldArray => props.muscleGroups)
+    React.useEffect(() => setMuscleGroups(oldArray => props.muscleGroups), [])
 
     const handleChange = (value) =>
     {
       const muscle_groups_list = value.map(function(a){return a.label;});
       setMuscleGroups(oldArray => value)
+      props.ref_func(value)
       console.log(value);
     };
 
@@ -53,7 +58,7 @@ export default function SelectMuscle() {
         }
         
         console.log(newChecked)
-        console.log(muscle_groups)
+        console.log(muscleGroups)
         setChecked(newChecked);
     };
 
@@ -70,6 +75,7 @@ export default function SelectMuscle() {
                 disablePortal
                 id="equipment-select"
                 options={muscle_options}
+                value = {muscleGroups}
                 sx={{ width: 300 }}
                 onChange={(event, value) => handleChange(value)}
                 renderInput={(params) => <TextField {...params} label="Select Muscle group" 
@@ -86,7 +92,7 @@ export default function SelectMuscle() {
           <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
             borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
 
-            {muscle_groups.map((value,index) => {
+            {muscleGroups.map((value,index) => {
                 const labelId = `checkbox-list-label-${value}`;
 
                 return (

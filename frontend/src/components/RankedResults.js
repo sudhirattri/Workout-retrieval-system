@@ -10,8 +10,12 @@ import ListItemButton from '@mui/material/ListItemButton'
 import ListItemText from '@mui/material/ListItemText'
 import ListItemIcon from '@mui/material/ListItemIcon'
 
-export default function RankedResults() {
+export default function RankedResults(props) {
   const [checked, setChecked] = React.useState([0]);
+
+  const [rankedResults, setRankedResults] = React.useState(['test results']);
+
+  // setRankedResults(oldArray => props.rankedResults)
 
   const handleToggle = (value) => () => {
       const currentIndex = checked.indexOf(value);

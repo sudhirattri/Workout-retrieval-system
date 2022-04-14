@@ -15,20 +15,27 @@ import ListItemIcon from '@mui/material/ListItemIcon'
 import { data } from "./../data/data";
 
 const equipment_options = Object.keys(data).map(function(key, index) {
-    return { "label": key, "id": index }
+    return key
 });
 
-export default function SelectEquipment() {
+console.log("options",equipment_options)
+
+export default function SelectEquipment(props) {
+
+    console.log("props", props)
 
     const [checked, setChecked] = React.useState([0]);
 
     const [equipments, setEquipments] = React.useState([]);
 
+    React.useEffect(() => setEquipments(oldArray => props.equipments), [])
+    // setEquipments(oldArray => props.equipments)
+
     const handleChange = (value) =>
     {
       const equipment_list = value.map(function(a){return a.label;});
-      setEquipments(oldArray => equipment_list)
-      console.log(equipment_list);
+      setEquipments(oldArray => value)
+      props.ref_func(value)
     };
 
     const handleToggle = (value) => () => {
@@ -53,15 +60,16 @@ export default function SelectEquipment() {
         </Typography>
         <Grid container spacing={3} alignItems="center" justifyContent="center" direction="column">
           <Grid item xs={12} margin={2}>
-            <Autocomplete
+          <Autocomplete
                 freeSolo
                 multiple
                 disablePortal
                 id="equipment-select"
                 options={equipment_options}
+                value = {equipments}
                 sx={{ width: 300 }}
                 onChange={(event, value) => handleChange(value)}
-                renderInput={(params) => <TextField {...params} label="Gym equipment" 
+                renderInput={(params) => <TextField {...params} label="Select Muscle group" 
                         onKeyDown={e => {
                             if (e.code === 'enter' && e.target.value) {
                                 // setEquipments(oldArray => [...oldArray, 'newElement']);
@@ -84,6 +92,7 @@ export default function SelectEquipment() {
                     alignItems='center'
                     key={value}
                     disablePadding
+                    key={index}
                 >
                     <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
                     {/* <ListItemIcon>
