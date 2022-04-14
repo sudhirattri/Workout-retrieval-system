@@ -16,6 +16,8 @@ import SelectEquipment from './SelectEquipment';
 import SelectMuscle from './SelectMuscle';
 import RankedResults from './RankedResults';
 
+import { example_request , example_response } from "./../data/example_query";
+
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -33,7 +35,7 @@ const theme = createTheme();
 const buttonName = ["Muscle Group","Find exercises"]
 const pageTitle = ["Select gym equipment","Select Muscle Group","Ranked query retrieval"]
 
-export default function Checkout() {
+export default function HomeLayout() {
 
   function updateEquipments(list){
     setEquipments(oldArray => list)
@@ -43,6 +45,51 @@ export default function Checkout() {
   function updateMuscleGroup(list){
     setMuscleGroups(oldArray => list)
     console.log("ref func",list)
+  }
+
+  function post_query(){
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    
+    var raw = JSON.stringify({
+      "equipments": [
+        "Barbell",
+        "Dumbbells"
+      ],
+      "muscle_groups": [
+        "Shoulders"
+      ]
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow',
+      mode:'no-cors'
+    };
+    
+    // fetch("http://192.168.92.27:5001/", requestOptions)
+    //   .then(response => {
+    //     setRankedResults(oldArray => response.text)
+    //     console.log(response.text);
+    //   })
+    //   .then(result => console.log(result))
+    //   .catch(error => console.log('error', error));
+
+    let formatted_response = example_response.map(function(item, index) {
+      let exercise_obj = item["exercise"];
+      let exercise_name = Object.keys(exercise_obj)[0];
+      let desc = exercise_obj[exercise_name]
+      return {
+        exercise : exercise_name,
+        desc : desc,
+        equipment : item["equipment"],
+        muscle_group : item["muscle_group"]
+      }
+    })
+    setRankedResults(oldArray => formatted_response)
+    console.log(formatted_response)
   }
 
   function getStepContent(step) {
@@ -67,7 +114,12 @@ export default function Checkout() {
   const selectEquipmentRef = React.useRef(null);;
   const selectMuscleRef = React.useRef(null);;
 
+  React.useEffect(() => post_query(), [])
+
   const handleNext = () => {
+    if(activeStep==1){
+      post_query()
+    }
     setActiveStep(activeStep + 1);
   };
 

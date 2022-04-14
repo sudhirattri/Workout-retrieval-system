@@ -69,7 +69,7 @@ export default function SelectEquipment(props) {
                 value = {equipments}
                 sx={{ width: 300 }}
                 onChange={(event, value) => handleChange(value)}
-                renderInput={(params) => <TextField {...params} label="Select Muscle group" 
+                renderInput={(params) => <TextField {...params} label="Select Equipment" 
                         onKeyDown={e => {
                             if (e.code === 'enter' && e.target.value) {
                                 // setEquipments(oldArray => [...oldArray, 'newElement']);
@@ -79,37 +79,39 @@ export default function SelectEquipment(props) {
                     />}
             />
           </Grid>
-
-          <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
-            borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
-
-            {equipments.map((value,index) => {
-                const labelId = `checkbox-list-label-${value}`;
-
-                return (
-                <ListItem
-                    sx = {{alignContent: 'center'}}
-                    alignItems='center'
-                    key={value}
-                    disablePadding
-                    key={index}
-                >
-                    <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
-                    {/* <ListItemIcon>
-                        <Checkbox
-                        edge="start"
-                        checked={checked.indexOf(value) !== -1}
-                        tabIndex={-1}
-                        disableRipple
-                        inputProps={{ 'aria-labelledby': labelId }}
-                        />
-                    </ListItemIcon> */}
-                    <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
-                    </ListItemButton>
-                </ListItem>
-                );
-            })}
+        {equipments.length !== 0 &&
+            <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
+                borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
+    
+                {equipments.map((value,index) => {
+                    const labelId = `checkbox-list-label-${value}`;
+    
+                    return (
+                    <ListItem
+                        sx = {{alignContent: 'center'}}
+                        alignItems='center'
+                        key={value}
+                        disablePadding
+                        key={index}
+                    >
+                        <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
+                        {/* <ListItemIcon>
+                            <Checkbox
+                            edge="start"
+                            checked={checked.indexOf(value) !== -1}
+                            tabIndex={-1}
+                            disableRipple
+                            inputProps={{ 'aria-labelledby': labelId }}
+                            />
+                        </ListItemIcon> */}
+                        <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
+                        </ListItemButton>
+                    </ListItem>
+                    );
+                })}
             </List>
+        }
+
         </Grid>
       </React.Fragment>
     );

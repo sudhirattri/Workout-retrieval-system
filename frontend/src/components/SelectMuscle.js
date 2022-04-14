@@ -88,37 +88,39 @@ export default function SelectMuscle(props) {
                     />}
             />
           </Grid>
-
-          <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
-            borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
-
-            {muscleGroups.map((value,index) => {
-                const labelId = `checkbox-list-label-${value}`;
-
-                return (
-                <ListItem
-                    sx = {{alignContent: 'center'}}
-                    alignItems='center'
-                    key={value}
-                    disablePadding
-                    key={index}
-                >
-                    <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
-                    {/* <ListItemIcon>
-                        <Checkbox
-                        edge="start"
-                        checked={checked.indexOf(value) !== -1}
-                        tabIndex={-1}
-                        disableRipple
-                        inputProps={{ 'aria-labelledby': labelId }}
-                        />
-                    </ListItemIcon> */}
-                    <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
-                    </ListItemButton>
-                </ListItem>
-                );
-            })}
+          {muscleGroups.length !== 0 &&
+            <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
+              borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
+  
+              {muscleGroups.map((value,index) => {
+                  const labelId = `checkbox-list-label-${value}`;
+  
+                  return (
+                  <ListItem
+                      sx = {{alignContent: 'center'}}
+                      alignItems='center'
+                      key={value}
+                      disablePadding
+                      key={index}
+                  >
+                      <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
+                      {/* <ListItemIcon>
+                          <Checkbox
+                          edge="start"
+                          checked={checked.indexOf(value) !== -1}
+                          tabIndex={-1}
+                          disableRipple
+                          inputProps={{ 'aria-labelledby': labelId }}
+                          />
+                      </ListItemIcon> */}
+                      <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
+                      </ListItemButton>
+                  </ListItem>
+                  );
+              })}
             </List>
+          }
+
         </Grid>
       </React.Fragment>
     );
