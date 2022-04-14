@@ -11,8 +11,7 @@ https://workout-retrieval-system.sudhirattri1.repl.co/
 - Equipment
 
 - Images of equipment
-- Text Analysis model 
-- What is data required for this?	
+<img width="1936" alt="Mid Report(1)" src="https://user-images.githubusercontent.com/43843585/163447414-9ca70602-0580-40dc-a699-db3d00cb1ae7.png">
 
 #### Data preprocessing
 
