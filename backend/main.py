@@ -1,12 +1,41 @@
-from flask import Flask
+from flask import Flask, jsonify, request
+import json
 
 app = Flask(__name__)
 
 
-@app.route("/hello/", methods=["GET", "POST"])
-def welcome():
-    return "Hello World!"
+@app.route("/", methods=["GET", "POST"])
+def exercises():
+    with open("data/data.json") as f:
+        data = json.load(f)
+
+    response = []
+
+    for equipment in request.json["equipments"]:
+        for muscle_group in request.json["muscle_groups"]:
+            print(equipment, muscle_group)
+            if equipment in data and muscle_group in data[equipment]:
+                for exercise in data[equipment][muscle_group]:
+                    item = {}
+                    item["equipment"] = equipment
+                    item["muscle_group"] = muscle_group
+                    item["exercise"] = exercise
+                    response.append(item)
+
+    for equipment in request.json["equipments"]:
+        for muscle_group in data[equipment]:
+            if muscle_group not in request.json["muscle_groups"]:
+                for exercise in data[equipment][muscle_group]:
+                    item = {}
+                    item["equipment"] = equipment
+                    item["muscle_group"] = muscle_group
+                    item["exercise"] = exercise
+                    response.append(item)
+
+    # print(response)
+
+    return jsonify(response)
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=105)
+    app.run(host="0.0.0.0", port=5001, debug=True)
