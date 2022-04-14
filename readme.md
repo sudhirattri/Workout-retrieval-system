@@ -18,3 +18,7 @@ Text Analysis model
 User Interface
 Features associated with UI
 Search Suggestion
+
+#### Link to the Drive folder for models 
+
+https://drive.google.com/drive/folders/1asINerceJeWTF6zMMeQydGhUXgrPKV2y?usp=sharing
