@@ -8,8 +8,8 @@
 - Equipment
 
 - Images of equipment
-- Text Analysis model 
-- What is data required for this?	
+<img width="1936" alt="Mid Report(1)" src="https://user-images.githubusercontent.com/43843585/163445792-58856eaf-f181-4ea1-92fa-42a74f22ef3d.png">
+
 
 #### Data preprocessing
 
