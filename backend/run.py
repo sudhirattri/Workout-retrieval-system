@@ -1,7 +1,11 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
+
+CORS(app)
+app.secret_key = "5ZN5zi!45QUsGGh"
 
 
 @app.route("/", methods=["GET", "POST"])
