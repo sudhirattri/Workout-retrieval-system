@@ -11,6 +11,7 @@ import ListItem from '@mui/material/ListItem'
 import ListItemButton from '@mui/material/ListItemButton'
 import ListItemText from '@mui/material/ListItemText'
 import ListItemIcon from '@mui/material/ListItemIcon'
+import MuscleWiki from './MuscleWiki';
 
 import { data } from "./../data/data";
 
@@ -36,8 +37,15 @@ export default function SelectMuscle(props) {
     const [muscleGroups, setMuscleGroups] = React.useState([]);
     const [checked, setChecked] = React.useState([0]);
 
-    // setMuscleGroups(oldArray => props.muscleGroups)
-    React.useEffect(() => setMuscleGroups(oldArray => props.muscleGroups), [])
+    const [useVisualMuscles, setUseVisualMuscles] = React.useState(false);
+
+    React.useEffect(() => {
+      setMuscleGroups(oldArray => props.muscleGroups)
+    }, []);
+
+    React.useEffect(() => {
+      setUseVisualMuscles(old => props.useVisualMuscles)
+    },[props.useVisualMuscles]);
 
     const handleChange = (value) =>
     {
@@ -104,15 +112,6 @@ export default function SelectMuscle(props) {
                       key={index}
                   >
                       <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
-                      {/* <ListItemIcon>
-                          <Checkbox
-                          edge="start"
-                          checked={checked.indexOf(value) !== -1}
-                          tabIndex={-1}
-                          disableRipple
-                          inputProps={{ 'aria-labelledby': labelId }}
-                          />
-                      </ListItemIcon> */}
                       <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
                       </ListItemButton>
                   </ListItem>
@@ -121,7 +120,22 @@ export default function SelectMuscle(props) {
             </List>
           }
 
+          {useVisualMuscles &&
+          <React.Fragment>
+            <MuscleWiki></MuscleWiki>
+          </React.Fragment>
+          }
+
         </Grid>
       </React.Fragment>
     );
-  }
+}
+
+// src="(.*)"
+// src={require('$1')}
+
+// /MuscleWiki_files/
+// /images/
+
+// .png">
+// .png"/>

@@ -19,8 +19,12 @@ export default function RankedResults(props) {
 
   const [rankedResults, setRankedResults] = React.useState(['test results']);
 
-  // setRankedResults(oldArray => props.rankedResults)
-  React.useEffect(() => setRankedResults(oldArray => props.rankedResults), [])
+  const [viewGif, setviewGif] = React.useState(true);
+
+  React.useEffect(() => {
+    setRankedResults(oldArray => props.rankedResults)
+    setviewGif(old => props.viewGif)
+  }, []);
 
   const handleToggle = (value) => () => {
       const currentIndex = checked.indexOf(value);

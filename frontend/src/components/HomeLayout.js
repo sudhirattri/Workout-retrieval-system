@@ -32,7 +32,19 @@ const steps = ['Equipment', 'Body Part', 'Ranked search'];
 
 const theme = createTheme();
 
-const buttonName = ["Muscle Group","Find exercises"]
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+    primary: {
+      main: '#1976d2',
+    },
+  },
+});
+
+const nextButtonName = ["Muscle Group","Find exercises"]
+const secButtonName1 = ["Add manually","Add manually", "Toggele gifs/video"]
+const secButtonName2 = ["Use Camera","Use visual Selector", "Toggele Description"]
+
 const pageTitle = ["Select gym equipment","Select Muscle Group","Ranked query retrieval"]
 
 export default function HomeLayout() {
@@ -41,7 +53,11 @@ export default function HomeLayout() {
     setEquipments(oldArray => list)
     console.log("ref func",list)
   }
-  
+
+  function closeDialog(list){
+    setUseCamera(old => false)
+  }
+
   function updateMuscleGroup(list){
     setMuscleGroups(oldArray => list)
     console.log("ref func",list)
@@ -95,11 +111,11 @@ export default function HomeLayout() {
   function getStepContent(step) {
     switch (step) {
       case 0:
-        return <SelectEquipment equipments={equipments} ref_func={updateEquipments}/>;
+        return <SelectEquipment equipments={equipments} close_dialog={closeDialog} ref_func={updateEquipments} useCamera={useCamera}/>;
       case 1:
-        return <SelectMuscle muscleGroups={muscleGroups} ref_func={updateMuscleGroup}/>;
+        return <SelectMuscle muscleGroups={muscleGroups} ref_func={updateMuscleGroup} useVisualMuscles={useVisualMuscles}/>;
       case 2:
-        return <RankedResults rankedResults={rankedResults}/>;
+        return <RankedResults rankedResults={rankedResults} viewGif={viewGif}/>;
       default:
         throw new Error('Unknown step');
     }
@@ -107,6 +123,11 @@ export default function HomeLayout() {
 
   
   const [activeStep, setActiveStep] = React.useState(0);
+
+  const [useCamera, setUseCamera] = React.useState(false);
+  const [useVisualMuscles, setUseVisualMuscles] = React.useState(false);
+  const [viewGif, setviewGif] = React.useState(true);
+
   const [equipments, setEquipments] = React.useState([]);
   const [muscleGroups, setMuscleGroups] = React.useState([]);
   const [rankedResults, setRankedResults] = React.useState([]);
@@ -116,6 +137,18 @@ export default function HomeLayout() {
 
   React.useEffect(() => post_query(), [])
 
+  const getSecondaryButtonText = () => {
+    switch (activeStep) {
+      case 0:
+        return useCamera? (secButtonName1[activeStep]):(secButtonName2[activeStep])
+        break;
+      case 1:
+        return useVisualMuscles? (secButtonName1[activeStep]):(secButtonName2[activeStep])
+        break;
+      case 2:
+        return viewGif? (secButtonName1[activeStep]):(secButtonName2[activeStep])
+    }
+  }
   const handleNext = () => {
     if(activeStep==1){
       post_query()
@@ -125,6 +158,19 @@ export default function HomeLayout() {
 
   const handleBack = () => {
     setActiveStep(activeStep - 1);
+  };
+
+  const handleSecondaryClick = () => {
+    switch (activeStep) {
+      case 0:
+        setUseCamera(old => !old);
+        break;
+      case 1:
+        setUseVisualMuscles(old => !old);
+        break;
+      case 2:
+        setviewGif(old => !old);
+    }
   };
 
   return (
@@ -145,7 +191,7 @@ export default function HomeLayout() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
+      <Container component="main" maxWidth="md" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
           <Typography component="h4" variant="h5" align="center">
             {pageTitle[activeStep]}
@@ -172,23 +218,35 @@ export default function HomeLayout() {
             ) : (
               <React.Fragment>
                 {getStepContent(activeStep,equipments,muscleGroups,rankedResults)}
-                <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  {activeStep !== 0 && (
-                    <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
-                      Back
-                    </Button>
-                  )}
-                  {activeStep !== steps.length - 1 &&
-                    <Button
-                    variant="contained"
-                    onClick={handleNext}
-                    sx={{ mt: 3, ml: 1 }}
-                    >
-                      {buttonName[activeStep]}
-                    </Button>
-                  }
+                <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                    {activeStep >= 0 &&
+                      <Button
+                      variant="outlined"
+                      onClick={handleSecondaryClick}
+                      sx={{ mt: 3, ml: 1 }}
+                      >
+                        {getSecondaryButtonText()}
+                      </Button>
+                    }
+                    <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
+                      {activeStep !== 0 && (
+                        <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
+                          Back
+                        </Button>
+                      )}
+                      {activeStep !== steps.length - 1 &&
+                        <Button
+                        variant="contained"
+                        onClick={handleNext}
+                        sx={{ mt: 3, ml: 1 }}
+                        >
+                          {nextButtonName[activeStep]}
+                        </Button>
+                      }
+                    </Box>
 
-                </Box>
+                  </Box>
+
               </React.Fragment>
             )}
           </React.Fragment>
