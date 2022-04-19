@@ -14,7 +14,7 @@ def exercises():
         data = json.load(f)
 
     response = []
-
+    
     for equipment in request.json["equipments"]:
         for muscle_group in request.json["muscle_groups"]:
             print(equipment, muscle_group)
@@ -37,7 +37,6 @@ def exercises():
                     response.append(item)
 
     # print(response)
-
     return jsonify(response)
 
 

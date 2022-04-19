@@ -1,0 +1,218 @@
+#mobilebg {
+    display: none
+}
+
+#mobile-muscle-map {
+    display: none
+}
+
+#muscle-map {
+    position: relative
+}
+
+#background {
+    width: 100%
+}
+
+#muscle-map>img:not(#background) {
+    display: block;
+    position: absolute;
+    transition: opacity .2s;
+    opacity: 0
+}
+
+#muscle-map>img:not(#background):hover {
+    opacity: 1
+}
+
+#muscle-map>#traps-a {
+    top: 17.4%;
+    left: 26.7%;
+    width: 3.39%
+}
+
+#muscle-map>#traps-b {
+    top: 17.4%;
+    left: 31.48%;
+    width: 3.39%
+}
+
+#muscle-map>#pecs {
+    top: 22%;
+    left: 24.3%;
+    width: 13%
+}
+
+#muscle-map>#shoulders-a {
+    top: 21.1%;
+    left: 21.84%;
+    width: 5.61%
+}
+
+#muscle-map>#shoulders-b {
+    top: 21.1%;
+    left: 34.1%;
+    width: 5.61%
+}
+
+#muscle-map>#biceps-a {
+    top: 26.9%;
+    left: 20.89%;
+    width: 4.05%
+}
+
+#muscle-map>#biceps-b {
+    top: 26.9%;
+    left: 36.67%;
+    width: 4.05%
+}
+
+#muscle-map>#forearm-a {
+    top: 33.6%;
+    left: 16.75%;
+    width: 6.62%
+}
+
+#muscle-map>#forearm-b {
+    top: 33.6%;
+    left: 38.18%;
+    width: 6.61%
+}
+
+#muscle-map>#obliques {
+    top: 28.67%;
+    left: 27.44%;
+    width: 6.42%
+}
+
+#muscle-map>#quads-b {
+    top: 42.2%;
+    left: 31.4%;
+    width: 6.55%
+}
+
+#muscle-map>#quads-a {
+    top: 42.2%;
+    left: 23.6%;
+    width: 6.55%
+}
+
+#muscle-map>#calves-a {
+    top: 64.59%;
+    left: 23.19%;
+    width: 4.67%
+}
+
+#muscle-map>#calves-b {
+    top: 64.49%;
+    left: 33.74%;
+    width: 4.67%
+}
+
+#muscle-map>#back-traps-a {
+    top: 15.38%;
+    left: 67.3%;
+    width: 7%
+}
+
+#muscle-map>#back-traps-b {
+    top: 17.82%;
+    left: 66.87%;
+    width: 8.1%
+}
+
+#muscle-map>#back-shoulders-a {
+    top: 19.29%;
+    left: 61.5%;
+    width: 5.7%
+}
+
+#muscle-map>#back-shoulders-b {
+    top: 19.29%;
+    left: 74.6%;
+    width: 5.7%
+}
+
+#muscle-map>#triceps-a {
+    top: 24.83%;
+    left: 60.2%;
+    width: 4.58%
+}
+
+#muscle-map>#triceps-b {
+    top: 24.83%;
+    left: 77.1%;
+    width: 4.58%
+}
+
+#muscle-map>#back-upper-a {
+    top: 20.4%;
+    left: 64.28%;
+    width: 6.41%
+}
+
+#muscle-map>#back-upper-b {
+    top: 20.4%;
+    left: 71.2%;
+    width: 6.41%
+}
+
+#muscle-map>#back-lats-a {
+    top: 26.66%;
+    left: 64.7%;
+    width: 6%
+}
+
+#muscle-map>#back-lats-b {
+    top: 26.66%;
+    left: 71.2%;
+    width: 6%
+}
+
+#muscle-map>#back-lower {
+    top: 32.86%;
+    left: 67.62%;
+    width: 6.59%
+}
+
+#muscle-map>#back-forearms-a {
+    top: 33.5%;
+    left: 56.1%;
+    width: 6.36%
+}
+
+#muscle-map>#back-forearms-b {
+    top: 33.5%;
+    left: 79.34%;
+    width: 6.36%
+}
+
+#muscle-map>#back-glutes {
+    top: 41%;
+    left: 64.89%;
+    width: 12.08%
+}
+
+#muscle-map>#back-hamstrings-a {
+    top: 47.49%;
+    left: 63.75%;
+    width: 6.67%
+}
+
+#muscle-map>#back-hamstrings-b {
+    top: 47.49%;
+    left: 71.47%;
+    width: 6.7%
+}
+
+#muscle-map>#back-calves-a {
+    top: 64.43%;
+    left: 61.94%;
+    width: 4.8%
+}
+
+#muscle-map>#back-calves-b {
+    top: 64.43%;
+    left: 75.1%;
+    width: 4.8%
+}

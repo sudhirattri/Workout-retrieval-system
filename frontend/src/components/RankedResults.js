@@ -1,17 +1,9 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
-import ListItemButton from '@mui/material/ListItemButton'
-import ListItemText from '@mui/material/ListItemText'
-import ListItemIcon from '@mui/material/ListItemIcon'
 import Divider from '@mui/material/Divider'
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 
 export default function RankedResults(props) {
@@ -44,7 +36,7 @@ export default function RankedResults(props) {
         </Typography>
         <Grid container spacing={3} alignItems="center" justifyContent="center">
         <Grid item xs={12} margin={2} alignItems="center" justifyContent="center" >
-          <List style={{maxHeight: 500, overflow: 'auto'}} sx={{ width: '100%' , bgcolor: 'white' ,
+          <List className='resultsContainer' style={{maxHeight: 500, overflow: 'auto'}} sx={{ width: '100%' , bgcolor: 'white' ,
               borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
 
               {rankedResults.map((item,index) => {

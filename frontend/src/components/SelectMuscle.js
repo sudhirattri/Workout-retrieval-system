@@ -2,15 +2,12 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Autocomplete from '@mui/material/Autocomplete';
-import IconButton from '@mui/material/IconButton'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemButton from '@mui/material/ListItemButton'
 import ListItemText from '@mui/material/ListItemText'
-import ListItemIcon from '@mui/material/ListItemIcon'
+
 import MuscleWiki from './MuscleWiki';
 
 import { data } from "./../data/data";
@@ -49,7 +46,6 @@ export default function SelectMuscle(props) {
 
     const handleChange = (value) =>
     {
-      const muscle_groups_list = value.map(function(a){return a.label;});
       setMuscleGroups(oldArray => value)
       props.ref_func(value)
       console.log(value);
@@ -70,6 +66,12 @@ export default function SelectMuscle(props) {
         setChecked(newChecked);
     };
 
+    function selectMuscleFromDiagram(newMuscle){
+      props.ref_func([ ...muscleGroups, newMuscle ])
+      setMuscleGroups(oldArray => [ ...oldArray, newMuscle ])
+      console.log("Adding muscle from diagram")
+    }
+    
     return (
       <React.Fragment>
         <Typography variant="h6" gutterBottom>
@@ -107,7 +109,6 @@ export default function SelectMuscle(props) {
                   <ListItem
                       sx = {{alignContent: 'center'}}
                       alignItems='center'
-                      key={value}
                       disablePadding
                       key={index}
                   >
@@ -122,7 +123,7 @@ export default function SelectMuscle(props) {
 
           {useVisualMuscles &&
           <React.Fragment>
-            <MuscleWiki></MuscleWiki>
+            <MuscleWiki selectMuscleFromDiagram={selectMuscleFromDiagram}></MuscleWiki>
           </React.Fragment>
           }
 

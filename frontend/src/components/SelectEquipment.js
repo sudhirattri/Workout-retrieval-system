@@ -2,15 +2,12 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Autocomplete from '@mui/material/Autocomplete';
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import IconButton from '@mui/material/IconButton'
 import ListItemButton from '@mui/material/ListItemButton'
 import ListItemText from '@mui/material/ListItemText'
-import ListItemIcon from '@mui/material/ListItemIcon'
 import Webcam from "react-webcam";
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -18,11 +15,11 @@ import Dialog from '@mui/material/Dialog';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import CloseIcon from '@mui/icons-material/Close';
-import Divider from '@mui/material/Divider';
 import Slide from '@mui/material/Slide';
 
+import { BrowserView, MobileView } from 'react-device-detect';
+
 import { data } from "./../data/data";
-import { width } from '@mui/system';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const equipment_options = Object.keys(data).map(function(key, index) {
@@ -33,16 +30,11 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-    primary: {
-      main: '#1976d2',
-    },
-  },
-});
+const videoConstraintsBrowser = {
+  facingMode: { exact: "user" }
+};
 
-const videoConstraints = {
+const videoConstraintsMobile = {
   facingMode: { exact: "environment" }
 };
 
@@ -52,7 +44,7 @@ console.log("options",equipment_options)
 
 export default function SelectEquipment(props) {
 
-    console.log("props", props)
+    // console.log("props", props)
 
     const [checked, setChecked] = React.useState([0]);
 
@@ -82,7 +74,6 @@ export default function SelectEquipment(props) {
 
     const handleChange = (value) =>
     {
-      const equipment_list = value.map(function(a){return a.label;});
       setEquipments(oldArray => value)
       props.ref_func(value)
     };
@@ -102,14 +93,6 @@ export default function SelectEquipment(props) {
         setChecked(newChecked);
     };
 
-    const handleClick = () => {
-      console.log("clicked")
-    };
-
-    function componentDidUpdate(prevProps) {
-      setUseCamera(old => props.useCamera);
-      console.log("changed")
-    }
 
     return (
       <React.Fragment>
@@ -153,7 +136,6 @@ export default function SelectEquipment(props) {
                       <ListItem
                           sx = {{alignContent: 'center'}}
                           alignItems='center'
-                          key={value}
                           disablePadding
                           key={index}
                       >
@@ -165,7 +147,6 @@ export default function SelectEquipment(props) {
                   })}
               </List>
           }
-
         </Grid>
 
         <ThemeProvider theme={theme}>
@@ -199,14 +180,27 @@ export default function SelectEquipment(props) {
           <Box display="flex" flexDirection="column" justifyContent="center"
             className={"cameraBox"}
           >
+            <BrowserView>
             {open &&
             <Webcam
               audio={false}
               mirrored={true}
               screenshotFormat="image/jpeg"
-              videoConstraints={videoConstraints}
+              videoConstraints={videoConstraintsBrowser}
             />
             }
+            </BrowserView>
+            <MobileView>
+            {open &&
+            <Webcam
+              audio={false}
+              mirrored={true}
+              screenshotFormat="image/jpeg"
+              videoConstraints={videoConstraintsMobile}
+            />
+            }
+            </MobileView>
+
           </Box>
 
           <Box height="10vh" display="flex" justifyContent="center" flexDirection="row" style={{"margin-top":"auto"}}>
