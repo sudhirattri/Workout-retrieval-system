@@ -54,6 +54,8 @@ export default function SelectEquipment(props) {
 
     const [open, setOpen] = React.useState(false);
 
+    const webcamRef = React.useRef(null);
+
     React.useEffect(() => {
       setEquipments(oldArray => props.equipments);
       setUseCamera(old => props.useCamera)
@@ -78,6 +80,12 @@ export default function SelectEquipment(props) {
       props.ref_func(value)
     };
 
+    const captureCamera = () => {
+      const imageSrc = webcamRef.current.getScreenshot();
+      props.captureCamera(imageSrc);
+      handleClose();
+    };
+
     const handleToggle = (value) => () => {
         const currentIndex = checked.indexOf(value);
         const newChecked = [...checked];
@@ -92,7 +100,6 @@ export default function SelectEquipment(props) {
         console.log(equipments)
         setChecked(newChecked);
     };
-
 
     return (
       <React.Fragment>
@@ -187,6 +194,7 @@ export default function SelectEquipment(props) {
               mirrored={true}
               screenshotFormat="image/jpeg"
               videoConstraints={videoConstraintsBrowser}
+              ref={webcamRef}
             />
             }
             </BrowserView>
@@ -207,6 +215,7 @@ export default function SelectEquipment(props) {
             <Button
               variant="contained"
               sx={{ mt: 2, ml: 1, margin: 2, boxShadow: 10}}
+              onClick={captureCamera}
               >
                 Take Photo
             </Button>

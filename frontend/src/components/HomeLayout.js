@@ -126,7 +126,7 @@ export default function HomeLayout() {
   function getStepContent(step) {
     switch (step) {
       case 0:
-        return <SelectEquipment equipments={equipments} close_dialog={closeDialog} ref_func={updateEquipments} useCamera={useCamera}/>;
+        return <SelectEquipment captureCamera={captureCamera} equipments={equipments} close_dialog={closeDialog} ref_func={updateEquipments} useCamera={useCamera}/>;
       case 1:
         return <SelectMuscle muscleGroups={muscleGroups} ref_func={updateMuscleGroup} useVisualMuscles={useVisualMuscles}/>;
       case 2:
@@ -152,7 +152,6 @@ export default function HomeLayout() {
 
   const [uploadImageFile, setUploadImageFile] = React.useState(null);
 
-  React.useEffect(() => post_query(), [])
 
   const getSecondaryButtonText = () => {
     switch (activeStep) {
@@ -188,6 +187,11 @@ export default function HomeLayout() {
   const clickUpload = () => {
     console.log("Click upload")
     document.getElementById("file-picker").click()
+  };
+
+  const captureCamera = (imageSource) => {
+    console.log("capture camera",imageSource)
+    setUploadImageFile(imageSource)
   };
 
   const handleSecondaryClick = () => {
@@ -263,14 +267,14 @@ export default function HomeLayout() {
                     )}
                     {uploadStatus === 2 && (
                       <React.Fragment>
-                        <Box display="flex" flexDirection="column" justifyContent="space-evenly"
+                        <Box display="flex" flexDirection="column" justifyContent="flex-start"
                         style={{"width": "100%" , "height": "50%", margin:"0px",padding:"0"}}
                         >
-                          <Typography variant="h7" gutterBottom>
-                            Image uploaded, results
+                          <Typography variant="h6" gutterBottom style={{"margin-bottom":"auto"}}>
+                            Image Uploaded
                           </Typography>
                           <Typography variant="h7" gutterBottom>
-                            Image is identified as gym
+                            Identified as : null
                           </Typography>
                         </Box>
 
