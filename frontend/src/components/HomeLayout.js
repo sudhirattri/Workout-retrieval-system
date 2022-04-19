@@ -44,6 +44,16 @@ const darkTheme = createTheme({
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
+const blobToBase64 = blob => {
+  const reader = new FileReader();
+  reader.readAsDataURL(blob);
+  return new Promise(resolve => {
+    reader.onloadend = () => {
+      resolve(reader.result);
+    };
+  });
+};
+
 const nextButtonName = ["Muscle Group","Find exercises"]
 const secButtonName1 = ["Add manually","Add manually", "Toggele gifs/video"]
 const secButtonName2 = ["Use Camera","Use visual Selector", "Toggele Description"]
@@ -176,12 +186,37 @@ export default function HomeLayout() {
     setActiveStep(activeStep - 1);
   };
 
-  const uploadImage = async (event) => {
+  const uploadImageFromFiles = async (event) => {
     console.log("upload image dialog",event.target.files[0]);
-    setUploadImageFile(URL.createObjectURL(event.target.files[0]))
+    let objectURL = URL.createObjectURL(event.target.files[0]);
+
+    let blob = await fetch(objectURL).then(r => r.blob());
+    let base64image = await blobToBase64(blob)
+    setUploadImageFile(objectURL)
+    uploadImageToServer(base64image)
+  };
+
+  const uploadImageToServer = async (uploadImageFile) => {
+
     setUploadStatus(1);
-    await delay(2000);
+    console.log("UPLOADING FILE TO SERVER")
+
+    let url = "http://127.0.0.1:5001/imageRecognize"
+    const formData = new FormData();
+    formData.append("image", uploadImageFile);
+
+    console.log(uploadImageFile)
+
+    const rawResponse = await fetch(url, {
+      method: 'POST',
+      body: formData
+    });
+
+    let responseJSON = await rawResponse.json();
+
+    await delay(1000);
     setUploadStatus(2);
+
   };
 
   const clickUpload = () => {
@@ -190,8 +225,9 @@ export default function HomeLayout() {
   };
 
   const captureCamera = (imageSource) => {
-    console.log("capture camera",imageSource)
+    // console.log("capture camera",imageSource)
     setUploadImageFile(imageSource)
+    uploadImageToServer(imageSource)
   };
 
   const handleSecondaryClick = () => {
@@ -247,7 +283,7 @@ export default function HomeLayout() {
             ) : (
               <React.Fragment>
                 {getStepContent(activeStep,equipments,muscleGroups,rankedResults)}
-                {uploadImageFile !== null && (
+                {(uploadImageFile !== null && activeStep === 0)  && (
                   <Box display="flex" flexDirection="row" justifyContent="space-between" margin={2}
                     className={"imagePreviewBox"}
                   >
@@ -260,7 +296,7 @@ export default function HomeLayout() {
                         >
                           <CircularProgress disableShrink style={{"align-self":"center"}}/>
                           <Typography variant="h7" gutterBottom>
-                          Uploading Results
+                            Uploading Results
                           </Typography>
                         </Box>
                       </React.Fragment>
@@ -293,7 +329,7 @@ export default function HomeLayout() {
                       onClick={clickUpload}
                       >
                         Upload  Image
-                      <input type="file" id='file-picker' onChange={uploadImage} style={{"display":"none"}}/>
+                      <input type="file" id='file-picker' onChange={uploadImageFromFiles} style={{"display":"none"}}/>
                       </Button>
                     }
                     <Button
