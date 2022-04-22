@@ -6,10 +6,8 @@
 - Exercise related to 
 - Body part
 - Equipment
-
 - Images of equipment
-- Text Analysis model 
-- What is data required for this?	
+
 
 #### Data preprocessing
 

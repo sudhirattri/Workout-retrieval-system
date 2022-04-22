@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import json
+import os
 
 app = Flask(__name__)
 
@@ -42,4 +43,5 @@ def exercises():
 
 
 if __name__ == "__main__":
-    app.run(port=5001, debug=True)
+    port = int(os.environ.get("PORT", 5001))
+    app.run(port=port, debug=True)
