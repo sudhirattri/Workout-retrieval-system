@@ -59,7 +59,7 @@ export default function SelectEquipment(props) {
     React.useEffect(() => {
       setEquipments(oldArray => props.equipments);
       setUseCamera(old => props.useCamera)
-    }, []);
+    }, [props.equipments]);
 
     React.useEffect(() => {
       if(props.useCamera){
@@ -103,7 +103,7 @@ export default function SelectEquipment(props) {
 
     return (
       <React.Fragment>
-        <Typography variant="h6" gutterBottom>
+        <Typography variant="h6" gutterBottom marginLeft={4}>
             Add equipments to your list in priority order
         </Typography>
         <Grid container spacing={3} alignItems="center" justifyContent="center" direction="column">
@@ -211,7 +211,7 @@ export default function SelectEquipment(props) {
 
           </Box>
 
-          <Box height="10vh" display="flex" justifyContent="center" flexDirection="row" style={{"margin-top":"auto"}}>
+          <Box height="10vh" display="flex" justifyContent="center" flexDirection="row" className='floatBottom'>
             <Button
               variant="contained"
               sx={{ mt: 2, ml: 1, margin: 2, boxShadow: 10}}

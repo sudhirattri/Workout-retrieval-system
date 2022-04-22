@@ -677,6 +677,409 @@ export const data =  {
         }]
     },
     "Bodyweight": {
+        "Neck": [{
+            "Front Neck Bridge": "Roll back onto forehead until nose touches mat. Roll forward onto top of head until chin touches upper chest. Repeat."
+        }, {
+            "Wall Front Neck Bridge": "Roll down onto forehead until nose touches mat. Roll up onto top of head until chin touches upper chest. Repeat."
+        }, {
+            "Wall Side Neck Bridge": "Push side of head into mat and roll onto top of head moving body away from mat. Return to original position by rolling back down to side of head while bringing shoulder back over end of column or wall. Repeat."
+        }, {
+            "Rear Neck Bridge": "Extend hips and knees while pushing head back into floor. Roll back on head while arching spine high off of floor. Hyperextend neck back in attempt to bring forehead toward mat. Return body to close to mat until back of head and shoulders make contact with mat. Repeat."
+        }, {
+            "Wall Rear Neck Bridge": "Push head back into mat and roll head upward. Arch spine and straighten knees. Hyperextend neck so head is facing up. Return to origianl position by rolling head down while allowing low back to straighten and knees to bend slightly. Continue down until back of head and shoulders make contact with mat. Repeat."
+        }],
+        "Shoulders": [{
+            "Handstand Push-up": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
+        }, {
+            "on parallettes": "While maintaining body balanced over bars, push inverted body up by extending arms until straight. Lower body down by bending arms until shoulders are close to bars. Repeat."
+        }, {
+            "Pike Press": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
+        }, {
+            "Elevated": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
+        }, {
+            "Inverted Row": "Lower body downward until arms are extended straight while keeping body straight and elbows high (upper arm perpendicular to torso). Pull body toward bar until upper arms are just beyond parallel to one another. Return and repeat."
+        }, {
+            "high bar": "Lower body back until arms are extended straight while keeping body straight and elbows high (upper arm perpendicular to torso). Pull body toward bar until upper arms are just beyond parallel to one another. Return and repeat."
+        }, {
+            "on hips": "Keeping hips on floor, low back straight, and elbow pointed out to sides; pull torso up to bar. Return when upper arms are just beyond parallel to one another. Lower body downward until arms are extended straight. Return and repeat."
+        }],
+        "Upper Arms": [{
+            "Bench Dip": "Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat."
+        }, {
+            "knees bent": "Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat."
+        }, {
+            "heel on floor": "Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat."
+        }, {
+            "Close Grip Push-up": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "Decline": "Keeping body straight, lower upper body to floor by bending arms. To allow for full descent, pull head back slightly without arching back. Push body up until arms are extended. Repeat."
+        }, {
+            "on knees": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "on medicine ball": "Keeping body straight, lower body by bending arms until chest touches ball. Push body up until arms are extended. Repeat."
+        }, {
+            "Incline on bar": "Keeping body straight, lower chest to bar by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "Suspended Triceps Extension": "Keeping body straight, raise body up and back up until arms are extended. Lower body by bending elbows, allowing head to travel between ends of rope. Repeat."
+        }, {
+            "Triceps Dip": "Lower body until slight stretch is felt in shoulders. Push body up until arms are straight. Repeat."
+        }, {
+            "between benches": "Lower body by bending arms, allowing elbows to point back. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
+        }, {
+            "bent knees": "Lower body by bending arms, allowing elbows to point back. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
+        }, {
+            "Chin-up": "Pull body up until elbows are to sides. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Underhand Inverted Row": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "High Bar": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "Doorway": ""
+        }, {
+            "Seated": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Standing": ""
+        }, {
+            "Wall": ""
+        }],
+        "Back": [{
+            "Inverted Row": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "Feet Elevated": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "High Bar": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "On Hips": "Keeping hips on floor and low back straight, pull torso up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "Underhand Inverted Row": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "High Bar": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
+        }, {
+            "Chin-up": "Pull body up until elbows are to sides. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Neutral Grip": "Pull body up until elbows are to sides. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Parallel Close Grip Pull-up": "Pull body up until elbow are to sides. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Pull-up": "Pull body up until chin is above bar. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Neutral Grip": "Pull body up until neck reaches height of hands. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "open-centered bar": "Pull body up until neck reaches height of hands. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Rear Pull-up": "Pull body up until bar touches back of neck. Lower body until arms and shoulders are fully extended. Repeat."
+        }, {
+            "Stability Ball Rollout": "Lean forward and roll ridged arms out over ball. Roll forward as far as possible. Raise body back up by pulling arms back until kneeling upright in original position. Repeat."
+        }, {
+            "Wheel Rollout": "With arms straight, roll wheel out as far as possible. Lower body gently to floor extending arms forward. Raise body back up by flexing hips and pulling arms back to original position. Return until hips are extended. Repeat."
+        }, {
+            "Inverted Shrug": "Raise body up a high as possible by pulling shoulders toward ears. Lower body to original position and repeat."
+        }],
+        "Chest": [{
+            "Chest Dip": "Lower body by bending arms, allowing elbows to flare out to sides. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
+        }, {
+            "between benches": "Lower body by bending arms, allowing elbows to flare out to sides. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
+        }, {
+            "bent knees": "Lower body by bending arms, allowing elbows to flare out to sides. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
+        }, {
+            "Push-up": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "Incline": "Keeping body straight, lower chest to edge of box or platform by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "on bar": "Keeping body straight, lower chest to bar by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "on knees": "Keeping body straight and knees bent, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
+        }, {
+            "Decline Push-up": "Keeping body straight, lower upper body to floor by bending arms. To allow for full descent, pull head back slightly without arching back. Push body up until arms are extended. Repeat."
+        }, {
+            "on stability ball": "Keeping hips straight, lower upper body to floor by bending arms. To allow for full descent, pull head back slightly without arching back. Push body up until arms are extended. Repeat."
+        }, {
+            "Pike Push-up": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
+        }, {
+            "Push-up Plus": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Continue lifting body further up by pushing shoulders infront of chest. Repeat."
+        }],
+        "Waist": [{
+            "Crunch": "Flex waist to raise upper torso from mat. Keep low back on mat and raise torso up as high as possible. Return until back of shoulders contact mat. Repeat."
+        }, {
+            "arms crossed": "Flex waist to raise upper torso from mat. Keep low back on mat and raise torso up as high as possible. Return until back of shoulders contact mat. Repeat."
+        }, {
+            "arms down": "Flex waist to raise upper torso from mat or bench. Keep low back on floor or mat and raise torso up as high as possible. Extend hands toward sides of heels. Return until back of shoulders contact mat or bench. Repeat."
+        }, {
+            "Crunch up": "Flex waist to raise upper torso from floor. Return until back of shoulders contact padded incline board. Repeat."
+        }, {
+            "Incline Crunch": "Flex waist to raise upper torso from bench. Keep low back on bench and raise torso up as high as possible. Return until back of shoulders contact incline board. Repeat."
+        }, {
+            "arms down": "Flex waist to raise upper torso from bench. Keep low back on bench and raise torso up as high as possible. Return until back of shoulders contact incline board. Repeat."
+        }, {
+            "on ball": "Flex waist to raise upper torso. Return to original position. Repeat."
+        }, {
+            "arms crossed": "Flex waist to raise upper torso. Return to original position. Repeat."
+        }, {
+            "Jack-knife Sit-up": "Simultaneously raise knees and torso until hips and knees are flexed. Return to starting position with waist, hips and knees extended. Repeat."
+        }, {
+            "Hanging Leg Hip Raise": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist. Return until waist, hips, and knees are extended downward. Repeat."
+        }, {
+            "with ab straps": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist. Return until waist, hips, and knees are extended downward. Repeat."
+        }, {
+            "Straight Leg": "Raise legs by flexing hips until fully flexed. Continue to raise feet toward bar by flexing waist. Return until waist and hips are extended downward. Repeat."
+        }, {
+            "Incline Leg Hip Raise": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from board. Return until waist, hips and knees are extended. Repeat."
+        }, {
+            "Lying Leg Hip Raise": "Raise legs by flexing hips while flexing knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from board. Return until waist, hips and knees are extended. Repeat."
+        }, {
+            "on ball": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from board. Return until waist, hips and knees are extended. Repeat."
+        }, {
+            "Vertical Leg Hip Raise": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from back board. Return until waist, hips, and knees are extended. Repeat."
+        }, {
+            "on parallel bars": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist. Return until waist, hips, and knees are extended. Repeat."
+        }, {
+            "Straight Leg": "Raise legs by flexing hips until fully flexed. Continue to raise feet toward bar by flexing waist. Return until waist and hips are extended downward. Repeat."
+        }, {
+            "Bosu support": "Raise legs by flexing hips and knees. As hips approach full flexion, lean back. Continue to raise knees toward shoulders by flexing waist and raising hips and low back from convexed surface. Return until waist, hips, and knees are extended. Repeat."
+        }, {
+            "Incline Situp": "Raise torso from bench by bending waist and hips. Return until back of shoulders contact incline board. Repeat."
+        }, {
+            "arms crossed": "Raise torso from bench by bending waist and hips. Raise crossed arms over knees at top. Return until back of shoulders contact incline board. Repeat."
+        }, {
+            "Inverted Sit-up": "Raise trunk as high as possible by flexing hips and waist. Return to starting position. Repeat."
+        }, {
+            "Sit-up": "Raise torso from bench by bending waist and hips. Return until back of shoulders contact incline board. Repeat."
+        }, {
+            "arms crossed": "Raise torso from mat or bench by bending waist and hips. Raise crossed arms over knees at top. Return until back of shoulders contact mat or bench. Repeat."
+        }, {
+            "arms down": "Raise torso from mat or bench by bending waist and hips. Extend hands toward sides of heels. Return until back of shoulders contact mat or bench. Repeat."
+        }, {
+            "V-up": "Simultaneously raise straight legs and torso. Reach toward raised feet. Return to starting position. Repeat."
+        }, {
+            "Angled Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
+        }, {
+            "Lying Twist": "Lower legs to one side until side of thigh is on floor. Raise and lower legs to opposite side. Repeat."
+        }, {
+            "Bent Knee": "Lower legs to one side until side of thigh is on floor. Raise and lower legs to opposite side. Repeat."
+        }, {
+            "Plank Twist on ball": "Rotate hips so thighs roll over top of ball to one side. Rotate to opposite side and repeat."
+        }, {
+            "Side Bend on ball": "Raise side of torso up by lateral flexing waist. Lower torso back on ball and repeat. Position other side on ball and repeat with opposite side."
+        }, {
+            "Side Bridge": ""
+        }, {
+            "Bent Knee": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
+        }, {
+            "Hanging": "Raise legs to one side by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended downward. Raise legs to opposite side in same manner. Continue by bending and lifting\u00a0legs, alternating between sides."
+        }, {
+            "Vertical": "Raise legs to one side by flexing hips and knees until hips are completely flexed or knees are\u00a0above hips. Return until hips and knees are extended downward. Raise legs to opposite side in same manner. Continue by bending and lifting legs, alternating between sides."
+        }, {
+            "on dip bar": "Raise legs to one side by flexing hips and knees until hips are completely flexed or knees are\u00a0above hips. Return until hips and knees are extended downward. Raise legs to opposite side in same manner. Continue by bending and lifting legs, alternating between sides."
+        }, {
+            "Incline Twisting Sit-up": "Flex and twist waist to one direction while raising torso from bench by bending hips. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
+        }, {
+            "arms crossed": "Flex and twist waist to one direction while raising torso from bench by bending hips. Raise crossed arm over opposite knees at top. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
+        }, {
+            "Twisting Sit-up": "Flex and twist waist to one direction while raising torso from bench by bending hips. Return until back of shoulders contact floor or mat. Repeat to opposite side alternating twists."
+        }, {
+            "arms crossed": "Flex and twist waist to one direction while raising torso from bench by bending hips. Return until back of shoulders contact floor or mat. Repeat to opposite side alternating twists."
+        }, {
+            "Incline Twisting Crunch": "Flex and twist waist to raise upper torso from bench to one side. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
+        }, {
+            "arms crossed": "Flex and twist waist to raise upper torso from bench to one side. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
+        }, {
+            "Side Crunch": "Flex waist, raising upper torso off mat or floor. Return until back of shoulders return to mat or floor. Repeat and continue with movement in opposite position."
+        }, {
+            "on ball": "Flex waist to raise upper torso. Return to original position and repeat. Position legs in opposite position and continue."
+        }, {
+            "Twisting Crunch": "Flex and twist waist to raise upper torso from mat to one side. Return until back of shoulders contact mat. Repeat to opposite side alternating twists."
+        }, {
+            "arms crossed": "Flex and twist waist to raise upper torso from mat to one side. Return until back of shoulders contact mat. Repeat to opposite side alternating twists."
+        }, {
+            "on ball": "Flex waist to raise upper torso. Return to original position. Repeat."
+        }, {
+            "Hanging Windshield Wiper": "Turn legs to one side by rotating waist until stretch is felt through waist. Rotate legs to opposite side in same manner. Continue by rotating from side to side."
+        }],
+        "Hips": [{
+            "Lunge": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
+        }, {
+            "Rear Lunge": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
+        }, {
+            "Reverse Hyper-extension": "Raise legs by extending hips as high as possible until legs are nearly straight. Lower legs to original position. Repeat."
+        }, {
+            "on ball": "Holding firmly on anchor, extend legs upward by lifting and straightening leg as high as possible. Lower legs to original position with thighs close to stability ball. Repeat."
+        }, {
+            "Single Leg Hip Bridge": "Raise body by extending hip of bent leg, keeping extended leg and hip straight. Return to original position by lowering body with extended leg and hip straight. Repeat and continue with opposite sides."
+        }, {
+            "Single Leg Squat": "Squat down as far as possible while keeping leg elevated off of floor. Keep back as straight as possible and supporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Box": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once bottocks makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Partial": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once buttock makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Leg Back": "Squat down as far as possible while keeping raised leg from contacting floor as far down as possible. Keep back straight and supporting knee pointed same direction as foot supporting. In lowest position, gently place elevated lower leg on floor. Raise body back up with minimal assistance from raised leg on floor. Stand to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
+        }, {
+            "Half": "Squat down to challenging depth while keeping raised leg from contacting floor. Keep back straight and supporting knee pointed same direction as foot supporting. Stand back up to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
+        }, {
+            "Reclining": "While reclining back, squat down as far as possible while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as suppor ting foot. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Split Squat": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+        }, {
+            "Single Leg Split Squat": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg and repeat. Continue with opposite leg."
+        }, {
+            "Single Leg Stiff Leg Deadlift": "Lower torso forward and downward while raising lifted leg back behind. Keep back straight and knee of supporting leg slightly bend. Keep hip and knee of lifted leg extended throughout movement. Once stretch is felt or hands contact floor, return to original position by raising torso while lowering lifted leg. Straighten knee of supporting leg as torso becomes upright. Repeat."
+        }, {
+            "Squat": "Squat down by bending hips back while allowing knees to bend forward slightly, keeping back straight and knees pointed same direction as feet.   Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
+        }, {
+            "Half": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend to height which allows\u00a0prescribed number of reps at suggested intensity, short of thighs descending just past parallel to floor. Stand\u00a0up by extending knees and hips until legs are straight. Return to standing position and repeat."
+        }, {
+            "on Balance Board": "Extend arms forward in front of body. Squat down by bending knees slightly forward while allowing hips to bend back behind, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
+        }, {
+            "Step-up": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg, alternating first steps between legs."
+        }, {
+            "Lateral Step-up": "Lift leg and place foot on bench to side and forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg, alternating between legs."
+        }, {
+            "Step Down": "Stand on bench by straightening leg and pushing body upward. Step down returning foot off of bench to floor and repeat. Continue with opposite position."
+        }, {
+            "Alternating": "Step down with first foot to side of elevated surface onto floor. Stand back up on elevated surface by straightening upper leg and pushing body upward. Place foot to original position next to opposite foot. Step down and back up with opposite leg in same manner. Repeat by alternating between sides."
+        }, {
+            "Side Bridge Hip Abduction": "Keeping side of bottom foot on ground, raise hips up off ground while raising upper leg upward away from lower leg. Return to original position and repeat. Continue with opposite leg."
+        }, {
+            "Angled": "Keeping foot closest to bar on ground, raise hips upward and away from bar while raising leg furthest from bar upward away from lower leg. Return to original position with hips sagging downward and repeat. Continue with opposite leg."
+        }, {
+            "Bent Knee": "Keeping shank of lower leg on mat or floor, raise hips up off ground while raising upper leg upward away from lower leg. Return to original position and repeat. Continue with opposite leg."
+        }, {
+            "Angled Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
+        }, {
+            "Bent Knee Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
+        }, {
+            "Side Bridge": ""
+        }, {
+            "Hanging Leg Raise": "Raise legs by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended downward. Repeat."
+        }, {
+            "with ab straps": "Raise legs by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended downward. Repeat."
+        }, {
+            "Straight Leg": "With knees straight, raise legs by flexing hips until hips are completely flexed or knees are well above hips. Return until hips are extended downward. Repeat."
+        }, {
+            "Incline Leg Raise": "Raise legs by flexing hips and knees until hips are completely flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "arms on pads": "Raise legs by flexing hips and knees until hips are flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "Incline Straight Leg Raise": "With knees straight, raise legs by flexing hips until hips are completely flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "arms on pads": "With knees straight, raise legs by flexing hips until hips are flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "Lying Leg Raise": "Raise legs by flexing hips and knees until thighs are completely flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "Alternating": "Simultaneously change positions of legs, lowering and straightening raised leg down just above floor while raising and bending lower leg to opposite position. Continue alternating leg positions."
+        }, {
+            "on floor": "Raise legs by flexing hips and knees until thighs are completely flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "Lying Straight Leg Raise": "Keeping knees straight, raise legs by flexing hips until hips are completely flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "Alternating": "Keeping knees nearly straight, simultaneously change positions of legs so vertical leg is lowered while lower leg is raised vertically. Continue alternating leg positions."
+        }, {
+            "Seated Leg Raise": "Raise legs by flexing hips and knees while pulling torso slightly forward to maintain balance. Return by extending hips and knees and lean torso back to counter balance. Repeat."
+        }, {
+            "Vertical Leg Raise": "Raise legs by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended. Repeat."
+        }, {
+            "on parallel bars": "Raise legs by flexing hips and knees until hips are completely flexed. Return until hips and knees are extended. Repeat."
+        }, {
+            "Straight Leg": "With knees straight, raise legs by flexing hips until thighs are just pass parallel to floor. Return until hips are extended. Repeat."
+        }, {
+            "Jack-knife on Ball": "Bend hips and knees, allowing shins to roll over top of ball. Pull knees toward chest until heels are under or near glutes. Return by extending hips and knees to original position. Repeat."
+        }, {
+            "Roman Chair Sit-up": "Lower body back until hips are almost extended. Raise body by flexing hips until torso is upright. Repeat."
+        }, {
+            "Scissor Kick": "Keeping knees nearly straight, simultaneously change positions of legs so vertical leg is lowered while lower leg is raised vertically. Continue alternating leg positions."
+        }, {
+            "Jack-Knife": "Bend hips and knees, pulling legs under body. Pull bent knees toward chest, allowing rear end to raise upward. Return by extending hips and knees to original position. Repeat."
+        }, {
+            "Rollout": "With arms straight, roll wheel out as far as possible. Lower body gently to floor extending arms forward. Raise body back up by flexing hips and pulling arms back to original position. Return until hips are extended. Repeat."
+        }, {
+            "Pike": "From plank position, raise rear end up as high as possible by bending hips. Pull power wheel toward hands while keeping knees straight. Return by extending hips to original position.   Repeat."
+        }, {
+            "Pike": "From plank position, raise rear end up as high as possible by bending hips. Pull gliding discs toward hands while keeping knees straight. Return by extending hips to original position. Repeat."
+        }],
+        "Thighs": [{
+            "Rear Lunge": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
+        }, {
+            "Lunge": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
+        }, {
+            "Single Leg Squat": "Squat down as far as possible while keeping leg elevated off of floor. Keep back as straight as possible and supporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Box": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once buttock makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Partial": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once buttock makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Leg Back": "Squat down as far as possible while keeping raised leg from contacting floor as far down as possible. Keep back straight and supporting knee pointed same direction as foot supporting. In lowest position, gently place elevated lower leg on floor. Raise body back up with minimal assistance from raised leg on floor. Stand to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
+        }, {
+            "Half": "Squat down to challenging depth while keeping raised leg from contacting floor. Keep back straight and supporting knee pointed same direction as foot supporting. Stand back up to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
+        }, {
+            "Reclining": "While reclining back, squat down as far as possible while keeping leg elevated off of floor. Keep   back straight and supporting knee pointed same direction as supporting foot. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
+        }, {
+            "Sissy Squat": "With hips and waist straight, bend knees to allow body to fall backwards as knees come forward. Allow heels to raise from floor. Lower body until knees are almost fully flexed or near floor. Return to original position by extending knees as heels return to floor."
+        }, {
+            "on apparatus": "Allow body to fall backwards by bending knees. During descent, gradually bend hips, yet keep chest high and don't allow torso to angle forward. Lower body until back of thigh is against upper pad. Rise to original position by extending knees and hips while keeping shoulders behind hips. Repeat."
+        }, {
+            "Split Squat": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+        }, {
+            "Single Leg Split Squat": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg and repeat. Continue with opposite leg."
+        }, {
+            "Squat": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
+        }, {
+            "Half": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend to height which allows\u00a0prescribed number of reps at suggested intensity, short of thighs descending just past parallel to floor. Stand\u00a0up by extending knees and hips until legs are straight. Return to standing position and repeat."
+        }, {
+            "on Balance Board": "Extend arms forward in front of body. Squat down by bending knees slightly forward while allowing hips to bend back behind, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
+        }, {
+            "Step-up": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg, alternating first steps between legs."
+        }, {
+            "Lateral Step-up": "Lift leg and place foot on bench to side slightly forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg alternating between legs."
+        }, {
+            "Step-down": "Stand on elevated surface by straightening leg and pushing body upward. Step down returning foot off of elevated surface to floor and repeat. Continue with opposite position."
+        }, {
+            "Alternating": "Step down with first foot to side of elevated surface onto floor. Stand back up on elevated surface by straightening upper leg and pushing body upward. Place foot to original position, next to opposite foot. Step down and back up with opposite leg in same manner. Repeat by alternating between sides."
+        }, {
+            "Glute-Ham Raise": "From upright position, lower body by straightening knees until body is horizontal. Continue to lower torso by bending hips until body is upside down. Raise torso by extending hips until fully extended. Continue to raise body by flexing knees until body is upright. Repeat."
+        }, {
+            "hands behind hips": "From upright position, lower body by straightening knees until body is horizontal. Continue to lower torso by bending hips until body is upside down. Raise torso by extending hips until fully extended. Continue to raise body by flexing knees until body is upright. Repeat."
+        }, {
+            "Hanging Hamstring Bridge": "Raise hips up as high as possible by extending hips. Lower hips to original position just above floor. Repeat."
+        }, {
+            "Single Leg": "Raise hips up as high as possible by extending hip\u00a0and spine. Maintain bent position of lower leg allowing it to rise with hips. Lower hips along with bent lower leg to original position and repeat.\u00a0Continue with legs in opposite position."
+        }, {
+            "Hanging Hamstring Bridge Curl": "Raise hips\u00a0by extending hips. Before full hip extension, pull body toward feet by bending knees and hips. Roll onto feet until knees are fully flexed. Return body to original position by extending knees, then lowering hips to original position just above floor. Repeat."
+        }, {
+            "Single Leg": "Raise hip and bent lower leg up by extending hip of elevated leg. Maintain bent position of lower leg allowing it to rise with hips. Before full hip extension, pull body toward foot by bending knee and hip of elevated leg. Roll onto foot until knee is fully flexed. Return body to original position by extending knee, then lowering hips and bent lower leg to original position just above floor. Repeat. Continue with opposite leg position."
+        }, {
+            "Hanging Leg Curl": "Pull body toward feet by bending knees and hips. Roll onto feet until knees are fully flexed. Return body to original position by extending knees and hips. Repeat."
+        }, {
+            "Straight Hip": "Pull body toward feet by bending knees while keeping hips straight. Roll onto feet until knees are fully flexed. Return body to original position by extending knees. Repeat."
+        }, {
+            "Inverse Leg Curl": "Lower body until horizontal by straightening knees. Raise body by flexing knees only allowing hips to bend slightly. Repeat."
+        }, {
+            "Straight Leg (on ball)": "Keeping hips and low back straight, bend knees, pulling heels toward rear end. Allow feet to rollup on to ball. Lower to original position by straightening knees. Repeat."
+        }, {
+            "Single Leg": "Keeping hips and low back straight, bend knee, pulling heel toward rear end while keeping other leg extended straight so it raises upward. Allow foot to rollup on to ball. Lower to original position by straightening knee until other leg makes contact with ball. Repeat."
+        }, {
+            "power wheel": "Keeping hips and low back straight, bend knees, pulling heels toward rear end. Raise up until lower legs are vertical. Lower to original position by straightening knees. Repeat."
+        }, {
+            "Single Leg 45\u00b0 Hyperextension": "Raise upper body until hips and waist are fully extended. Lower body by bending hips and waist until fully flexed. Repeat. Continue with opposite leg."
+        }, {
+            "Angled Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
+        }, {
+            "Bent Knee Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
+        }, {
+            "Side Bridge": ""
+        }],
+        "Calves": [{
+            "Standing Calf Raise": "Raise heels by extending ankles as high as possible. Lower heels by bending ankles until calves are stretched. Repeat."
+        }, {
+            "Single Leg": "Raise heel by extending ankle as high as possible. Lower heel by bending ankle until calf is stretched. Repeat. Continue with opposite leg."
+        }, {
+            "Single Leg Forward Angled Calf Raise": "Raise heel by extending ankle as high as possible. Allow body to travel forward and upward in same direction as body is orientated. Lower heel allowing foot to come back down flat on floor. Repeat. Continue with opposite leg."
+        }, {
+            "Reverse Calf Raise": "Pull forefoot of both feet up toward body as far as possible. Return by extending feet until toes are pointed downward. Repeat."
+        }, {
+            "Single Leg": "Pull forefoot up toward body as far as possible. Return by extending foot until toes are pointed downward. Repeat. Continue with opposite leg."
+        }],
         "Waist": [{
             "Back Extension on ball": "Raise torso off of ball by hyperextending spine. Lower torso onto ball allowing spine to flex. Repeat."
         }, {
@@ -710,6 +1113,11 @@ export const data =  {
         }]
     },
     "Cable": {
+        "Hips": [{
+            "Push Pull": "Pull low pulley stirrup back to side of ribcage while pushing high pulley stirrup forward until arm is extended, allowing torso to rotate to opposite side."
+        }, {
+            "Twist": "Keeping arms straight, rotate torso to opposite side until cable makes contact with shoulder. Return to original position and repeat. Continue with opposite side."
+        }],
         "Neck": [{
             "Neck Flexion": "Move head away from pulley by bending neck forward until chin touches upper chest. Return head by hyperextending neck and repeat."
         }, {
@@ -2251,411 +2659,6 @@ export const data =  {
             "Single Leg Calf Raise": "Raise heel by extending ankle as high as possible. Lower heel by bending ankle until calf is stretched. Repeat. Continue with opposite leg."
         }]
     },
-    "Body Weight": {
-        "Neck": [{
-            "Front Neck Bridge": "Roll back onto forehead until nose touches mat. Roll forward onto top of head until chin touches upper chest. Repeat."
-        }, {
-            "Wall Front Neck Bridge": "Roll down onto forehead until nose touches mat. Roll up onto top of head until chin touches upper chest. Repeat."
-        }, {
-            "Wall Side Neck Bridge": "Push side of head into mat and roll onto top of head moving body away from mat. Return to original position by rolling back down to side of head while bringing shoulder back over end of column or wall. Repeat."
-        }, {
-            "Rear Neck Bridge": "Extend hips and knees while pushing head back into floor. Roll back on head while arching spine high off of floor. Hyperextend neck back in attempt to bring forehead toward mat. Return body to close to mat until back of head and shoulders make contact with mat. Repeat."
-        }, {
-            "Wall Rear Neck Bridge": "Push head back into mat and roll head upward. Arch spine and straighten knees. Hyperextend neck so head is facing up. Return to origianl position by rolling head down while allowing low back to straighten and knees to bend slightly. Continue down until back of head and shoulders make contact with mat. Repeat."
-        }],
-        "Shoulders": [{
-            "Handstand Push-up": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
-        }, {
-            "on parallettes": "While maintaining body balanced over bars, push inverted body up by extending arms until straight. Lower body down by bending arms until shoulders are close to bars. Repeat."
-        }, {
-            "Pike Press": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
-        }, {
-            "Elevated": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
-        }, {
-            "Inverted Row": "Lower body downward until arms are extended straight while keeping body straight and elbows high (upper arm perpendicular to torso). Pull body toward bar until upper arms are just beyond parallel to one another. Return and repeat."
-        }, {
-            "high bar": "Lower body back until arms are extended straight while keeping body straight and elbows high (upper arm perpendicular to torso). Pull body toward bar until upper arms are just beyond parallel to one another. Return and repeat."
-        }, {
-            "on hips": "Keeping hips on floor, low back straight, and elbow pointed out to sides; pull torso up to bar. Return when upper arms are just beyond parallel to one another. Lower body downward until arms are extended straight. Return and repeat."
-        }],
-        "Upper Arms": [{
-            "Bench Dip": "Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat."
-        }, {
-            "knees bent": "Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat."
-        }, {
-            "heel on floor": "Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat."
-        }, {
-            "Close Grip Push-up": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "Decline": "Keeping body straight, lower upper body to floor by bending arms. To allow for full descent, pull head back slightly without arching back. Push body up until arms are extended. Repeat."
-        }, {
-            "on knees": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "on medicine ball": "Keeping body straight, lower body by bending arms until chest touches ball. Push body up until arms are extended. Repeat."
-        }, {
-            "Incline on bar": "Keeping body straight, lower chest to bar by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "Suspended Triceps Extension": "Keeping body straight, raise body up and back up until arms are extended. Lower body by bending elbows, allowing head to travel between ends of rope. Repeat."
-        }, {
-            "Triceps Dip": "Lower body until slight stretch is felt in shoulders. Push body up until arms are straight. Repeat."
-        }, {
-            "between benches": "Lower body by bending arms, allowing elbows to point back. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
-        }, {
-            "bent knees": "Lower body by bending arms, allowing elbows to point back. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
-        }, {
-            "Chin-up": "Pull body up until elbows are to sides. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Underhand Inverted Row": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "High Bar": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "Doorway": ""
-        }, {
-            "Seated": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Standing": ""
-        }, {
-            "Wall": ""
-        }],
-        "Back": [{
-            "Inverted Row": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "Feet Elevated": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "High Bar": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "On Hips": "Keeping hips on floor and low back straight, pull torso up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "Underhand Inverted Row": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "High Bar": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat."
-        }, {
-            "Chin-up": "Pull body up until elbows are to sides. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Neutral Grip": "Pull body up until elbows are to sides. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Parallel Close Grip Pull-up": "Pull body up until elbow are to sides. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Pull-up": "Pull body up until chin is above bar. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Neutral Grip": "Pull body up until neck reaches height of hands. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "open-centered bar": "Pull body up until neck reaches height of hands. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Rear Pull-up": "Pull body up until bar touches back of neck. Lower body until arms and shoulders are fully extended. Repeat."
-        }, {
-            "Stability Ball Rollout": "Lean forward and roll ridged arms out over ball. Roll forward as far as possible. Raise body back up by pulling arms back until kneeling upright in original position. Repeat."
-        }, {
-            "Wheel Rollout": "With arms straight, roll wheel out as far as possible. Lower body gently to floor extending arms forward. Raise body back up by flexing hips and pulling arms back to original position. Return until hips are extended. Repeat."
-        }, {
-            "Inverted Shrug": "Raise body up a high as possible by pulling shoulders toward ears. Lower body to original position and repeat."
-        }],
-        "Chest": [{
-            "Chest Dip": "Lower body by bending arms, allowing elbows to flare out to sides. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
-        }, {
-            "between benches": "Lower body by bending arms, allowing elbows to flare out to sides. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
-        }, {
-            "bent knees": "Lower body by bending arms, allowing elbows to flare out to sides. When slight stretch is felt in chest or shoulders, push body up until arms are straight. Repeat."
-        }, {
-            "Push-up": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "Incline": "Keeping body straight, lower chest to edge of box or platform by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "on bar": "Keeping body straight, lower chest to bar by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "on knees": "Keeping body straight and knees bent, lower body to floor by bending arms. Push body up until arms are extended. Repeat."
-        }, {
-            "Decline Push-up": "Keeping body straight, lower upper body to floor by bending arms. To allow for full descent, pull head back slightly without arching back. Push body up until arms are extended. Repeat."
-        }, {
-            "on stability ball": "Keeping hips straight, lower upper body to floor by bending arms. To allow for full descent, pull head back slightly without arching back. Push body up until arms are extended. Repeat."
-        }, {
-            "Pike Push-up": "Lower head between ends of benches by bending arms. Push body back up to original position by extending arms. Repeat."
-        }, {
-            "Push-up Plus": "Keeping body straight, lower body to floor by bending arms. Push body up until arms are extended. Continue lifting body further up by pushing shoulders infront of chest. Repeat."
-        }],
-        "Waist": [{
-            "Crunch": "Flex waist to raise upper torso from mat. Keep low back on mat and raise torso up as high as possible. Return until back of shoulders contact mat. Repeat."
-        }, {
-            "arms crossed": "Flex waist to raise upper torso from mat. Keep low back on mat and raise torso up as high as possible. Return until back of shoulders contact mat. Repeat."
-        }, {
-            "arms down": "Flex waist to raise upper torso from mat or bench. Keep low back on floor or mat and raise torso up as high as possible. Extend hands toward sides of heels. Return until back of shoulders contact mat or bench. Repeat."
-        }, {
-            "Crunch up": "Flex waist to raise upper torso from floor. Return until back of shoulders contact padded incline board. Repeat."
-        }, {
-            "Incline Crunch": "Flex waist to raise upper torso from bench. Keep low back on bench and raise torso up as high as possible. Return until back of shoulders contact incline board. Repeat."
-        }, {
-            "arms down": "Flex waist to raise upper torso from bench. Keep low back on bench and raise torso up as high as possible. Return until back of shoulders contact incline board. Repeat."
-        }, {
-            "on ball": "Flex waist to raise upper torso. Return to original position. Repeat."
-        }, {
-            "arms crossed": "Flex waist to raise upper torso. Return to original position. Repeat."
-        }, {
-            "Jack-knife Sit-up": "Simultaneously raise knees and torso until hips and knees are flexed. Return to starting position with waist, hips and knees extended. Repeat."
-        }, {
-            "Hanging Leg Hip Raise": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist. Return until waist, hips, and knees are extended downward. Repeat."
-        }, {
-            "with ab straps": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist. Return until waist, hips, and knees are extended downward. Repeat."
-        }, {
-            "Straight Leg": "Raise legs by flexing hips until fully flexed. Continue to raise feet toward bar by flexing waist. Return until waist and hips are extended downward. Repeat."
-        }, {
-            "Incline Leg Hip Raise": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from board. Return until waist, hips and knees are extended. Repeat."
-        }, {
-            "Lying Leg Hip Raise": "Raise legs by flexing hips while flexing knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from board. Return until waist, hips and knees are extended. Repeat."
-        }, {
-            "on ball": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from board. Return until waist, hips and knees are extended. Repeat."
-        }, {
-            "Vertical Leg Hip Raise": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist, raising hips from back board. Return until waist, hips, and knees are extended. Repeat."
-        }, {
-            "on parallel bars": "Raise legs by flexing hips and knees until hips are fully flexed. Continue to raise knees toward shoulders by flexing waist. Return until waist, hips, and knees are extended. Repeat."
-        }, {
-            "Straight Leg": "Raise legs by flexing hips until fully flexed. Continue to raise feet toward bar by flexing waist. Return until waist and hips are extended downward. Repeat."
-        }, {
-            "Bosu support": "Raise legs by flexing hips and knees. As hips approach full flexion, lean back. Continue to raise knees toward shoulders by flexing waist and raising hips and low back from convexed surface. Return until waist, hips, and knees are extended. Repeat."
-        }, {
-            "Incline Situp": "Raise torso from bench by bending waist and hips. Return until back of shoulders contact incline board. Repeat."
-        }, {
-            "arms crossed": "Raise torso from bench by bending waist and hips. Raise crossed arms over knees at top. Return until back of shoulders contact incline board. Repeat."
-        }, {
-            "Inverted Sit-up": "Raise trunk as high as possible by flexing hips and waist. Return to starting position. Repeat."
-        }, {
-            "Sit-up": "Raise torso from bench by bending waist and hips. Return until back of shoulders contact incline board. Repeat."
-        }, {
-            "arms crossed": "Raise torso from mat or bench by bending waist and hips. Raise crossed arms over knees at top. Return until back of shoulders contact mat or bench. Repeat."
-        }, {
-            "arms down": "Raise torso from mat or bench by bending waist and hips. Extend hands toward sides of heels. Return until back of shoulders contact mat or bench. Repeat."
-        }, {
-            "V-up": "Simultaneously raise straight legs and torso. Reach toward raised feet. Return to starting position. Repeat."
-        }, {
-            "Angled Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
-        }, {
-            "Lying Twist": "Lower legs to one side until side of thigh is on floor. Raise and lower legs to opposite side. Repeat."
-        }, {
-            "Bent Knee": "Lower legs to one side until side of thigh is on floor. Raise and lower legs to opposite side. Repeat."
-        }, {
-            "Plank Twist on ball": "Rotate hips so thighs roll over top of ball to one side. Rotate to opposite side and repeat."
-        }, {
-            "Side Bend on ball": "Raise side of torso up by lateral flexing waist. Lower torso back on ball and repeat. Position other side on ball and repeat with opposite side."
-        }, {
-            "Side Bridge": ""
-        }, {
-            "Bent Knee": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
-        }, {
-            "Hanging": "Raise legs to one side by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended downward. Raise legs to opposite side in same manner. Continue by bending and lifting\u00a0legs, alternating between sides."
-        }, {
-            "Vertical": "Raise legs to one side by flexing hips and knees until hips are completely flexed or knees are\u00a0above hips. Return until hips and knees are extended downward. Raise legs to opposite side in same manner. Continue by bending and lifting legs, alternating between sides."
-        }, {
-            "on dip bar": "Raise legs to one side by flexing hips and knees until hips are completely flexed or knees are\u00a0above hips. Return until hips and knees are extended downward. Raise legs to opposite side in same manner. Continue by bending and lifting legs, alternating between sides."
-        }, {
-            "Incline Twisting Sit-up": "Flex and twist waist to one direction while raising torso from bench by bending hips. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
-        }, {
-            "arms crossed": "Flex and twist waist to one direction while raising torso from bench by bending hips. Raise crossed arm over opposite knees at top. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
-        }, {
-            "Twisting Sit-up": "Flex and twist waist to one direction while raising torso from bench by bending hips. Return until back of shoulders contact floor or mat. Repeat to opposite side alternating twists."
-        }, {
-            "arms crossed": "Flex and twist waist to one direction while raising torso from bench by bending hips. Return until back of shoulders contact floor or mat. Repeat to opposite side alternating twists."
-        }, {
-            "Incline Twisting Crunch": "Flex and twist waist to raise upper torso from bench to one side. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
-        }, {
-            "arms crossed": "Flex and twist waist to raise upper torso from bench to one side. Return until back of shoulders contact padded incline board. Repeat to opposite side alternating twists."
-        }, {
-            "Side Crunch": "Flex waist, raising upper torso off mat or floor. Return until back of shoulders return to mat or floor. Repeat and continue with movement in opposite position."
-        }, {
-            "on ball": "Flex waist to raise upper torso. Return to original position and repeat. Position legs in opposite position and continue."
-        }, {
-            "Twisting Crunch": "Flex and twist waist to raise upper torso from mat to one side. Return until back of shoulders contact mat. Repeat to opposite side alternating twists."
-        }, {
-            "arms crossed": "Flex and twist waist to raise upper torso from mat to one side. Return until back of shoulders contact mat. Repeat to opposite side alternating twists."
-        }, {
-            "on ball": "Flex waist to raise upper torso. Return to original position. Repeat."
-        }, {
-            "Hanging Windshield Wiper": "Turn legs to one side by rotating waist until stretch is felt through waist. Rotate legs to opposite side in same manner. Continue by rotating from side to side."
-        }],
-        "Hips": [{
-            "Lunge": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
-        }, {
-            "Rear Lunge": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
-        }, {
-            "Reverse Hyper-extension": "Raise legs by extending hips as high as possible until legs are nearly straight. Lower legs to original position. Repeat."
-        }, {
-            "on ball": "Holding firmly on anchor, extend legs upward by lifting and straightening leg as high as possible. Lower legs to original position with thighs close to stability ball. Repeat."
-        }, {
-            "Single Leg Hip Bridge": "Raise body by extending hip of bent leg, keeping extended leg and hip straight. Return to original position by lowering body with extended leg and hip straight. Repeat and continue with opposite sides."
-        }, {
-            "Single Leg Squat": "Squat down as far as possible while keeping leg elevated off of floor. Keep back as straight as possible and supporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Box": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once bottocks makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Partial": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once buttock makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Leg Back": "Squat down as far as possible while keeping raised leg from contacting floor as far down as possible. Keep back straight and supporting knee pointed same direction as foot supporting. In lowest position, gently place elevated lower leg on floor. Raise body back up with minimal assistance from raised leg on floor. Stand to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
-        }, {
-            "Half": "Squat down to challenging depth while keeping raised leg from contacting floor. Keep back straight and supporting knee pointed same direction as foot supporting. Stand back up to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
-        }, {
-            "Reclining": "While reclining back, squat down as far as possible while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as suppor ting foot. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Split Squat": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
-        }, {
-            "Single Leg Split Squat": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg and repeat. Continue with opposite leg."
-        }, {
-            "Single Leg Stiff Leg Deadlift": "Lower torso forward and downward while raising lifted leg back behind. Keep back straight and knee of supporting leg slightly bend. Keep hip and knee of lifted leg extended throughout movement. Once stretch is felt or hands contact floor, return to original position by raising torso while lowering lifted leg. Straighten knee of supporting leg as torso becomes upright. Repeat."
-        }, {
-            "Squat": "Squat down by bending hips back while allowing knees to bend forward slightly, keeping back straight and knees pointed same direction as feet.   Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
-        }, {
-            "Half": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend to height which allows\u00a0prescribed number of reps at suggested intensity, short of thighs descending just past parallel to floor. Stand\u00a0up by extending knees and hips until legs are straight. Return to standing position and repeat."
-        }, {
-            "on Balance Board": "Extend arms forward in front of body. Squat down by bending knees slightly forward while allowing hips to bend back behind, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
-        }, {
-            "Step-up": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg, alternating first steps between legs."
-        }, {
-            "Lateral Step-up": "Lift leg and place foot on bench to side and forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg, alternating between legs."
-        }, {
-            "Step Down": "Stand on bench by straightening leg and pushing body upward. Step down returning foot off of bench to floor and repeat. Continue with opposite position."
-        }, {
-            "Alternating": "Step down with first foot to side of elevated surface onto floor. Stand back up on elevated surface by straightening upper leg and pushing body upward. Place foot to original position next to opposite foot. Step down and back up with opposite leg in same manner. Repeat by alternating between sides."
-        }, {
-            "Side Bridge Hip Abduction": "Keeping side of bottom foot on ground, raise hips up off ground while raising upper leg upward away from lower leg. Return to original position and repeat. Continue with opposite leg."
-        }, {
-            "Angled": "Keeping foot closest to bar on ground, raise hips upward and away from bar while raising leg furthest from bar upward away from lower leg. Return to original position with hips sagging downward and repeat. Continue with opposite leg."
-        }, {
-            "Bent Knee": "Keeping shank of lower leg on mat or floor, raise hips up off ground while raising upper leg upward away from lower leg. Return to original position and repeat. Continue with opposite leg."
-        }, {
-            "Angled Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
-        }, {
-            "Bent Knee Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
-        }, {
-            "Side Bridge": ""
-        }, {
-            "Hanging Leg Raise": "Raise legs by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended downward. Repeat."
-        }, {
-            "with ab straps": "Raise legs by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended downward. Repeat."
-        }, {
-            "Straight Leg": "With knees straight, raise legs by flexing hips until hips are completely flexed or knees are well above hips. Return until hips are extended downward. Repeat."
-        }, {
-            "Incline Leg Raise": "Raise legs by flexing hips and knees until hips are completely flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "arms on pads": "Raise legs by flexing hips and knees until hips are flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "Incline Straight Leg Raise": "With knees straight, raise legs by flexing hips until hips are completely flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "arms on pads": "With knees straight, raise legs by flexing hips until hips are flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "Lying Leg Raise": "Raise legs by flexing hips and knees until thighs are completely flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "Alternating": "Simultaneously change positions of legs, lowering and straightening raised leg down just above floor while raising and bending lower leg to opposite position. Continue alternating leg positions."
-        }, {
-            "on floor": "Raise legs by flexing hips and knees until thighs are completely flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "Lying Straight Leg Raise": "Keeping knees straight, raise legs by flexing hips until hips are completely flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "Alternating": "Keeping knees nearly straight, simultaneously change positions of legs so vertical leg is lowered while lower leg is raised vertically. Continue alternating leg positions."
-        }, {
-            "Seated Leg Raise": "Raise legs by flexing hips and knees while pulling torso slightly forward to maintain balance. Return by extending hips and knees and lean torso back to counter balance. Repeat."
-        }, {
-            "Vertical Leg Raise": "Raise legs by flexing hips and knees until hips are completely flexed or knees are well above hips. Return until hips and knees are extended. Repeat."
-        }, {
-            "on parallel bars": "Raise legs by flexing hips and knees until hips are completely flexed. Return until hips and knees are extended. Repeat."
-        }, {
-            "Straight Leg": "With knees straight, raise legs by flexing hips until thighs are just pass parallel to floor. Return until hips are extended. Repeat."
-        }, {
-            "Jack-knife on Ball": "Bend hips and knees, allowing shins to roll over top of ball. Pull knees toward chest until heels are under or near glutes. Return by extending hips and knees to original position. Repeat."
-        }, {
-            "Roman Chair Sit-up": "Lower body back until hips are almost extended. Raise body by flexing hips until torso is upright. Repeat."
-        }, {
-            "Scissor Kick": "Keeping knees nearly straight, simultaneously change positions of legs so vertical leg is lowered while lower leg is raised vertically. Continue alternating leg positions."
-        }, {
-            "Jack-Knife": "Bend hips and knees, pulling legs under body. Pull bent knees toward chest, allowing rear end to raise upward. Return by extending hips and knees to original position. Repeat."
-        }, {
-            "Rollout": "With arms straight, roll wheel out as far as possible. Lower body gently to floor extending arms forward. Raise body back up by flexing hips and pulling arms back to original position. Return until hips are extended. Repeat."
-        }, {
-            "Pike": "From plank position, raise rear end up as high as possible by bending hips. Pull power wheel toward hands while keeping knees straight. Return by extending hips to original position.   Repeat."
-        }, {
-            "Pike": "From plank position, raise rear end up as high as possible by bending hips. Pull gliding discs toward hands while keeping knees straight. Return by extending hips to original position. Repeat."
-        }],
-        "Thighs": [{
-            "Rear Lunge": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
-        }, {
-            "Lunge": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
-        }, {
-            "Single Leg Squat": "Squat down as far as possible while keeping leg elevated off of floor. Keep back as straight as possible and supporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Box": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once buttock makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Partial": "Squat down while keeping leg elevated off of floor. Keep back straight and supporting knee pointed same direction as foot supporting. Once buttock makes contact with bench or box, raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Leg Back": "Squat down as far as possible while keeping raised leg from contacting floor as far down as possible. Keep back straight and supporting knee pointed same direction as foot supporting. In lowest position, gently place elevated lower leg on floor. Raise body back up with minimal assistance from raised leg on floor. Stand to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
-        }, {
-            "Half": "Squat down to challenging depth while keeping raised leg from contacting floor. Keep back straight and supporting knee pointed same direction as foot supporting. Stand back up to original position until knee and hip of supporting leg are straight. Return and repeat. Continue with opposite leg."
-        }, {
-            "Reclining": "While reclining back, squat down as far as possible while keeping leg elevated off of floor. Keep   back straight and supporting knee pointed same direction as supporting foot. Raise body back up to original position until knee and hip of supporting leg is straight. Repeat and continue with opposite leg."
-        }, {
-            "Sissy Squat": "With hips and waist straight, bend knees to allow body to fall backwards as knees come forward. Allow heels to raise from floor. Lower body until knees are almost fully flexed or near floor. Return to original position by extending knees as heels return to floor."
-        }, {
-            "on apparatus": "Allow body to fall backwards by bending knees. During descent, gradually bend hips, yet keep chest high and don't allow torso to angle forward. Lower body until back of thigh is against upper pad. Rise to original position by extending knees and hips while keeping shoulders behind hips. Repeat."
-        }, {
-            "Split Squat": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
-        }, {
-            "Single Leg Split Squat": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg and repeat. Continue with opposite leg."
-        }, {
-            "Squat": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
-        }, {
-            "Half": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend to height which allows\u00a0prescribed number of reps at suggested intensity, short of thighs descending just past parallel to floor. Stand\u00a0up by extending knees and hips until legs are straight. Return to standing position and repeat."
-        }, {
-            "on Balance Board": "Extend arms forward in front of body. Squat down by bending knees slightly forward while allowing hips to bend back behind, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Squat up by extending knees and hips until legs are straight. Return and repeat."
-        }, {
-            "Step-up": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg, alternating first steps between legs."
-        }, {
-            "Lateral Step-up": "Lift leg and place foot on bench to side slightly forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg alternating between legs."
-        }, {
-            "Step-down": "Stand on elevated surface by straightening leg and pushing body upward. Step down returning foot off of elevated surface to floor and repeat. Continue with opposite position."
-        }, {
-            "Alternating": "Step down with first foot to side of elevated surface onto floor. Stand back up on elevated surface by straightening upper leg and pushing body upward. Place foot to original position, next to opposite foot. Step down and back up with opposite leg in same manner. Repeat by alternating between sides."
-        }, {
-            "Glute-Ham Raise": "From upright position, lower body by straightening knees until body is horizontal. Continue to lower torso by bending hips until body is upside down. Raise torso by extending hips until fully extended. Continue to raise body by flexing knees until body is upright. Repeat."
-        }, {
-            "hands behind hips": "From upright position, lower body by straightening knees until body is horizontal. Continue to lower torso by bending hips until body is upside down. Raise torso by extending hips until fully extended. Continue to raise body by flexing knees until body is upright. Repeat."
-        }, {
-            "Hanging Hamstring Bridge": "Raise hips up as high as possible by extending hips. Lower hips to original position just above floor. Repeat."
-        }, {
-            "Single Leg": "Raise hips up as high as possible by extending hip\u00a0and spine. Maintain bent position of lower leg allowing it to rise with hips. Lower hips along with bent lower leg to original position and repeat.\u00a0Continue with legs in opposite position."
-        }, {
-            "Hanging Hamstring Bridge Curl": "Raise hips\u00a0by extending hips. Before full hip extension, pull body toward feet by bending knees and hips. Roll onto feet until knees are fully flexed. Return body to original position by extending knees, then lowering hips to original position just above floor. Repeat."
-        }, {
-            "Single Leg": "Raise hip and bent lower leg up by extending hip of elevated leg. Maintain bent position of lower leg allowing it to rise with hips. Before full hip extension, pull body toward foot by bending knee and hip of elevated leg. Roll onto foot until knee is fully flexed. Return body to original position by extending knee, then lowering hips and bent lower leg to original position just above floor. Repeat. Continue with opposite leg position."
-        }, {
-            "Hanging Leg Curl": "Pull body toward feet by bending knees and hips. Roll onto feet until knees are fully flexed. Return body to original position by extending knees and hips. Repeat."
-        }, {
-            "Straight Hip": "Pull body toward feet by bending knees while keeping hips straight. Roll onto feet until knees are fully flexed. Return body to original position by extending knees. Repeat."
-        }, {
-            "Inverse Leg Curl": "Lower body until horizontal by straightening knees. Raise body by flexing knees only allowing hips to bend slightly. Repeat."
-        }, {
-            "Straight Leg (on ball)": "Keeping hips and low back straight, bend knees, pulling heels toward rear end. Allow feet to rollup on to ball. Lower to original position by straightening knees. Repeat."
-        }, {
-            "Single Leg": "Keeping hips and low back straight, bend knee, pulling heel toward rear end while keeping other leg extended straight so it raises upward. Allow foot to rollup on to ball. Lower to original position by straightening knee until other leg makes contact with ball. Repeat."
-        }, {
-            "power wheel": "Keeping hips and low back straight, bend knees, pulling heels toward rear end. Raise up until lower legs are vertical. Lower to original position by straightening knees. Repeat."
-        }, {
-            "Single Leg 45\u00b0 Hyperextension": "Raise upper body until hips and waist are fully extended. Lower body by bending hips and waist until fully flexed. Repeat. Continue with opposite leg."
-        }, {
-            "Angled Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
-        }, {
-            "Bent Knee Side Bridge": "Raise hips upward by lateral flexion of spine. Lower to original position and repeat. Repeat with opposite side."
-        }, {
-            "Side Bridge": ""
-        }],
-        "Calves": [{
-            "Standing Calf Raise": "Raise heels by extending ankles as high as possible. Lower heels by bending ankles until calves are stretched. Repeat."
-        }, {
-            "Single Leg": "Raise heel by extending ankle as high as possible. Lower heel by bending ankle until calf is stretched. Repeat. Continue with opposite leg."
-        }, {
-            "Single Leg Forward Angled Calf Raise": "Raise heel by extending ankle as high as possible. Allow body to travel forward and upward in same direction as body is orientated. Lower heel allowing foot to come back down flat on floor. Repeat. Continue with opposite leg."
-        }, {
-            "Reverse Calf Raise": "Pull forefoot of both feet up toward body as far as possible. Return by extending feet until toes are pointed downward. Repeat."
-        }, {
-            "Single Leg": "Pull forefoot up toward body as far as possible. Return by extending foot until toes are pointed downward. Repeat. Continue with opposite leg."
-        }]
-    },
     "Stretch": {
         "Neck": [{
             "Retraction": ""
@@ -3860,23 +3863,6 @@ export const data =  {
             "apparatus": "Rotate body to highest side of ball ramp. Place medicine ball on ramp. Release ball and turn to opposite side. Grasp ball as it travels to other side. Continue to transfer ball to highest side of ball ramp and catch it on opposite side. When finished, adjust ramp to opposite incline and repeat movement in opposite direction."
         }]
     },
-    "Stretches for": {
-        "Chest": [{
-            "Anterior Deltoid": ""
-        }]
-    },
-    "for": {
-        "Chest": [{
-            "Doorway Chest Stretch": ""
-        }, {
-            "Pectoralis Minor": ""
-        }]
-    },
-    "See most  above": {
-        "Waist": [{
-            "Oblique Exercises": ""
-        }]
-    },
     "Dynamic Stretch": {
         "Hips": [{
             "Knee Hug": "Pull knee toward body until stretch is felt in hip. Release and step forward with stretched leg. Repeat with opposite leg. Continue by alternating stretch and step between each leg until specific distance is covered or desired number of repetitions have been completed."
@@ -3889,13 +3875,6 @@ export const data =  {
             "Soldier Kick": "Next step, extend left arm forward while swinging right leg up so foot touches or comes close to hand. Lower right leg. Repeat with same sequence on opposite side. Continue by alternating between each side until specific distance is covered or desired number of repetitions have been completed."
         }, {
             "intermittent": "Next step, extend left arm forward while swinging right leg up so foot touches or comes close to hand. Lower right leg, then take two steps, with left and right legs. Repeat with same sequence on opposite side. Continue by alternating between each side followed by double steps until specific distance is covered or desired number of repetitions have been completed."
-        }]
-    },
-    "Cable ()": {
-        "Hips": [{
-            "Push Pull": "Pull low pulley stirrup back to side of ribcage while pushing high pulley stirrup forward until arm is extended, allowing torso to rotate to opposite side."
-        }, {
-            "Twist": "Keeping arms straight, rotate torso to opposite side until cable makes contact with shoulder. Return to original position and repeat. Continue with opposite side."
         }]
     },
     "Lever": {

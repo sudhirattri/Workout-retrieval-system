@@ -5,6 +5,9 @@ import List from '@mui/material/List'
 import Divider from '@mui/material/Divider'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import Box from '@mui/material/Box';
+import CircularProgress from '@mui/material/CircularProgress';
+import Zoom from '@mui/material/Zoom';
 
 export default function RankedResults(props) {
   const [checked, setChecked] = React.useState([0]);
@@ -13,10 +16,13 @@ export default function RankedResults(props) {
 
   const [viewGif, setviewGif] = React.useState(true);
 
+  const [zoomIn, setZoomIn] = React.useState(false);
+
   React.useEffect(() => {
     setRankedResults(oldArray => props.rankedResults)
     setviewGif(old => props.viewGif)
-  }, []);
+    setZoomIn(true)
+  }, [props.rankedResults]);
 
   const handleToggle = (value) => () => {
       const currentIndex = checked.indexOf(value);
@@ -31,42 +37,51 @@ export default function RankedResults(props) {
     };
     return (
       <React.Fragment>
-        <Typography variant="h6" gutterBottom>
-          Ranked Results
+        <Typography variant="h6" gutterBottom marginLeft={4}>
+          Results
         </Typography>
-        <Grid container spacing={3} alignItems="center" justifyContent="center">
-        <Grid item xs={12} margin={2} alignItems="center" justifyContent="center" >
+        {rankedResults.length === 0 && (
+          <Box sx={{ display: 'flex' , justifyContent: 'center', margin: '50px'}}>
+            <CircularProgress />
+          </Box>
+        )}
+        <Grid item xs={12} margin={2} alignItems="left" justifyContent="left" >
           <List className='resultsContainer' style={{maxHeight: 500, overflow: 'auto'}} sx={{ width: '100%' , bgcolor: 'white' ,
-              borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
+            alignContent: 'left'}}  className='result-card'>
 
-              {rankedResults.map((item,index) => {
-                  const labelId = `checkbox-list-label-${index}`;
+            {rankedResults.map((item,index) => {
+                const labelId = `checkbox-list-label-${index}`;
 
-                  return (
-                    <React.Fragment key={index}>
-                      <Card sx={{ minWidth: 275 }}>
-                        <CardContent>
-                          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Equipment : {item.equipment}
-                          </Typography>
-                          <Typography variant="h5" component="div">
-                           Exercise Name : {item.exercise}
-                          </Typography>
-                          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            Muscle : {item.muscle_group}
-                          </Typography>
-                          <Typography variant="body2">
-                            Description : {item.desc}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                      <Divider />
-                    </React.Fragment>
-
-                  );
-              })}
-              </List>
-              </Grid>
+                return (
+                  <React.Fragment key={index}>
+                    <Zoom in={zoomIn} style={{ transitionDelay: Math.min(5000,(index*500)).toString()+'ms' }}>
+                      <Box display="flex" flexDirection="row" justifyContent="space-around"
+                        style={{ margin:"0px",padding:"0"}}
+                      >
+                        <Typography xs={2} gutterBottom variant="h5" component="h2" marginTop={2}>
+                          {index+1}
+                        </Typography>
+                        <Card style={{"width":"90%", "margin-bottom":"10px"}}>
+                          <CardContent>
+                            <Typography gutterBottom variant="h6" component="h2">
+                            {item.exercise}
+                            </Typography>
+                            <Typography variant="h7" color="textSecondary" component="p">
+                              Equipment: {item.equipment} <br></br>
+                              Muscle: {item.muscle_group} <br></br>
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                              Description: {item.desc} <br></br>
+                            </Typography>
+                          </CardContent>
+                        </Card>
+                      </Box>
+                    </Zoom>
+                    {/* <Divider variant="inset" component="li"/> */}
+                  </React.Fragment>
+                );
+            })}
+          </List>
         </Grid>
       </React.Fragment>
     );

@@ -17,6 +17,14 @@ import SelectMuscle from './SelectMuscle';
 import RankedResults from './RankedResults';
 import CircularProgress from '@mui/material/CircularProgress';
 
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Switch from '@mui/material/Switch';
+
+import Snackbar from '@mui/material/Snackbar';
+import CloseIcon from '@mui/icons-material/Close';
+import IconButton from '@mui/material/IconButton';
+
 import { example_response } from "./../data/example_query";
 
 function Copyright() {
@@ -76,7 +84,7 @@ export default function HomeLayout() {
     console.log("ref func",list)
   }
 
-  function post_query(){
+  function post_query(development){
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     
@@ -97,23 +105,28 @@ export default function HomeLayout() {
       redirect: 'follow',
     };
     
-    fetch("http://127.0.0.1:5001/", requestOptions)
+    let api_endpoint = (development) ? ("http://127.0.0.1:5001/") :("http://workout-retrieval-system.herokuapp.com/")
+    fetch(api_endpoint, requestOptions)
       .then(response => {
-        // setRankedResults(oldArray => response.text)
         response.json().then(response_json => {
-          let formatted_response = response_json.map(function(item, index) {
-            let exercise_obj = item["exercise"];
-            let exercise_name = Object.keys(exercise_obj)[0];
-            let desc = exercise_obj[exercise_name]
-            return {
-              exercise : exercise_name,
-              desc : desc,
-              equipment : item["equipment"],
-              muscle_group : item["muscle_group"]
-            }
-          })
-          // console.log("Response",formatted_response)
-          setRankedResults(oldArray => formatted_response)
+          console.log(response_json)
+          if(response_json["success"]==false){
+            setRankedResults(oldArray => [])
+          }
+          else{
+            let formatted_response = response_json["exercises"].map(function(item, index) {
+              let exercise_obj = item["exercise"];
+              let exercise_name = Object.keys(exercise_obj)[0];
+              let desc = exercise_obj[exercise_name]
+              return {
+                exercise : exercise_name,
+                desc : desc,
+                equipment : item["equipment"],
+                muscle_group : item["muscle_group"]
+              }
+            })
+            setRankedResults(oldArray => formatted_response)
+          }
         });
       })
       .catch(error => console.log('error', error));
@@ -130,6 +143,7 @@ export default function HomeLayout() {
     //   }
     // })
     // setRankedResults(oldArray => formatted_response)
+    // setRankedResults(oldArray => [])
     // console.log("Example",formatted_response)
   }
 
@@ -162,7 +176,32 @@ export default function HomeLayout() {
 
   const [uploadImageFile, setUploadImageFile] = React.useState(null);
 
+  const [development, setDevelopment] = React.useState(false);
 
+  const [openSnack, setOpenSnack] = React.useState(false);
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setOpenSnack(false);
+  };
+
+  const action = (
+    <React.Fragment>
+      <Button color="secondary" size="small" onClick={handleClose}>
+        
+      </Button>
+      <IconButton
+        size="small"
+        aria-label="close"
+        color="inherit"
+        onClick={handleClose}
+      >
+        <CloseIcon fontSize="small" />
+      </IconButton>
+    </React.Fragment>
+  );
   const getSecondaryButtonText = () => {
     switch (activeStep) {
       case 0:
@@ -177,9 +216,19 @@ export default function HomeLayout() {
   }
   const handleNext = () => {
     if(activeStep==1){
-      post_query()
+      if(equipments.length==0 && muscleGroups.length==0){
+        // post_query()
+        // setActiveStep(activeStep + 1);
+        setOpenSnack(true);
+      }
+      else{
+        post_query()
+        setActiveStep(activeStep + 1);
+      }
     }
-    setActiveStep(activeStep + 1);
+    else{
+      setActiveStep(activeStep + 1);
+    }
   };
 
   const handleBack = () => {
@@ -200,21 +249,25 @@ export default function HomeLayout() {
 
     setUploadStatus(1);
     console.log("UPLOADING FILE TO SERVER")
-
-    let url = "http://127.0.0.1:5001/imageRecognize"
+    // await delay(100000);
+    let api_endpoint = (development) ? ("http://127.0.0.1:5001/imageRecognize") :("http://workout-retrieval-system.herokuapp.com/imageRecognize")
     const formData = new FormData();
     formData.append("image", uploadImageFile);
 
     console.log(uploadImageFile)
 
-    const rawResponse = await fetch(url, {
+    const rawResponse = await fetch(api_endpoint, {
       method: 'POST',
       body: formData
     });
 
     let responseJSON = await rawResponse.json();
 
-    await delay(1000);
+    if(responseJSON["success"]==true){
+      setResultCV(responseJSON["equipment"])
+      setEquipments(oldArray => [...oldArray, responseJSON["equipment"]])
+    }
+    // await delay(1000);
     setUploadStatus(2);
 
   };
@@ -243,6 +296,16 @@ export default function HomeLayout() {
     }
   };
 
+  const handleChange = (event) => {
+    console.log("hanldechange", event)
+    setDevelopment(event.target.checked);
+    console.log("handlenext", console.log(equipments))
+    // setState({
+    //   ...state,
+    //   [event.target.name]: ,
+    // });
+  };
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -259,6 +322,14 @@ export default function HomeLayout() {
           <Typography variant="h6" color="inherit" noWrap>
             Workout Retrieval System
           </Typography>
+          <FormGroup className='leftFloat'>
+            <FormControlLabel
+              control={
+                <Switch checked={development} onChange={handleChange} name="development" />
+              }
+              label="Enable Dev API"
+            />
+          </FormGroup>
         </Toolbar>
       </AppBar>
       <Container component="main" maxWidth="md" sx={{ mb: 4 }}>
@@ -292,9 +363,9 @@ export default function HomeLayout() {
                     {uploadStatus === 1 && (
                       <React.Fragment>
                         <Box display="flex" flexDirection="column" justifyContent="space-around"
-                        style={{"width": "100%" , "height": "50%", margin:"0px",padding:"0"}}
+                        style={{ textAlign: "center", "width": "100%" , "height": "50%", margin:"0px",padding:"0"}}
                         >
-                          <CircularProgress disableShrink style={{"align-self":"center"}}/>
+                          <CircularProgress disableShrink className='circularProgress'/>
                           <Typography variant="h7" gutterBottom>
                             Uploading Results
                           </Typography>
@@ -304,13 +375,13 @@ export default function HomeLayout() {
                     {uploadStatus === 2 && (
                       <React.Fragment>
                         <Box display="flex" flexDirection="column" justifyContent="flex-start"
-                        style={{"width": "100%" , "height": "50%", margin:"0px",padding:"0"}}
+                        style={{ textAlign: "center","width": "100%" , "height": "50%", margin:"0px",padding:"0", "marginLeft":"20px"}}
                         >
                           <Typography variant="h6" gutterBottom style={{"margin-bottom":"auto"}}>
                             Image Uploaded
                           </Typography>
                           <Typography variant="h7" gutterBottom>
-                            Identified as : null
+                            Identified as : {resultCV}
                           </Typography>
                         </Box>
 
@@ -360,6 +431,13 @@ export default function HomeLayout() {
               </React.Fragment>
             )}
           </React.Fragment>
+          <Snackbar
+                open={openSnack}
+                autoHideDuration={6000}
+                onClose={handleClose}
+                message="All parameters are empty"
+                action={action}
+            />
         </Paper>
         <Copyright />
       </Container>

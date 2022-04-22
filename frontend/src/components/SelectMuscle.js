@@ -74,7 +74,7 @@ export default function SelectMuscle(props) {
     
     return (
       <React.Fragment>
-        <Typography variant="h6" gutterBottom>
+        <Typography variant="h6" gutterBottom marginLeft={4}>
           Select Muscle Group
         </Typography>
         <Grid container spacing={3} alignItems="center" justifyContent="center" direction="column">
