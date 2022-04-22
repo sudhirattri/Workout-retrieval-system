@@ -68,7 +68,10 @@ def recognize():
     im = Image.open(BytesIO(base64.b64decode(image_base64_string)))
     print(im)
     im.show()
-    response = []
+    response = {}
+    response["success"] = True
+    response["equipment"] = "Barbell"
+
     return jsonify(response)
     # print(response)
 
