@@ -340,6 +340,382 @@ export const data =  {
         }]
     },
     "Stretches": {
+        "Neck": [{
+            "Retraction": ""
+        }, {
+            "Rotation": ""
+        }, {
+            "Neck Extensor": ""
+        }],
+        "Shoulders": [{
+            "Doorway": ""
+        }, {
+            "Lying Front Deltoid Stretch": "Roll body onto right side by pushing left hand onto floor. Positioning bent left leg over straight right leg until stretch is felt. Hold stretch. Repeat in opposite position."
+        }, {
+            "Seated Front Deltoid Stretch": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Wall": ""
+        }, {
+            "Fixed Bar": ""
+        }, {
+            "Side Deltoid": ""
+        }, {
+            "Fixed Bar": ""
+        }, {
+            "Rear Deltoid": ""
+        }],
+        "Upper Arms": [{
+            "Overhead": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Towel": ""
+        }],
+        "Forearms": [{
+            "Standing": ""
+        }, {
+            "Praying": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Single Arm": ""
+        }, {
+            "Kneeling": ""
+        }, {
+            "Kneeling": ""
+        }, {
+            "Single Arm": ""
+        }],
+        "Back": [{
+            "Fixed Bar": ""
+        }, {
+            "Lever": "Push and lower seat back. Hold stretch. Repeat with opposite arm position."
+        }, {
+            "Bar": ""
+        }, {
+            "Bent-over": ""
+        }, {
+            "on chair or bench": ""
+        }, {
+            "Lever": "Push and lower seat back. Hold stretch."
+        }, {
+            "Overhead": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Seated Side Reach": ""
+        }, {
+            "Supine Lat": "Pull arms toward floor and back sides of head. Hold stretch."
+        }, {
+            "Standing Side Reach": ""
+        }, {
+            "Wall": ""
+        }, {
+            "Upper Trapezius": "Tilt head away from lowered shoulder by positioning ear toward front of opposite shoulder. Hold stretch. Repeat to other side."
+        }, {
+            "Chair Trapezius": "Pull up on chair leg by position torso more upright while allowing left shoulder to be pulled downward. Hold stretch. Repeat on opposite side while sitting slightly angled to left."
+        }, {
+            "Fixed Bar": ""
+        }, {
+            "Hugging": ""
+        }, {
+            "Broomstick": "Pull upper end of pole forward so shoulder is internally rotated. Hold stretch. Repeat with opposite arm."
+        }, {
+            "Bent-over": ""
+        }, {
+            "Seated Bent-over": ""
+        }, {
+            "Side Lying": ""
+        }, {
+            "Side Lying Teres Minor": ""
+        }, {
+            "Supine Infraspinatus": "Keeping elbows bend at a right angles, push forearms downward toward floor and hold stretch."
+        }, {
+            "Prone Infraspinatus": "Lower bend arms toward floor and hold stretch."
+        }, {
+            "Broomstick": "Pull lower end of pole forward and upward so shoulder is externally rotated. Hold stretch. Repeat with opposite arm."
+        }, {
+            "Doorway": ""
+        }],
+        "Chest": [{
+            "Behind Head": ""
+        }, {
+            "PNF": "Pull participant's elbows back while stabilizing participant's torso with leg. Hold stretch."
+        }, {
+            "Doorway": ""
+        }, {
+            "Lying": "Roll body onto side of bent arm by pushing onto floor with opposite arm and positioning bent upper leg over straight lower leg until stretch is felt. Hold stretch. Repeat in opposite position."
+        }, {
+            "Straight Arm": ""
+        }],
+        "Waist": [{
+            "Kneeling": ""
+        }, {
+            "Lying (Prone)": ""
+        }, {
+            "Lying (Supine)": ""
+        }, {
+            "Standing": ""
+        }, {
+            "Lying Bent Leg": ""
+        }, {
+            "Lying Crossover": ""
+        }, {
+            "Pretzel": ""
+        }, {
+            "Seated Bent Leg": ""
+        }, {
+            "Cat": ""
+        }, {
+            "Movement": "Flex spine by hunching back up. Extend spine by arching back. Repeat."
+        }, {
+            "Bent-over Cat": ""
+        }, {
+            "Lever": "Push and lower seat back. Hold stretch."
+        }, {
+            "Lying": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Seated Bent-over (Chair or Bench)": ""
+        }, {
+            "Squatting": ""
+        }, {
+            "Plow": ""
+        }],
+        "Hips": [{
+            "Lever": "Push and lower seat back. Hold stretch. Repeat with opposite leg."
+        }, {
+            "Lying": ""
+        }, {
+            "Modified": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Towel": ""
+        }, {
+            "Lying Wall": ""
+        }, {
+            "Prone": ""
+        }, {
+            "Bent-over": ""
+        }, {
+            "Bench": ""
+        }, {
+            "Chair": ""
+        }, {
+            "Floor": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Standing": "Lean down, lowering torso toward thighs. Hold stretch. Repeat with opposite leg."
+        }, {
+            "Squatting": ""
+        }, {
+            "Lying Crossover": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Lying Pretzel": ""
+        }, {
+            "Seated Hip Internal Rotator": ""
+        }, {
+            "Bent Leg Down": ""
+        }, {
+            "Chair or Bench": ""
+        }, {
+            "Seated Pretzel": ""
+        }, {
+            "Side Pretzel": ""
+        }, {
+            "Lying Iliotibial": ""
+        }, {
+            "Squatting Iliotibial": ""
+        }, {
+            "Standing Iliotibial": ""
+        }, {
+            "Wall Iliotibial": ""
+        }, {
+            "Bentover Lunging": ""
+        }, {
+            "Kneeling": ""
+        }, {
+            "Lever": "Squat down with back straight while straightening hip of rear leg by pushing hips forward. Hold stretch. Repeat with opposite side."
+        }, {
+            "Lunging": ""
+        }, {
+            "On Bench": "Slowly lunge forward by continuing to bend forward leg. With chest high, straighten hip of rear leg by driving hips down and forward. Hold stretch. Repeat with opposite side."
+        }, {
+            "Lying": ""
+        }, {
+            "Sled": ""
+        }, {
+            "Standing": ""
+        }, {
+            "Lying Iliotibial": ""
+        }, {
+            "Squatting Iliotibial": ""
+        }, {
+            "Standing Iliotibial": ""
+        }, {
+            "Wall Iliotibial": ""
+        }, {
+            "Lying": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Lever": "Push and lower seat back. Repeat with opposite leg."
+        }, {
+            "Lying": ""
+        }, {
+            "Modified": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Chair or Bench": ""
+        }, {
+            "PNF": ""
+        }],
+        "Thighs": [{
+            "Kneeling": ""
+        }, {
+            "Lever": ""
+        }, {
+            "Lying (Prone)": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Lying (Side)": ""
+        }, {
+            "Seated": "Pull ankle or forefoot to rear end and straighten hip by moving knee backwards. Hold stretch. Repeat with opposite side."
+        }, {
+            "Standing": "Pull ankle or forefoot to rear end and straighten hip by moving knee backward. Hold stretch. Repeat with opposite side."
+        }, {
+            "Towel": "Pull foot to rear end with towel and straighten hip by moving knee backward. Hold stretch. Repeat with opposite side."
+        }, {
+            "Apparatus": "Bend supporting knee slightly while positioning hip back closer to heel. Hold stretch. Repeat with opposite side."
+        }, {
+            "Platform": "Bend supporting knee while positioning hip back closer to heel. Hold stretch. Repeat with opposite side."
+        }, {
+            "Seated": "Push and lower seat back. Hold stretch. Repeat with opposite leg."
+        }, {
+            "Lying": ""
+        }, {
+            "Lying": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Towel": ""
+        }, {
+            "Vertical": "Straighten elevated knee until slight stretch is felt in back of thigh. If no stretch is felt, slowly straighten bent leg until slight stretch is felt in back of thigh. Hold stretch. Repeat with opposite leg on opposite side of wall or column."
+        }, {
+            "Seated": ""
+        }, {
+            "PNF": ""
+        }, {
+            "Single Leg": ""
+        }, {
+            "Seated (Chair or Exercise Ball)": ""
+        }, {
+            "Single Leg": ""
+        }, {
+            "Seated Single Leg (Bench)": ""
+        }, {
+            "Standing": ""
+        }, {
+            "Cross Leg": ""
+        }, {
+            "Single Leg": ""
+        }, {
+            "Single Leg (Bench)": ""
+        }, {
+            "Kneeling Groin": ""
+        }, {
+            "Kneeling Side Lunge": ""
+        }, {
+            "Lever": "Push and lower seat back. Hold stretch."
+        }, {
+            "Lying Groin": ""
+        }, {
+            "PNF Bent Leg": ""
+        }, {
+            "Towel": "Lower bonded leg out to side while controlling its descent and position with arm. Hold stretch. Repeat on opposite side."
+        }, {
+            "Lying Wall Groin": ""
+        }, {
+            "PNF Straight Leg": ""
+        }, {
+            "Seated Groin": ""
+        }, {
+            "Apparatus": ""
+        }, {
+            "Chair or Bench": ""
+        }, {
+            "Lever": ""
+        }, {
+            "Side Lunge": ""
+        }, {
+            "Squatting Groin": ""
+        }, {
+            "Standing Groin": ""
+        }, {
+            "Bent-over": ""
+        }, {
+            "Kneeling": ""
+        }, {
+            "Lying": ""
+        }, {
+            "Seated Single Leg": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Chair or Bench": ""
+        }],
+        "Calves": [{
+            "Floor Board": ""
+        }, {
+            "Lunging": ""
+        }, {
+            "Pike": ""
+        }, {
+            "Single Leg": ""
+        }, {
+            "Step": ""
+        }, {
+            "Towel": ""
+        }, {
+            "Wall": ""
+        }, {
+            "Floor Board": ""
+        }, {
+            "Lunging": ""
+        }, {
+            "Pike": ""
+        }, {
+            "Single Leg": ""
+        }, {
+            "Kneeling": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Step": ""
+        }, {
+            "Towel": ""
+        }, {
+            "Wall": ""
+        }, {
+            "Kneeling": ""
+        }, {
+            "Lying": ""
+        }, {
+            "Seated": ""
+        }, {
+            "Standing": ""
+        }],
         "Traps": [{
             "Traps Stretch": "Stand upright with your feet shoulder width apart.\nPlace your left hand on your head and gently pull your head down towards your left shoulder. Then return to centre point.\nRepeat, using your right hand pulling towards your right shoulder."
         }, {
@@ -451,105 +827,6 @@ export const data =  {
             "Hamstrings Stretch": "Sit on the floor with one leg outstretched and the other bent at the knee, foot resting on the opposite inner thigh.\nReach forward to touch the toes of the outstretched leg.\nHold the stretch for a few seconds then return to starting position."
         }, {
             "Hamstrings Stretch": "Sit on the floor with your legs out in front of you.\nReach forward to try and touch your toes. Reach as far forward as you can go.\nHold the stretch for a few seconds then return to starting position."
-        }]
-    },
-    "Cables": {
-        "Traps": [{
-            "30 Degree Shrug": "Use a handle attachment on both sides of crossover. With cable attachment set all the way to the bottom.\nGrab both handles and make sure you are centered in the machine. Let your arms hang freely.\nPull your shoulder blades up and in towards your ears. Let your shoulder blades depress back to the starting position."
-        }, {
-            "Overhead Press": "Use a handle attachment with the cable set to the bottom of the machine. Stand upright making sure to maintain a flat back. Your starting position will have your palms facing forward.\nUse both your elbows and shoulders to press the weight directly overhead."
-        }, {
-            "Silverback Shrug": "Use a bar attachment. Cable should be set all the way to the bottom.\nStand up with the attachment in hand, walk a couple of steps back make sure you are standing upright and not leaning backwards.\nRetract your shoulder blades and then protract to return to the starting position."
-        }, {
-            "Upright Row": "Use a handle attachment with the cable set to the bottom of the machine.\nPull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
-        }],
-        "Shoulders": [{
-            "Overhead Press": "Use a handle attachment with the cable set to the bottom of the machine. Stand upright making sure to maintain a flat back. Your starting position will have your palms facing forward.\nUse both your elbows and shoulders to press the weight directly overhead."
-        }, {
-            "Lateral Raise": "Use a handle attachment with the cable set all the way to the bottom of the machine.\nYou should vertically abduct at the shoulder raising your arm straight out to the side.\nRaise until your arm is parallel with the ground and then back to the starting position."
-        }, {
-            "Rear Delt Fly": "Use a handle attachment or no attachment at all. The cable should be set to the top.\nWalk a few steps away with the cable coming from the opposing side of the working arm.\nFrom there, your shoulders should horizontally abduct and adduct, while your elbows stay in a fixed position."
-        }, {
-            "Upright Row": "Use a handle attachment with the cable set to the bottom of the machine.\nPull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
-        }],
-        "Chest": [{
-            "Chest Press": "Use a handle attachment. The cables should be set to shoulder height.\nBring both of the handles to your chest and make sure you are in the center of the cable crossover.\nWalk a few steps forward. Then press the weight forward.\nFrom there, you should flex and extend at both the shoulders and elbows simultaneously."
-        }, {
-            "Pec Fly": "Use a handle attachment set all the way to the bottom of the machine.\nBring both of the handles to your chest and make sure you are in the center of the cable crossover.\nWalk a few steps forward. Then press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position."
-        }],
-        "Biceps": [{
-            "Bayesian Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine.\nStagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
-        }, {
-            "Hammer Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nUse a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
-        }, {
-            "Twisting Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nStart with a neutral grip. Flex at the elbow. While flexing twist your palm. When you hit the top of the movement your palm should be facing upward."
-        }, {
-            "Reverse Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nFace your palm downwards. Flex at the elbow and extend."
-        }],
-        "Forearms": [{
-            "Hammer Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nUse a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
-        }, {
-            "Wrist Extension": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nStart with your elbow at a 90\u00b0 angle with your palm facing down. Flex and extend at the wrist."
-        }, {
-            "Wrist Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nStart with your elbow at a 90\u00b0 angle with your palm facing up. Flex and extend at the wrist."
-        }, {
-            "Reverse Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nFace your palm downwards. Flex at the elbow and extend."
-        }],
-        "Quads": [{
-            "Goblet Squat": "Start with a straight bar or easy bar attachment .\nGet your elbows directly underneath the bar, squat straight up and then walk back a few steps.\nBreak at your knees and hips to initiate the squat. Make sure you maintain a flat back.\nSquat all the way back to a standing position."
-        }, {
-            "Split Squat": "You can use any attachment on this exercise. Cable should be set all to the bottom.\nGrab the attachment and walk back a few steps. Take a split stance. One leg in front and one behind.\nBreak at the knees and hips to initiate the split squat. Make sure your back knee touches the floor.\nSquat back up into a standing position."
-        }],
-        "Calves": [{
-            "Calve Raise": "Use a straight bar or ez bar attachment with the cable set all the way to the bottom.\nWalk a few steps back.\nPull your heels straight up until you feel a contraction in your calves and then back to original position."
-        }],
-        "Traps_middle": [{
-            "30 Degree Shrug": "Use a handle attachment on both sides of crossover. With cable attachment set all the way to the bottom.\nGrab both handles and make sure you are centered in the machine. Let your arms hang freely.\nPull your shoulder blades up and in towards your ears. Let your shoulder blades depress back to the starting position."
-        }, {
-            "Silverback Shrug": "Use a bar attachment. Cable should be set all the way to the bottom.\nStand up with the attachment in hand, walk a couple of steps back make sure you are standing upright and not leaning backwards.\nRetract your shoulder blades and then protract to return to the starting position."
-        }],
-        "Triceps": [{
-            "Pushdown": "You can use any attachment for this. The cable should be set all the way at the top of the machine.\nMake sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
-        }, {
-            "Skullcrusher": "You can use a straight bar, rope, easy bar, or two handles. The cable should be set all the way to the top of the machine.\nFace away from the machine with your elbows up and the attachment just behind your head.\nExtend at the elbows until you feel a contraction in your triceps and then flex at the elbow back to the starting position."
-        }, {
-            "Cross Pushdown": "Either use two handles or no attachment at all. Both sides of the cable crossover should be set to the top.\nStand in the center of the machine holding each Cable in the opposing hand. Your upper arm should be at a 45 degree angle with your torso.\nExtend your elbows until you feel a contraction and then return to the starting position"
-        }, {
-            "Overhead Tricep Extension": "You can use any attachment. The cable should be all the way to the bottom of the machine. Face away from the machine.\nPoint your elbows straight up toward the ceiling.\nFrom there, extend your elbows until your fists are pointed straight toward the ceiling."
-        }],
-        "Lats": [{
-            "Pullover": "You can use any attachment. Cable should be set all the way to the top of the machine.\nGrab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.\nInitiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
-        }, {
-            "Pull - In": "Use a handle attachment set all the way to the top of the cable crossover machine.\nWalk a few steps away from the cable machine. Face your body sideways.\nFace your palm up toward the ceiling. Then pull your elbow in toward your rib cage."
-        }, {
-            "Lat Prayer": "You can use any attachment. Cable should be set all the way to the top of the machine.\nGrab your attachment and walk a few steps back. Push your butt back to where you are leaning forward. Your ears should be between your arms.\nInitiate the movement with your shoulders and not your elbows. As you flex at the shoulder joint push your hips forward until your hips meet the attachment."
-        }],
-        "Lowerback": [{
-            "Goblet Squat": "Start with a straight bar or easy bar attachment .\nGet your elbows directly underneath the bar, squat straight up and then walk back a few steps.\nBreak at your knees and hips to initiate the squat. Make sure you maintain a flat back.\nSquat all the way back to a standing position."
-        }, {
-            "Romanian Deadlift": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\nTo protect yourself from injury, always maintain a flat back on any exercise."
-        }, {
-            "Glute Kickback": "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.\nPush your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.\nThen flex at the hips until you are back into your original position."
-        }, {
-            "Single Leg Deadlift": "Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.\nPush your butt back to initiate the movement while lifting one of your legs.\nThen push your butt forward until you're back in a standing position.\nCompete your given amount of reps, then switch to opposite leg.\nTo protect yourself from injury, always maintain a flat back."
-        }],
-        "Glutes": [{
-            "Romanian Deadlift": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\nTo protect yourself from injury, always maintain a flat back on any exercise."
-        }, {
-            "Goblet Squat": "Start with a straight bar or easy bar attachment .\nGet your elbows directly underneath the bar, squat straight up and then walk back a few steps.\nBreak at your knees and hips to initiate the squat. Make sure you maintain a flat back.\nSquat all the way back to a standing position."
-        }, {
-            "Glute Kickback": "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.\nPush your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.\nThen flex at the hips until you are back into your original position."
-        }, {
-            "Hip Abduction": "Use an ankle attachment. Cable should be set all the way to the bottom.\nFace sideways with the ankle attachment on your outside leg. Walk a few steps away.\nAbduct at the hips and raise your leg out to the side.\nReturn to the starting position and stop just short of your foot touching back to the ground (to keep tension on the muscle)."
-        }],
-        "Hamstrings": [{
-            "Romanian Deadlift": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\nTo protect yourself from injury, always maintain a flat back on any exercise."
-        }, {
-            "Hamstring Curl": "Use an ankle attachment with the cable set all the way to the bottom of the machine.\nStand upright or try bending slightly forward.\nFlex at the knee and pull your ankle straight back."
-        }, {
-            "Single Leg Deadlift": "Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.\nPush your butt back to initiate the movement while lifting one of your legs.\nThen push your butt forward until you're back in a standing position.\nCompete your given amount of reps, then switch to opposite leg.\nTo protect yourself from injury, always maintain a flat back."
-        }, {
-            "Pull Through": "This exercise works best with a rope attachment but can be done with anything. The attachment should be set to the bottom of the machine.\nFace away from the cable machine, straddle the cable itself, and grab the attachment.\nWalk a few steps away.\nBreak at the hips while maintaining a flat back and mostly extended knees.\nPush hips forward until you are back in a standing position."
         }]
     },
     "Kettlebells": {
@@ -1112,7 +1389,104 @@ export const data =  {
             "arms up": "Raise upper body until hips and waist are extended. Lower body by bending hips and waist until mild stretch is felt or torso is approximately perpendicular to legs. Repeat."
         }]
     },
-    "Cable": {
+    "Cables": {
+        "Traps": [{
+            "30 Degree Shrug": "Use a handle attachment on both sides of crossover. With cable attachment set all the way to the bottom.\nGrab both handles and make sure you are centered in the machine. Let your arms hang freely.\nPull your shoulder blades up and in towards your ears. Let your shoulder blades depress back to the starting position."
+        }, {
+            "Overhead Press": "Use a handle attachment with the cable set to the bottom of the machine. Stand upright making sure to maintain a flat back. Your starting position will have your palms facing forward.\nUse both your elbows and shoulders to press the weight directly overhead."
+        }, {
+            "Silverback Shrug": "Use a bar attachment. Cable should be set all the way to the bottom.\nStand up with the attachment in hand, walk a couple of steps back make sure you are standing upright and not leaning backwards.\nRetract your shoulder blades and then protract to return to the starting position."
+        }, {
+            "Upright Row": "Use a handle attachment with the cable set to the bottom of the machine.\nPull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+        }],
+        "Shoulders": [{
+            "Overhead Press": "Use a handle attachment with the cable set to the bottom of the machine. Stand upright making sure to maintain a flat back. Your starting position will have your palms facing forward.\nUse both your elbows and shoulders to press the weight directly overhead."
+        }, {
+            "Lateral Raise": "Use a handle attachment with the cable set all the way to the bottom of the machine.\nYou should vertically abduct at the shoulder raising your arm straight out to the side.\nRaise until your arm is parallel with the ground and then back to the starting position."
+        }, {
+            "Rear Delt Fly": "Use a handle attachment or no attachment at all. The cable should be set to the top.\nWalk a few steps away with the cable coming from the opposing side of the working arm.\nFrom there, your shoulders should horizontally abduct and adduct, while your elbows stay in a fixed position."
+        }, {
+            "Upright Row": "Use a handle attachment with the cable set to the bottom of the machine.\nPull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+        }],
+        "Chest": [{
+            "Chest Press": "Use a handle attachment. The cables should be set to shoulder height.\nBring both of the handles to your chest and make sure you are in the center of the cable crossover.\nWalk a few steps forward. Then press the weight forward.\nFrom there, you should flex and extend at both the shoulders and elbows simultaneously."
+        }, {
+            "Pec Fly": "Use a handle attachment set all the way to the bottom of the machine.\nBring both of the handles to your chest and make sure you are in the center of the cable crossover.\nWalk a few steps forward. Then press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position."
+        }],
+        "Biceps": [{
+            "Bayesian Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine.\nStagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+        }, {
+            "Hammer Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nUse a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
+        }, {
+            "Twisting Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nStart with a neutral grip. Flex at the elbow. While flexing twist your palm. When you hit the top of the movement your palm should be facing upward."
+        }, {
+            "Reverse Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nFace your palm downwards. Flex at the elbow and extend."
+        }],
+        "Forearms": [{
+            "Hammer Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nUse a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
+        }, {
+            "Wrist Extension": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nStart with your elbow at a 90\u00b0 angle with your palm facing down. Flex and extend at the wrist."
+        }, {
+            "Wrist Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nStart with your elbow at a 90\u00b0 angle with your palm facing up. Flex and extend at the wrist."
+        }, {
+            "Reverse Curl": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.\nFace away from the cable machine. Stagger your stance so you have a better base of support.\nFace your palm downwards. Flex at the elbow and extend."
+        }],
+        "Quads": [{
+            "Goblet Squat": "Start with a straight bar or easy bar attachment .\nGet your elbows directly underneath the bar, squat straight up and then walk back a few steps.\nBreak at your knees and hips to initiate the squat. Make sure you maintain a flat back.\nSquat all the way back to a standing position."
+        }, {
+            "Split Squat": "You can use any attachment on this exercise. Cable should be set all to the bottom.\nGrab the attachment and walk back a few steps. Take a split stance. One leg in front and one behind.\nBreak at the knees and hips to initiate the split squat. Make sure your back knee touches the floor.\nSquat back up into a standing position."
+        }],
+        "Calves": [{
+            "Calve Raise": "Use a straight bar or ez bar attachment with the cable set all the way to the bottom.\nWalk a few steps back.\nPull your heels straight up until you feel a contraction in your calves and then back to original position."
+        }],
+        "Traps_middle": [{
+            "30 Degree Shrug": "Use a handle attachment on both sides of crossover. With cable attachment set all the way to the bottom.\nGrab both handles and make sure you are centered in the machine. Let your arms hang freely.\nPull your shoulder blades up and in towards your ears. Let your shoulder blades depress back to the starting position."
+        }, {
+            "Silverback Shrug": "Use a bar attachment. Cable should be set all the way to the bottom.\nStand up with the attachment in hand, walk a couple of steps back make sure you are standing upright and not leaning backwards.\nRetract your shoulder blades and then protract to return to the starting position."
+        }],
+        "Triceps": [{
+            "Pushdown": "You can use any attachment for this. The cable should be set all the way at the top of the machine.\nMake sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+        }, {
+            "Skullcrusher": "You can use a straight bar, rope, easy bar, or two handles. The cable should be set all the way to the top of the machine.\nFace away from the machine with your elbows up and the attachment just behind your head.\nExtend at the elbows until you feel a contraction in your triceps and then flex at the elbow back to the starting position."
+        }, {
+            "Cross Pushdown": "Either use two handles or no attachment at all. Both sides of the cable crossover should be set to the top.\nStand in the center of the machine holding each Cable in the opposing hand. Your upper arm should be at a 45 degree angle with your torso.\nExtend your elbows until you feel a contraction and then return to the starting position"
+        }, {
+            "Overhead Tricep Extension": "You can use any attachment. The cable should be all the way to the bottom of the machine. Face away from the machine.\nPoint your elbows straight up toward the ceiling.\nFrom there, extend your elbows until your fists are pointed straight toward the ceiling."
+        }],
+        "Lats": [{
+            "Pullover": "You can use any attachment. Cable should be set all the way to the top of the machine.\nGrab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.\nInitiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+        }, {
+            "Pull - In": "Use a handle attachment set all the way to the top of the cable crossover machine.\nWalk a few steps away from the cable machine. Face your body sideways.\nFace your palm up toward the ceiling. Then pull your elbow in toward your rib cage."
+        }, {
+            "Lat Prayer": "You can use any attachment. Cable should be set all the way to the top of the machine.\nGrab your attachment and walk a few steps back. Push your butt back to where you are leaning forward. Your ears should be between your arms.\nInitiate the movement with your shoulders and not your elbows. As you flex at the shoulder joint push your hips forward until your hips meet the attachment."
+        }],
+        "Lowerback": [{
+            "Goblet Squat": "Start with a straight bar or easy bar attachment .\nGet your elbows directly underneath the bar, squat straight up and then walk back a few steps.\nBreak at your knees and hips to initiate the squat. Make sure you maintain a flat back.\nSquat all the way back to a standing position."
+        }, {
+            "Romanian Deadlift": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\nTo protect yourself from injury, always maintain a flat back on any exercise."
+        }, {
+            "Glute Kickback": "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.\nPush your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.\nThen flex at the hips until you are back into your original position."
+        }, {
+            "Single Leg Deadlift": "Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.\nPush your butt back to initiate the movement while lifting one of your legs.\nThen push your butt forward until you're back in a standing position.\nCompete your given amount of reps, then switch to opposite leg.\nTo protect yourself from injury, always maintain a flat back."
+        }],
+        "Glutes": [{
+            "Romanian Deadlift": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\nTo protect yourself from injury, always maintain a flat back on any exercise."
+        }, {
+            "Goblet Squat": "Start with a straight bar or easy bar attachment .\nGet your elbows directly underneath the bar, squat straight up and then walk back a few steps.\nBreak at your knees and hips to initiate the squat. Make sure you maintain a flat back.\nSquat all the way back to a standing position."
+        }, {
+            "Glute Kickback": "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.\nPush your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.\nThen flex at the hips until you are back into your original position."
+        }, {
+            "Hip Abduction": "Use an ankle attachment. Cable should be set all the way to the bottom.\nFace sideways with the ankle attachment on your outside leg. Walk a few steps away.\nAbduct at the hips and raise your leg out to the side.\nReturn to the starting position and stop just short of your foot touching back to the ground (to keep tension on the muscle)."
+        }],
+        "Hamstrings": [{
+            "Romanian Deadlift": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\nTo protect yourself from injury, always maintain a flat back on any exercise."
+        }, {
+            "Hamstring Curl": "Use an ankle attachment with the cable set all the way to the bottom of the machine.\nStand upright or try bending slightly forward.\nFlex at the knee and pull your ankle straight back."
+        }, {
+            "Single Leg Deadlift": "Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.\nPush your butt back to initiate the movement while lifting one of your legs.\nThen push your butt forward until you're back in a standing position.\nCompete your given amount of reps, then switch to opposite leg.\nTo protect yourself from injury, always maintain a flat back."
+        }, {
+            "Pull Through": "This exercise works best with a rope attachment but can be done with anything. The attachment should be set to the bottom of the machine.\nFace away from the cable machine, straddle the cable itself, and grab the attachment.\nWalk a few steps away.\nBreak at the hips while maintaining a flat back and mostly extended knees.\nPush hips forward until you are back in a standing position."
+        }],
         "Hips": [{
             "Push Pull": "Pull low pulley stirrup back to side of ribcage while pushing high pulley stirrup forward until arm is extended, allowing torso to rotate to opposite side."
         }, {
@@ -2657,384 +3031,6 @@ export const data =  {
             "Donkey Calf Raise": "Raise heels by extending ankles as high as possible. Lower heels by bending ankles until calves are stretched. Repeat."
         }, {
             "Single Leg Calf Raise": "Raise heel by extending ankle as high as possible. Lower heel by bending ankle until calf is stretched. Repeat. Continue with opposite leg."
-        }]
-    },
-    "Stretch": {
-        "Neck": [{
-            "Retraction": ""
-        }, {
-            "Rotation": ""
-        }, {
-            "Neck Extensor": ""
-        }],
-        "Shoulders": [{
-            "Doorway": ""
-        }, {
-            "Lying Front Deltoid Stretch": "Roll body onto right side by pushing left hand onto floor. Positioning bent left leg over straight right leg until stretch is felt. Hold stretch. Repeat in opposite position."
-        }, {
-            "Seated Front Deltoid Stretch": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Wall": ""
-        }, {
-            "Fixed Bar": ""
-        }, {
-            "Side Deltoid": ""
-        }, {
-            "Fixed Bar": ""
-        }, {
-            "Rear Deltoid": ""
-        }],
-        "Upper Arms": [{
-            "Overhead": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Towel": ""
-        }],
-        "Forearms": [{
-            "Standing": ""
-        }, {
-            "Praying": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Single Arm": ""
-        }, {
-            "Kneeling": ""
-        }, {
-            "Kneeling": ""
-        }, {
-            "Single Arm": ""
-        }],
-        "Back": [{
-            "Fixed Bar": ""
-        }, {
-            "Lever": "Push and lower seat back. Hold stretch. Repeat with opposite arm position."
-        }, {
-            "Bar": ""
-        }, {
-            "Bent-over": ""
-        }, {
-            "on chair or bench": ""
-        }, {
-            "Lever": "Push and lower seat back. Hold stretch."
-        }, {
-            "Overhead": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Seated Side Reach": ""
-        }, {
-            "Supine Lat": "Pull arms toward floor and back sides of head. Hold stretch."
-        }, {
-            "Standing Side Reach": ""
-        }, {
-            "Wall": ""
-        }, {
-            "Upper Trapezius": "Tilt head away from lowered shoulder by positioning ear toward front of opposite shoulder. Hold stretch. Repeat to other side."
-        }, {
-            "Chair Trapezius": "Pull up on chair leg by position torso more upright while allowing left shoulder to be pulled downward. Hold stretch. Repeat on opposite side while sitting slightly angled to left."
-        }, {
-            "Fixed Bar": ""
-        }, {
-            "Hugging": ""
-        }, {
-            "Broomstick": "Pull upper end of pole forward so shoulder is internally rotated. Hold stretch. Repeat with opposite arm."
-        }, {
-            "Bent-over": ""
-        }, {
-            "Seated Bent-over": ""
-        }, {
-            "Side Lying": ""
-        }, {
-            "Side Lying Teres Minor": ""
-        }, {
-            "Supine Infraspinatus": "Keeping elbows bend at a right angles, push forearms downward toward floor and hold stretch."
-        }, {
-            "Prone Infraspinatus": "Lower bend arms toward floor and hold stretch."
-        }, {
-            "Broomstick": "Pull lower end of pole forward and upward so shoulder is externally rotated. Hold stretch. Repeat with opposite arm."
-        }, {
-            "Doorway": ""
-        }],
-        "Chest": [{
-            "Behind Head": ""
-        }, {
-            "PNF": "Pull participant's elbows back while stabilizing participant's torso with leg. Hold stretch."
-        }, {
-            "Doorway": ""
-        }, {
-            "Lying": "Roll body onto side of bent arm by pushing onto floor with opposite arm and positioning bent upper leg over straight lower leg until stretch is felt. Hold stretch. Repeat in opposite position."
-        }, {
-            "Straight Arm": ""
-        }],
-        "Waist": [{
-            "Kneeling": ""
-        }, {
-            "Lying (Prone)": ""
-        }, {
-            "Lying (Supine)": ""
-        }, {
-            "Standing": ""
-        }, {
-            "Lying Bent Leg": ""
-        }, {
-            "Lying Crossover": ""
-        }, {
-            "Pretzel": ""
-        }, {
-            "Seated Bent Leg": ""
-        }, {
-            "Cat": ""
-        }, {
-            "Movement": "Flex spine by hunching back up. Extend spine by arching back. Repeat."
-        }, {
-            "Bent-over Cat": ""
-        }, {
-            "Lever": "Push and lower seat back. Hold stretch."
-        }, {
-            "Lying": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Seated Bent-over (Chair or Bench)": ""
-        }, {
-            "Squatting": ""
-        }, {
-            "Plow": ""
-        }],
-        "Hips": [{
-            "Lever": "Push and lower seat back. Hold stretch. Repeat with opposite leg."
-        }, {
-            "Lying": ""
-        }, {
-            "Modified": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Towel": ""
-        }, {
-            "Lying Wall": ""
-        }, {
-            "Prone": ""
-        }, {
-            "Bent-over": ""
-        }, {
-            "Bench": ""
-        }, {
-            "Chair": ""
-        }, {
-            "Floor": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Standing": "Lean down, lowering torso toward thighs. Hold stretch. Repeat with opposite leg."
-        }, {
-            "Squatting": ""
-        }, {
-            "Lying Crossover": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Lying Pretzel": ""
-        }, {
-            "Seated Hip Internal Rotator": ""
-        }, {
-            "Bent Leg Down": ""
-        }, {
-            "Chair or Bench": ""
-        }, {
-            "Seated Pretzel": ""
-        }, {
-            "Side Pretzel": ""
-        }, {
-            "Lying Iliotibial": ""
-        }, {
-            "Squatting Iliotibial": ""
-        }, {
-            "Standing Iliotibial": ""
-        }, {
-            "Wall Iliotibial": ""
-        }, {
-            "Bentover Lunging": ""
-        }, {
-            "Kneeling": ""
-        }, {
-            "Lever": "Squat down with back straight while straightening hip of rear leg by pushing hips forward. Hold stretch. Repeat with opposite side."
-        }, {
-            "Lunging": ""
-        }, {
-            "On Bench": "Slowly lunge forward by continuing to bend forward leg. With chest high, straighten hip of rear leg by driving hips down and forward. Hold stretch. Repeat with opposite side."
-        }, {
-            "Lying": ""
-        }, {
-            "Sled": ""
-        }, {
-            "Standing": ""
-        }, {
-            "Lying Iliotibial": ""
-        }, {
-            "Squatting Iliotibial": ""
-        }, {
-            "Standing Iliotibial": ""
-        }, {
-            "Wall Iliotibial": ""
-        }, {
-            "Lying": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Lever": "Push and lower seat back. Repeat with opposite leg."
-        }, {
-            "Lying": ""
-        }, {
-            "Modified": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Chair or Bench": ""
-        }, {
-            "PNF": ""
-        }],
-        "Thighs": [{
-            "Kneeling": ""
-        }, {
-            "Lever": ""
-        }, {
-            "Lying (Prone)": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Lying (Side)": ""
-        }, {
-            "Seated": "Pull ankle or forefoot to rear end and straighten hip by moving knee backwards. Hold stretch. Repeat with opposite side."
-        }, {
-            "Standing": "Pull ankle or forefoot to rear end and straighten hip by moving knee backward. Hold stretch. Repeat with opposite side."
-        }, {
-            "Towel": "Pull foot to rear end with towel and straighten hip by moving knee backward. Hold stretch. Repeat with opposite side."
-        }, {
-            "Apparatus": "Bend supporting knee slightly while positioning hip back closer to heel. Hold stretch. Repeat with opposite side."
-        }, {
-            "Platform": "Bend supporting knee while positioning hip back closer to heel. Hold stretch. Repeat with opposite side."
-        }, {
-            "Seated": "Push and lower seat back. Hold stretch. Repeat with opposite leg."
-        }, {
-            "Lying": ""
-        }, {
-            "Lying": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Towel": ""
-        }, {
-            "Vertical": "Straighten elevated knee until slight stretch is felt in back of thigh. If no stretch is felt, slowly straighten bent leg until slight stretch is felt in back of thigh. Hold stretch. Repeat with opposite leg on opposite side of wall or column."
-        }, {
-            "Seated": ""
-        }, {
-            "PNF": ""
-        }, {
-            "Single Leg": ""
-        }, {
-            "Seated (Chair or Exercise Ball)": ""
-        }, {
-            "Single Leg": ""
-        }, {
-            "Seated Single Leg (Bench)": ""
-        }, {
-            "Standing": ""
-        }, {
-            "Cross Leg": ""
-        }, {
-            "Single Leg": ""
-        }, {
-            "Single Leg (Bench)": ""
-        }, {
-            "Kneeling Groin": ""
-        }, {
-            "Kneeling Side Lunge": ""
-        }, {
-            "Lever": "Push and lower seat back. Hold stretch."
-        }, {
-            "Lying Groin": ""
-        }, {
-            "PNF Bent Leg": ""
-        }, {
-            "Towel": "Lower bonded leg out to side while controlling its descent and position with arm. Hold stretch. Repeat on opposite side."
-        }, {
-            "Lying Wall Groin": ""
-        }, {
-            "PNF Straight Leg": ""
-        }, {
-            "Seated Groin": ""
-        }, {
-            "Apparatus": ""
-        }, {
-            "Chair or Bench": ""
-        }, {
-            "Lever": ""
-        }, {
-            "Side Lunge": ""
-        }, {
-            "Squatting Groin": ""
-        }, {
-            "Standing Groin": ""
-        }, {
-            "Bent-over": ""
-        }, {
-            "Kneeling": ""
-        }, {
-            "Lying": ""
-        }, {
-            "Seated Single Leg": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Chair or Bench": ""
-        }],
-        "Calves": [{
-            "Floor Board": ""
-        }, {
-            "Lunging": ""
-        }, {
-            "Pike": ""
-        }, {
-            "Single Leg": ""
-        }, {
-            "Step": ""
-        }, {
-            "Towel": ""
-        }, {
-            "Wall": ""
-        }, {
-            "Floor Board": ""
-        }, {
-            "Lunging": ""
-        }, {
-            "Pike": ""
-        }, {
-            "Single Leg": ""
-        }, {
-            "Kneeling": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Step": ""
-        }, {
-            "Towel": ""
-        }, {
-            "Wall": ""
-        }, {
-            "Kneeling": ""
-        }, {
-            "Lying": ""
-        }, {
-            "Seated": ""
-        }, {
-            "Standing": ""
         }]
     },
     "Suspended": {
