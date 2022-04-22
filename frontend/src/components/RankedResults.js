@@ -1,21 +1,22 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
-import ListItemButton from '@mui/material/ListItemButton'
-import ListItemText from '@mui/material/ListItemText'
-import ListItemIcon from '@mui/material/ListItemIcon'
+import Divider from '@mui/material/Divider'
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 
 export default function RankedResults(props) {
   const [checked, setChecked] = React.useState([0]);
 
   const [rankedResults, setRankedResults] = React.useState(['test results']);
 
-  // setRankedResults(oldArray => props.rankedResults)
+  const [viewGif, setviewGif] = React.useState(true);
+
+  React.useEffect(() => {
+    setRankedResults(oldArray => props.rankedResults)
+    setviewGif(old => props.viewGif)
+  }, []);
 
   const handleToggle = (value) => () => {
       const currentIndex = checked.indexOf(value);
@@ -35,33 +36,33 @@ export default function RankedResults(props) {
         </Typography>
         <Grid container spacing={3} alignItems="center" justifyContent="center">
         <Grid item xs={12} margin={2} alignItems="center" justifyContent="center" >
-          <List sx={{ width: '100%' , bgcolor: 'white' ,
+          <List className='resultsContainer' style={{maxHeight: 500, overflow: 'auto'}} sx={{ width: '100%' , bgcolor: 'white' ,
               borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
 
-              {["res1 : owowowow","res2 : owowowow","res3 : owowowow","res4 : owowowow"].map((value,index) => {
-                  const labelId = `checkbox-list-label-${value}`;
+              {rankedResults.map((item,index) => {
+                  const labelId = `checkbox-list-label-${index}`;
 
                   return (
-                  <ListItem
-                      sx = {{alignContent: 'center'}}
-                      alignItems='center'
-                      key={value}
-                      disablePadding
-                      key={index}
-                  >
-                      <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
-                      {/* <ListItemIcon>
-                          <Checkbox
-                          edge="start"
-                          checked={checked.indexOf(value) !== -1}
-                          tabIndex={-1}
-                          disableRipple
-                          inputProps={{ 'aria-labelledby': labelId }}
-                          />
-                      </ListItemIcon> */}
-                      <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
-                      </ListItemButton>
-                  </ListItem>
+                    <React.Fragment key={index}>
+                      <Card sx={{ minWidth: 275 }}>
+                        <CardContent>
+                          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Equipment : {item.equipment}
+                          </Typography>
+                          <Typography variant="h5" component="div">
+                           Exercise Name : {item.exercise}
+                          </Typography>
+                          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            Muscle : {item.muscle_group}
+                          </Typography>
+                          <Typography variant="body2">
+                            Description : {item.desc}
+                          </Typography>
+                        </CardContent>
+                      </Card>
+                      <Divider />
+                    </React.Fragment>
+
                   );
               })}
               </List>

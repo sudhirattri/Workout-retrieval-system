@@ -1,5 +1,8 @@
 ## workout retrieval system
 
+## Demo for frontend
+https://workout-retrieval-system.sudhirattri1.repl.co/
+
 ### Baseline results (system/prototype)
 
 #### Data Scraping/Collection of
@@ -7,6 +10,7 @@
 - Body part
 - Equipment
 - Images of equipment
+<img width="1936" alt="Mid Report(1)" src="https://user-images.githubusercontent.com/43843585/163447414-9ca70602-0580-40dc-a699-db3d00cb1ae7.png">
 
 
 #### Data preprocessing

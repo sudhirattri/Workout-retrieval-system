@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import { data } from "./data/data";
 import HomeLayout from './components/HomeLayout';
+import React from 'react';
 function App() {
   return (
     <div className="App">

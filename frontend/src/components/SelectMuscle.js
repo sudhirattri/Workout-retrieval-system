@@ -2,15 +2,13 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Autocomplete from '@mui/material/Autocomplete';
-import IconButton from '@mui/material/IconButton'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemButton from '@mui/material/ListItemButton'
 import ListItemText from '@mui/material/ListItemText'
-import ListItemIcon from '@mui/material/ListItemIcon'
+
+import MuscleWiki from './MuscleWiki';
 
 import { data } from "./../data/data";
 
@@ -36,12 +34,18 @@ export default function SelectMuscle(props) {
     const [muscleGroups, setMuscleGroups] = React.useState([]);
     const [checked, setChecked] = React.useState([0]);
 
-    // setMuscleGroups(oldArray => props.muscleGroups)
-    React.useEffect(() => setMuscleGroups(oldArray => props.muscleGroups), [])
+    const [useVisualMuscles, setUseVisualMuscles] = React.useState(false);
+
+    React.useEffect(() => {
+      setMuscleGroups(oldArray => props.muscleGroups)
+    }, []);
+
+    React.useEffect(() => {
+      setUseVisualMuscles(old => props.useVisualMuscles)
+    },[props.useVisualMuscles]);
 
     const handleChange = (value) =>
     {
-      const muscle_groups_list = value.map(function(a){return a.label;});
       setMuscleGroups(oldArray => value)
       props.ref_func(value)
       console.log(value);
@@ -62,6 +66,12 @@ export default function SelectMuscle(props) {
         setChecked(newChecked);
     };
 
+    function selectMuscleFromDiagram(newMuscle){
+      props.ref_func([ ...muscleGroups, newMuscle ])
+      setMuscleGroups(oldArray => [ ...oldArray, newMuscle ])
+      console.log("Adding muscle from diagram")
+    }
+    
     return (
       <React.Fragment>
         <Typography variant="h6" gutterBottom>
@@ -88,38 +98,45 @@ export default function SelectMuscle(props) {
                     />}
             />
           </Grid>
-
-          <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
-            borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
-
-            {muscleGroups.map((value,index) => {
-                const labelId = `checkbox-list-label-${value}`;
-
-                return (
-                <ListItem
-                    sx = {{alignContent: 'center'}}
-                    alignItems='center'
-                    key={value}
-                    disablePadding
-                    key={index}
-                >
-                    <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
-                    {/* <ListItemIcon>
-                        <Checkbox
-                        edge="start"
-                        checked={checked.indexOf(value) !== -1}
-                        tabIndex={-1}
-                        disableRipple
-                        inputProps={{ 'aria-labelledby': labelId }}
-                        />
-                    </ListItemIcon> */}
-                    <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
-                    </ListItemButton>
-                </ListItem>
-                );
-            })}
+          {muscleGroups.length !== 0 &&
+            <List sx={{ width: '100%', maxWidth: 240  , bgcolor: 'white' ,
+              borderColor: 'grey.500', border: 1, borderRadius: 1 ,alignContent: 'center'}}>
+  
+              {muscleGroups.map((value,index) => {
+                  const labelId = `checkbox-list-label-${value}`;
+  
+                  return (
+                  <ListItem
+                      sx = {{alignContent: 'center'}}
+                      alignItems='center'
+                      disablePadding
+                      key={index}
+                  >
+                      <ListItemButton role={undefined} onClick={handleToggle(value)} dense>
+                      <ListItemText sx = {{ maxWidth: 120 , alignText: 'center'}} id={labelId} primary={`${index+1}. ${value}`} />
+                      </ListItemButton>
+                  </ListItem>
+                  );
+              })}
             </List>
+          }
+
+          {useVisualMuscles &&
+          <React.Fragment>
+            <MuscleWiki selectMuscleFromDiagram={selectMuscleFromDiagram}></MuscleWiki>
+          </React.Fragment>
+          }
+
         </Grid>
       </React.Fragment>
     );
-  }
+}
+
+// src="(.*)"
+// src={require('$1')}
+
+// /MuscleWiki_files/
+// /images/
+
+// .png">
+// .png"/>

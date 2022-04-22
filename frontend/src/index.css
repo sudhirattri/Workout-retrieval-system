@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cameraBox{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagePreviewBox{
+  
+}
+
+html::-webkit-scrollbar{
+  width: 10px;
+  background: #BBB;
+}
+html::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px grey;
+}
+html::-webkit-scrollbar-thumb{
+  background: #8896b4;
+}
+
+.resultsContainer::-webkit-scrollbar{
+  width: 10px;
+  background: #BBB;
+}
+.resultsContainer:-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px grey;
+}
+.resultsContainer::-webkit-scrollbar-thumb{
+  background: #8896b4;
+}

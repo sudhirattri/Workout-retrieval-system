@@ -1,0 +1,374 @@
+<!-- saved from url=(0023)https://musclewiki.com/ -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:site_name" content="MuscleWiki">
+    <meta property="og:title" content="Musclewiki">
+    <meta property="og:description" content="Simplify your workout.">
+    <meta property="og:image" content="https://musclewiki.com/static/images/favicon.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://musclewiki.com">
+    <title>MuscleWiki</title>
+    <link rel="apple-touch-icon" href="https://musclewiki.com/static/images/icon.png">
+    <link rel="shortcut icon" href="https://musclewiki.com/static/images/favicon.ico">
+    <link rel="stylesheet" href="./MuscleWiki_files/bootstrapMW.css">
+    <link href="./MuscleWiki_files/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./MuscleWiki_files/style.css">
+    <link rel="stylesheet" href="./MuscleWiki_files/muscle-map.css">
+    <link rel="stylesheet" href="./MuscleWiki_files/style-mobile.css">
+    <script async="" src="./MuscleWiki_files/analytics.js.download"></script>
+    <script type="text/javascript" src="./MuscleWiki_files/jquery-2.1.0.js.download"></script>
+    <script type="text/javascript" src="./MuscleWiki_files/bootstrap.js.download"></script>
+    <script data-ad-client="ca-pub-1142588041739096" async="" src="./MuscleWiki_files/f.txt"></script>
+    <style>
+        .flipX video::-webkit-media-text-track-display {
+            transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+        }
+
+        .flipXY video::-webkit-media-text-track-display {
+            transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+        }
+
+        .flipXYX video::-webkit-media-text-track-display {
+            transform: matrix(1, 0, 0, -1, 0, 0) !important;
+        }
+    </style>
+    <style>
+        @keyframes blinkWarning {
+            0% {
+                color: red;
+            }
+
+            100% {
+                color: white;
+            }
+        }
+
+        @-webkit-keyframes blinkWarning {
+            0% {
+                color: red;
+            }
+
+            100% {
+                color: white;
+            }
+        }
+
+        .blinkWarning {
+            -webkit-animation: blinkWarning 1s linear infinite;
+            -moz-animation: blinkWarning 1s linear infinite;
+            animation: blinkWarning 1s linear infinite;
+        }
+    </style>
+</head>
+
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Main_Page skin-bootstrap-mediawiki action-view">
+    <div class="navbar navbar-default navbar-fixed-top " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://musclewiki.com/" title="MuscleWiki"><img
+                        src="./MuscleWiki_files/logo.png" alt="Logo" id="logobutton"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a href="https://musclewiki.com/#" class="dropdown-toggle" data-toggle="dropdown">Tools <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li> &nbsp;<a href="https://musclewiki.com/Calorie_calculator">Calorie Calculator</a></li>
+                            <li> &nbsp;<a href="https://musclewiki.com/Macro_calculator">Macro Calculator</a></li>
+                            <li> &nbsp;<a href="https://musclewiki.com/One_rep_max_tool">One Rep Max Calculator</a></li>
+                            <li> &nbsp;<a href="https://musclewiki.com/Directory">Directory</a></li>
+                        </ul>
+                    </li>
+                    <form class="navbar-search navbar-form navbar-right" action="https://musclewiki.com/search"
+                        id="id_q_navbar" role="search"
+                        onsubmit="console.error('idkk')">
+                        <input name="search" class="form-control" type="search" placeholder="Search"
+                            title="Search MuscleWiki [ctrl-option-f]" accesskey="f" autocomplete="off" id="search-box2"
+                            size="20">
+                        <input type="hidden" name="q" value="Search">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./MuscleWiki_files/muscle.js.download"></script>
+    <div id="wiki-outer-body">
+        <div id="wiki-body" class="container">
+            <div class="body">
+                <div class="row content-menu">
+                    <div id="sex-choice-wrapper" class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn active" id="sexchoosermalelabel">
+                                <input type="radio" name="sexchooser" id="sexchoosermale" value="male" checked=""><i
+                                    class="far fa-circle fa-2x"></i><i class="far fa-check-circle fa-2x"></i><span>
+                                    Male</span>
+                            </label>
+                            <label class="btn" id="sexchooserfemalelabel">
+                                <input type="radio" name="sexchooser" id="sexchooserfemale" value="female"><i
+                                    class="far fa-circle fa-2x"></i><i class="far fa-check-circle fa-2x"></i><span>
+                                    Female</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                        <button class="show-sections-button">Categories</button>
+                        <div id="section_options" class="section-buttons">
+                            <button data-js-section="Exercises" class="default-menu-button section-button">
+                                Default
+                            </button>
+                            <button data-js-section="Stretches" class="section-button  ">
+                                Stretches
+                            </button>
+                            <button data-js-section="Bodyweight" class="section-button ">
+                                Bodyweight
+                            </button>
+                            <button data-js-section="Barbell" class="section-button ">
+                                Barbell
+                            </button>
+                            <button data-js-section="Dumbbells" class="section-button ">
+                                Dumbbells
+                            </button>
+                            <button data-js-section="Kettlebells" class="section-button section-selected">
+                                Kettlebells
+                            </button>
+                            <button data-js-section="Cables" class="section-button ">
+                                Cables
+                            </button>
+                            <button class="close-menu-button section-button">
+                                Close Menu
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="malefigures" style="display: block;">
+                    <div id="mobile-muscle-map"><img id="mobilebg" src="./MuscleWiki_files/mobilebg.png">
+                        <img id="traps-a" src="./MuscleWiki_files/08.-TrapsLeft.png">
+                        <img id="traps-b" src="./MuscleWiki_files/08.-TrapsRight.png">
+                        <img id="shoulders-a" src="./MuscleWiki_files/07.A-Deltoids.png">
+                        <img id="shoulders-b" src="./MuscleWiki_files/07.B-Deltoids.png">
+                        <img id="pecs" src="./MuscleWiki_files/06.-Pecs.png">
+                        <img id="biceps-a" src="./MuscleWiki_files/05.A-Biceps.png">
+                        <img id="biceps-b" src="./MuscleWiki_files/05.B-Biceps.png">
+                        <img id="forearm-a" src="./MuscleWiki_files/14.A-Forearms.png">
+                        <img id="forearm-b" src="./MuscleWiki_files/14.B-Forearms.png">
+                        <img id="obliques" src="./MuscleWiki_files/04.-Obliques.png">
+                        <img id="quads-a" src="./MuscleWiki_files/01.A-Quads.png">
+                        <img id="quads-b" src="./MuscleWiki_files/01.B-Quads.png">
+                        <img id="calves-a" src="./MuscleWiki_files/13.A-Calves.png">
+                        <img id="calves-b" src="./MuscleWiki_files/13.B-Calves.png">
+                        <img id="back-traps-a" src="./MuscleWiki_files/08.B-Traps.png">
+                        <img id="back-traps-b" src="./MuscleWiki_files/08.C-Traps.png">
+                        <img id="back-shoulders-a" src="./MuscleWiki_files/07.C-Deltoids.png">
+                        <img id="back-shoulders-b" src="./MuscleWiki_files/07.D-Deltoids.png">
+                        <img id="triceps-a" src="./MuscleWiki_files/09.A-Triceps.png">
+                        <img id="triceps-b" src="./MuscleWiki_files/09.B-Triceps.png">
+                        <img id="back-lats-a" src="./MuscleWiki_files/10.A-Lats.png">
+                        <img id="back-lats-b" src="./MuscleWiki_files/10.B-Lats.png">
+                        <img id="back-lower" src="./MuscleWiki_files/15.-Lower-Back.png">
+                        <img id="back-forearms-a" src="./MuscleWiki_files/14.C-Forearms.png">
+                        <img id="back-forearms-b" src="./MuscleWiki_files/14.D-Forearms.png">
+                        <img id="back-glutes" src="./MuscleWiki_files/11.-Glutes.png">
+                        <img id="back-hamstrings-a" src="./MuscleWiki_files/12.A-Hamstrings.png">
+                        <img id="back-hamstrings-b" src="./MuscleWiki_files/12.B-Hamstrings.png">
+                        <img id="back-calves-a" src="./MuscleWiki_files/13.C-Calves.png">
+                        <img id="back-calves-b" src="./MuscleWiki_files/13.D-Calves.png"></div>
+                    <div id="muscle-map"><img id="background" src="./MuscleWiki_files/00.-Blank-Figures.png">
+                        <img id="traps-a" src="./MuscleWiki_files/08.-TrapsLeft.png">
+                        <img id="traps-b" src="./MuscleWiki_files/08.-TrapsRight.png">
+                        <img id="shoulders-a" src="./MuscleWiki_files/07.A-Deltoids.png">
+                        <img id="shoulders-b" src="./MuscleWiki_files/07.B-Deltoids.png">
+                        <img id="pecs" src="./MuscleWiki_files/06.-Pecs.png">
+                        <img id="biceps-a" src="./MuscleWiki_files/05.A-Biceps.png">
+                        <img id="biceps-b" src="./MuscleWiki_files/05.B-Biceps.png">
+                        <img id="forearm-a" src="./MuscleWiki_files/14.A-Forearms.png">
+                        <img id="forearm-b" src="./MuscleWiki_files/14.B-Forearms.png">
+                        <img id="obliques" src="./MuscleWiki_files/04.-Obliques.png">
+                        <img id="quads-a" src="./MuscleWiki_files/01.A-Quads.png">
+                        <img id="quads-b" src="./MuscleWiki_files/01.B-Quads.png">
+                        <img id="calves-a" src="./MuscleWiki_files/13.A-Calves.png">
+                        <img id="calves-b" src="./MuscleWiki_files/13.B-Calves.png">
+                        <img id="back-traps-a" src="./MuscleWiki_files/08.B-Traps.png">
+                        <img id="back-traps-b" src="./MuscleWiki_files/08.C-Traps.png">
+                        <img id="back-shoulders-a" src="./MuscleWiki_files/07.C-Deltoids.png">
+                        <img id="back-shoulders-b" src="./MuscleWiki_files/07.D-Deltoids.png">
+                        <img id="triceps-a" src="./MuscleWiki_files/09.A-Triceps.png">
+                        <img id="triceps-b" src="./MuscleWiki_files/09.B-Triceps.png">
+                        <img id="back-lats-a" src="./MuscleWiki_files/10.A-Lats.png">
+                        <img id="back-lats-b" src="./MuscleWiki_files/10.B-Lats.png">
+                        <img id="back-lower" src="./MuscleWiki_files/15.-Lower-Back.png">
+                        <img id="back-forearms-a" src="./MuscleWiki_files/14.C-Forearms.png">
+                        <img id="back-forearms-b" src="./MuscleWiki_files/14.D-Forearms.png">
+                        <img id="back-glutes" src="./MuscleWiki_files/11.-Glutes.png">
+                        <img id="back-hamstrings-a" src="./MuscleWiki_files/12.A-Hamstrings.png">
+                        <img id="back-hamstrings-b" src="./MuscleWiki_files/12.B-Hamstrings.png">
+                        <img id="back-calves-a" src="./MuscleWiki_files/13.C-Calves.png">
+                        <img id="back-calves-b" src="./MuscleWiki_files/13.D-Calves.png">
+                    </div>
+                </div>
+                <div id="femalefigures" style="display: none;">
+                    <div id="mobile-muscle-map-female">
+                        <img id="mobilebg-female" src="./MuscleWiki_files/female-mobilebg.png">
+                        <img id="female-traps-a" src="./MuscleWiki_files/female-traps-A.png">
+                        <img id="female-traps-b" src="./MuscleWiki_files/female-traps-B.png">
+                        <img id="female-shoulders-a" src="./MuscleWiki_files/female-deltoids-A.png">
+                        <img id="female-shoulders-b" src="./MuscleWiki_files/female-deltoids-B.png">
+                        <img id="female-pecs" src="./MuscleWiki_files/female-pecs.png">
+                        <img id="female-biceps-a" src="./MuscleWiki_files/female-biceps-A.png">
+                        <img id="female-biceps-b" src="./MuscleWiki_files/female-biceps-B.png">
+                        <img id="female-forearm-a" src="./MuscleWiki_files/female-forearms-A.png">
+                        <img id="female-forearm-b" src="./MuscleWiki_files/female-forearms-B.png">
+                        <img id="female-abdominals" src="./MuscleWiki_files/female-abdominals.png">
+                        <img id="female-quads-a" src="./MuscleWiki_files/female-quads-A.png">
+                        <img id="female-quads-b" src="./MuscleWiki_files/female-quads-B.png">
+                        <img id="female-calves-a" src="./MuscleWiki_files/female-calves-A.png">
+                        <img id="female-calves-b" src="./MuscleWiki_files/female-calves-B.png">
+                        <img id="female-back-traps-a" src="./MuscleWiki_files/female-traps-C.png">
+                        <img id="female-back-traps-b" src="./MuscleWiki_files/female-traps-D.png">
+                        <img id="female-back-shoulders-a" src="./MuscleWiki_files/female-deltoids-C.png">
+                        <img id="female-back-shoulders-b" src="./MuscleWiki_files/female-deltoids-D.png">
+                        <img id="female-triceps-a" src="./MuscleWiki_files/female-triceps-A.png">
+                        <img id="female-triceps-b" src="./MuscleWiki_files/female-triceps-B.png">
+                        <img id="female-back-lats-a" src="./MuscleWiki_files/female-lats-A.png">
+                        <img id="female-back-lats-b" src="./MuscleWiki_files/female-lats-B.png">
+                        <img id="female-back-lower" src="./MuscleWiki_files/female-lowerback.png">
+                        <img id="female-back-forearms-a" src="./MuscleWiki_files/female-forearms-C.png">
+                        <img id="female-back-forearms-b" src="./MuscleWiki_files/female-forearms-D.png">
+                        <img id="female-back-glutes" src="./MuscleWiki_files/female-glutes.png">
+                        <img id="female-back-hamstrings-a" src="./MuscleWiki_files/female-hamstrings-A.png">
+                        <img id="female-back-hamstrings-b" src="./MuscleWiki_files/female-hamstrings-B.png">
+                        <img id="female-back-calves-a" src="./MuscleWiki_files/female-calves-C.png">
+                        <img id="female-back-calves-b" src="./MuscleWiki_files/female-calves-D.png">
+                    </div>
+                    <div id="muscle-map-female">
+                        <img id="background-female" src="./MuscleWiki_files/Female-Figures.png">
+                        <img id="female-traps-a" src="./MuscleWiki_files/female-traps-A.png">
+                        <img id="female-traps-b" src="./MuscleWiki_files/female-traps-B.png">
+                        <img id="female-shoulders-a" src="./MuscleWiki_files/female-deltoids-A.png">
+                        <img id="female-shoulders-b" src="./MuscleWiki_files/female-deltoids-B.png">
+                        <img id="female-pecs" src="./MuscleWiki_files/female-pecs.png">
+                        <img id="female-biceps-a" src="./MuscleWiki_files/female-biceps-A.png">
+                        <img id="female-biceps-b" src="./MuscleWiki_files/female-biceps-B.png">
+                        <img id="female-forearm-a" src="./MuscleWiki_files/female-forearms-A.png">
+                        <img id="female-forearm-b" src="./MuscleWiki_files/female-forearms-B.png">
+                        <img id="female-abdominals" src="./MuscleWiki_files/female-abdominals.png">
+                        <img id="female-quads-a" src="./MuscleWiki_files/female-quads-A.png">
+                        <img id="female-quads-b" src="./MuscleWiki_files/female-quads-B.png">
+                        <img id="female-calves-a" src="./MuscleWiki_files/female-calves-A.png">
+                        <img id="female-calves-b" src="./MuscleWiki_files/female-calves-B.png">
+                        <img id="female-back-traps-a" src="./MuscleWiki_files/female-traps-C.png">
+                        <img id="female-back-traps-b" src="./MuscleWiki_files/female-traps-D.png">
+                        <img id="female-back-shoulders-a" src="./MuscleWiki_files/female-deltoids-C.png">
+                        <img id="female-back-shoulders-b" src="./MuscleWiki_files/female-deltoids-D.png">
+                        <img id="female-triceps-a" src="./MuscleWiki_files/female-triceps-A.png">
+                        <img id="female-triceps-b" src="./MuscleWiki_files/female-triceps-B.png">
+                        <img id="female-back-lats-a" src="./MuscleWiki_files/female-lats-A.png">
+                        <img id="female-back-lats-b" src="./MuscleWiki_files/female-lats-B.png">
+                        <img id="female-back-lower" src="./MuscleWiki_files/female-lowerback.png">
+                        <img id="female-back-forearms-a" src="./MuscleWiki_files/female-forearms-C.png">
+                        <img id="female-back-forearms-b" src="./MuscleWiki_files/female-forearms-D.png">
+                        <img id="female-back-glutes" src="./MuscleWiki_files/female-glutes.png">
+                        <img id="female-back-hamstrings-a" src="./MuscleWiki_files/female-hamstrings-A.png">
+                        <img id="female-back-hamstrings-b" src="./MuscleWiki_files/female-hamstrings-B.png">
+                        <img id="female-back-calves-a" src="./MuscleWiki_files/female-calves-C.png">
+                        <img id="female-back-calves-b" src="./MuscleWiki_files/female-calves-D.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <script async="" src="./MuscleWiki_files/f.txt"></script>
+
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1142588041739096"
+            data-ad-slot="1345236375" data-ad-format="auto" data-full-width-responsive="true"><iframe id="aswift_0"
+                style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"
+                src="./MuscleWiki_files/saved_resource.html"><iframe id="google_ads_frame0"
+                    src="./MuscleWiki_files/saved_resource(1).html"></iframe></iframe></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <footer class="master-footer">
+                <div class="master-footer-grid">
+                    <div class="footer-section">
+                        <p class="footer-text">
+                            <a href="https://musclewiki.com/Copyright">© Copyright 2021</a>, Some Rights Reserved.
+                        </p>
+                        <p class="footer-text">
+                            <a href="https://musclewiki.com/Disclaimer">Disclaimer</a> | <a
+                                href="https://musclewiki.com/Copyright">Copyright</a> | <a
+                                href="https://musclewiki.com/Newsletter">Newsletter</a>
+                        </p>
+                    </div>
+                    <div class="footer-section footer-app-section">
+                        <div class="footer-section-title">Get the App</div>
+                        <div class="footer-icons-wrapper">
+                            <a class="footer-app-icon footer-app-google"
+                                href="https://play.google.com/store/apps/details?id=com.musclewiki.macro&amp;hl=en&amp;gl=US"><i
+                                    class="fab fa-google-play"></i></a>
+                            <a class="footer-app-icon footer-app-apple"
+                                href="https://apps.apple.com/us/app/musclewiki-fitness/id1096827640"><i
+                                    class="fab fa-apple"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section footer-brands">
+                        <div class="footer-section-title">Follow Muscle Wiki</div>
+                        <div class="footer-icons-wrapper">
+                            <a class="footer-brand-link footer-brand-instagram" href="https://instagram.com/musclewiki">
+                                <i class="fab fa-instagram footer-brand-icon"></i>
+                            </a>
+                            <a class="footer-brand-link footer-brand-twitter" href="https://twitter.com/musclewiki">
+                                <i class="fab fa-twitter footer-brand-icon"></i>
+                            </a>
+                            <a class="footer-brand-link footer-brand-facebook" href="https://facebook.com/musclewiki">
+                                <i class="fab fa-facebook footer-brand-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-tagline">
+                    simplify your workout.
+                </div>
+                <script>
+                    (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r;
+                        i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                        a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                        a.async = 1;
+                        a.src = g;
+                        m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                    ga('create', 'UA-72608964-1', 'auto');
+                    ga('send', 'pageview');
+                </script>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
