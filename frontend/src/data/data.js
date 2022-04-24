@@ -298,47 +298,6 @@ export const data =  {
             "Safety Bar Reverse Calf Raise": "Pull forefeet up toward body as far as possible. Return by extending feet until toes are pointed downward. Repeat."
         }]
     },
-    "Dumbbells": {
-        "Traps": [{
-            "Seated DB Shrugs": "Sit on a bench with dumbbells in both hands, palms facing your body, back straight.\nElevate your shoulders and hold the contracted position at the apex of the motion.\nSlowly lower your shoulders back to starting position."
-        }],
-        "Shoulders": [{
-            "Seated Dumbbell Shoulder Press": "Sit on a bench with back support. Raise the dumbbells to shoulder height with your palms forward.\nRaise the dumbbells upwards and pause at the contracted position.\nLower the weights back to starting position."
-        }, {
-            "Side Lateral Raises": "Stand up straight with dumbbells at either side, palms facing your hips.\nRaise your arms on either side with a slight bend in your elbow until they are parallel with the floor. Pause at the top of the motion.\nSlowly return your arms down to starting position."
-        }, {
-            "Front Raises": "Grab two dumbbells while standing upright with the dumbbells at your side.\nRaise the two dumbbells with your elbows being fully extended until the dumbbells are eye level.\nLower the weights in a controlled manner to the starting position and repeat."
-        }, {
-            "Seated Bent-Over Rear Delt Fly": "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.\nWith bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.\nSlowly lower your arms back to starting position."
-        }],
-        "Chest": [{
-            "Dumbbell Flys": "Lay flat on the bench and place your feet on the ground.\nBegin the exercise with the dumbbells held together above your chest, elbows slightly bent.\nSimultaneously lower the weights to either side.\nPause when the weights are parallel to the bench, then raise your arms to the starting position."
-        }, {
-            "Incline Dumbbell Press": "Raise the bench to a 30\u00b0 - 45\u00b0 angle\nLay on the bench and set your feet on the ground.\nRaise the dumbbells with straight arms then slowly lower them to about shoulder width.\nRaise them again until your arms are locked and at the starting position again."
-        }, {
-            "Dumbbell Bench Press": "Lay flat on the bench with your feet on the ground. Raise the dumbbells until you have straight arms.\nLower the dumbbells to your mid chest\nRaise the dumbbells until you've locked your elbows."
-        }],
-        "Biceps": [{
-            "Dumbbell Curl": "Stand up straight with a dumbbell in each hand at arm's length.\nRaise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder.\nLower to original position and repeat with opposite arm"
-        }, {
-            "Hammer Curl": "Hold the dumbbells with a neutral grip (thumbs facing the ceiling).\nSlowly lift the dumbbell up to chest height\nReturn to starting position and repeat."
-        }],
-        "Forearms": [{
-            "Wrist Curl": "Grip the dumbbell with your palm facing upwards with your forearm rested against the bench.\nSlowly curl your wrist upwards in a semicircular motion.\nReturn to starting position and repeat."
-        }],
-        "Quads": [{
-            "Goblet Squat": "Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than shoulder width.\nSink down into the squat, keeping your elbows inside the track of your knees.\nPush through your heels while keeping your chest up and return to starting position."
-        }],
-        "Traps_middle": [{
-            "Dumbbell Row": "Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.\nBend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.\nGrip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.\nSwitch the supporting leg and arm to work the other side."
-        }],
-        "Triceps": [{
-            "Seated Triceps Extensions": "Sit on the bench and hold a dumbbell with both hands. Raise the dumbbell overhead at arms length, holding the weight up with the palms of your hands.\nKeep your elbows in while you lower the weight behind your head, your upper arms stationary.\nRaise the weight back to starting position."
-        }],
-        "Lats": [{
-            "Dumbbell Row": "Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.\nBend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.\nGrip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.\nSwitch the supporting leg and arm to work the other side."
-        }]
-    },
     "Stretches": {
         "Neck": [{
             "Retraction": ""
@@ -3193,7 +3152,46 @@ export const data =  {
             "Incline Rear Bridge": "Raise hips up off floor until hips are straight. Hold position."
         }]
     },
-    "Dumbbell": {
+    "Dumbbells": {
+        "Traps": [{
+            "Seated DB Shrugs": "Sit on a bench with dumbbells in both hands, palms facing your body, back straight.\nElevate your shoulders and hold the contracted position at the apex of the motion.\nSlowly lower your shoulders back to starting position."
+        }],
+        "Shoulders": [{
+            "Seated Dumbbell Shoulder Press": "Sit on a bench with back support. Raise the dumbbells to shoulder height with your palms forward.\nRaise the dumbbells upwards and pause at the contracted position.\nLower the weights back to starting position."
+        }, {
+            "Side Lateral Raises": "Stand up straight with dumbbells at either side, palms facing your hips.\nRaise your arms on either side with a slight bend in your elbow until they are parallel with the floor. Pause at the top of the motion.\nSlowly return your arms down to starting position."
+        }, {
+            "Front Raises": "Grab two dumbbells while standing upright with the dumbbells at your side.\nRaise the two dumbbells with your elbows being fully extended until the dumbbells are eye level.\nLower the weights in a controlled manner to the starting position and repeat."
+        }, {
+            "Seated Bent-Over Rear Delt Fly": "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.\nWith bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.\nSlowly lower your arms back to starting position."
+        }],
+        "Chest": [{
+            "Dumbbell Flys": "Lay flat on the bench and place your feet on the ground.\nBegin the exercise with the dumbbells held together above your chest, elbows slightly bent.\nSimultaneously lower the weights to either side.\nPause when the weights are parallel to the bench, then raise your arms to the starting position."
+        }, {
+            "Incline Dumbbell Press": "Raise the bench to a 30\u00b0 - 45\u00b0 angle\nLay on the bench and set your feet on the ground.\nRaise the dumbbells with straight arms then slowly lower them to about shoulder width.\nRaise them again until your arms are locked and at the starting position again."
+        }, {
+            "Dumbbell Bench Press": "Lay flat on the bench with your feet on the ground. Raise the dumbbells until you have straight arms.\nLower the dumbbells to your mid chest\nRaise the dumbbells until you've locked your elbows."
+        }],
+        "Biceps": [{
+            "Dumbbell Curl": "Stand up straight with a dumbbell in each hand at arm's length.\nRaise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder.\nLower to original position and repeat with opposite arm"
+        }, {
+            "Hammer Curl": "Hold the dumbbells with a neutral grip (thumbs facing the ceiling).\nSlowly lift the dumbbell up to chest height\nReturn to starting position and repeat."
+        }],
+        "Forearms": [{
+            "Wrist Curl": "Grip the dumbbell with your palm facing upwards with your forearm rested against the bench.\nSlowly curl your wrist upwards in a semicircular motion.\nReturn to starting position and repeat."
+        }],
+        "Quads": [{
+            "Goblet Squat": "Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than shoulder width.\nSink down into the squat, keeping your elbows inside the track of your knees.\nPush through your heels while keeping your chest up and return to starting position."
+        }],
+        "Traps_middle": [{
+            "Dumbbell Row": "Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.\nBend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.\nGrip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.\nSwitch the supporting leg and arm to work the other side."
+        }],
+        "Triceps": [{
+            "Seated Triceps Extensions": "Sit on the bench and hold a dumbbell with both hands. Raise the dumbbell overhead at arms length, holding the weight up with the palms of your hands.\nKeep your elbows in while you lower the weight behind your head, your upper arms stationary.\nRaise the weight back to starting position."
+        }],
+        "Lats": [{
+            "Dumbbell Row": "Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.\nBend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.\nGrip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.\nSwitch the supporting leg and arm to work the other side."
+        }],
         "Shoulders": [{
             "Arnold Press": "Initiate movement by bringing elbows out to sides. Continue to raise elbows outward while pressing dumbbells overhead until arms are straight. Lower to front of shoulders in opposite pattern and repeat."
         }, {

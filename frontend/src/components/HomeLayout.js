@@ -31,7 +31,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       <Link color="inherit" href="https://github.com/sudhirattri/workout-retrieval-system">
-        IR project, group 37
+        IR project, group 37 - Github Link
       </Link>{' '}
     </Typography>
   );
