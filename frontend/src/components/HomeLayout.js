@@ -89,13 +89,8 @@ export default function HomeLayout() {
     myHeaders.append("Content-Type", "application/json");
     
     var raw = JSON.stringify({
-      "equipments": [
-        "Barbell",
-        "Dumbbells"
-      ],
-      "muscle_groups": [
-        "Shoulders"
-      ]
+      "equipments": equipments,
+      "muscle_groups": muscleGroups
     });
     
     var requestOptions = {
@@ -109,7 +104,7 @@ export default function HomeLayout() {
     fetch(api_endpoint, requestOptions)
       .then(response => {
         response.json().then(response_json => {
-          console.log(response_json)
+          console.log("response json",response_json)
           if(response_json["success"]==false){
             setRankedResults(oldArray => [])
           }
@@ -125,6 +120,7 @@ export default function HomeLayout() {
                 muscle_group : item["muscle_group"]
               }
             })
+            console.log("response came",formatted_response)
             setRankedResults(oldArray => formatted_response)
           }
         });
