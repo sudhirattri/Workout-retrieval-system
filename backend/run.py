@@ -8,8 +8,8 @@ from io import BytesIO
 import os
 from tensorflow import keras
 import tensorflow as tf
-model_path = './model/model_pretrained_resnet'
-model = keras.models.load_model(model_path)
+# model_path = './model/model_pretrained_resnet'
+# model = keras.models.load_model(model_path)
 
 def get_model_tf():
     #Reading the model from JSON file
