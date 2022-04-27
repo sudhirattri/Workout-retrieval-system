@@ -28,7 +28,7 @@ app = Flask(__name__)
 CORS(app)
 app.secret_key = "5ZN5zi!45QUsGGh"
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/old", methods=["GET", "POST"])
 def exercises():
     try:
         with open("data/data.json") as f:
@@ -70,6 +70,42 @@ def exercises():
     # print(response)
     # return jsonify(response)
 
+@app.route("/", methods=["GET", "POST"])
+def get_exercises():
+    with open("./data/index/equipment_posting_lists.json") as f:
+        eq_posting_list = json.load(f)
+
+    # print(eq_posting_list)
+
+    equipments = request.json["equipments"]["muscle_groups"]
+    muscles = request.json["muscle_groups"]
+
+    set1 = set()
+
+    for eq in equipments:
+        set1.update(eq_posting_list[eq])
+
+    with open("./index/muscle_posting_lists.json") as f:
+        m_posting_list = json.load(f)
+
+    set2 = set()
+
+    for m in muscles:
+        set2.update(m_posting_list[m])
+
+    A_and_B = list(set1.intersection(set2))
+    res = list(A_and_B)
+    res += list(set1.difference(A_and_B))
+
+    with open("./index/exercises.json") as f:
+        exercises = json.load(f)    
+
+    ex = []
+
+    for id in res:
+        ex.append(exercises[str(id)])
+
+    return jsonify(ex)
 
 @app.route("/imageRecognize", methods=["POST"])
 def recognize():
