@@ -20,9 +20,10 @@ import Slide from '@mui/material/Slide';
 import { BrowserView, MobileView } from 'react-device-detect';
 
 import { data } from "./../data/data";
+import { equipment } from "./../data/equipment_posting_lists";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-let generated_equipment = Object.keys(data).map(function(key, index) {
+let generated_equipment = Object.keys(equipment).map(function(key, index) {
     return key
 });
 const equipment_options = ["Any Equipment"].concat(generated_equipment)

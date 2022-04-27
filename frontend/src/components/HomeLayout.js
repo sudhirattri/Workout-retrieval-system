@@ -129,21 +129,6 @@ export default function HomeLayout() {
         });
       })
       .catch(error => console.log('error', error));
-
-    // let formatted_response = example_response.map(function(item, index) {
-    //   let exercise_obj = item["exercise"];
-    //   let exercise_name = Object.keys(exercise_obj)[0];
-    //   let desc = exercise_obj[exercise_name]
-    //   return {
-    //     exercise : exercise_name,
-    //     desc : desc,
-    //     equipment : item["equipment"],
-    //     muscle_group : item["muscle_group"]
-    //   }
-    // })
-    // setRankedResults(oldArray => formatted_response)
-    // setRankedResults(oldArray => [])
-    // console.log("Example",formatted_response)
   }
 
   function getStepContent(step) {

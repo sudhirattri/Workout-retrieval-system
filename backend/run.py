@@ -63,6 +63,7 @@ def exercises():
         return jsonify(response)
 
     except Exception as e:
+        print(e)
         response["success"] = False
         response["detail"] = "There is an error"
         del response["exercises"]
@@ -72,48 +73,40 @@ def exercises():
 
 @app.route("/", methods=["GET", "POST"])
 def get_exercises():
-    try:
-        with open("./data/index/equipment_posting_lists.json") as f:
-            eq_posting_list = json.load(f)
+    with open("./data/index/equipment_posting_lists.json") as f:
+        eq_posting_list = json.load(f)
 
-        # print(eq_posting_list)
+    # print(eq_posting_list)
 
-        equipments = request.json["equipments"]["muscle_groups"]
-        muscles = request.json["muscle_groups"]
+    equipments = request.json["equipments"]
+    muscles = request.json["muscle_groups"]
 
-        set1 = set()
+    set1 = set()
 
-        for eq in equipments:
-            set1.update(eq_posting_list[eq])
+    for eq in equipments:
+        set1.update(eq_posting_list[eq])
 
-        with open("./index/muscle_posting_lists.json") as f:
-            m_posting_list = json.load(f)
+    with open("./data/index/muscle_posting_lists.json") as f:
+        m_posting_list = json.load(f)
 
-        set2 = set()
+    set2 = set()
 
-        for m in muscles:
-            set2.update(m_posting_list[m])
+    for m in muscles:
+        set2.update(m_posting_list[m])
 
-        A_and_B = list(set1.intersection(set2))
-        res = list(A_and_B)
-        res += list(set1.difference(A_and_B))
+    A_and_B = list(set1.intersection(set2))
+    res = list(A_and_B)
+    res += list(set1.difference(A_and_B))
 
-        with open("./index/exercises.json") as f:
-            exercises = json.load(f)
+    with open("./data/index/exercises.json") as f:
+        exercises = json.load(f)
 
-        ex = []
+    ex = []
 
-        for id in res:
-            ex.append(exercises[str(id)])
+    for id in res:
+        ex.append(exercises[str(id)])
 
-        return jsonify(ex)
-
-    except Exception as e:
-        response = {}
-        response["success"] = False
-        response["detail"] = "There is an error"
-        del response["exercises"]
-        return jsonify(response)        
+    return jsonify(ex)       
 
 @app.route("/imageRecognize", methods=["POST"])
 def recognize():
