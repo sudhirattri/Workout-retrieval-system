@@ -11,6 +11,111 @@
 ## Demo for frontend
 https://workout-retrieval-system.sudhirattri1.repl.co/
 
+## Project Structure
+
+- Project Repository - [github.com/sudhirattri/workout-retrieval-system](https://github.com/sudhirattri/workout-retrieval-system) 
+- Frontend - React based dynamic webapp.
+  - Production build hosted at - [workout-retrieval-system.sudhirattri1.repl.co](https://workout-retrieval-system.sudhirattri1.repl.co/)
+- Backend- Flask powered backend server with indexing, query searching and image recognition.
+  - Production build hosted at - [workout-retrieval-system.herokuapp.com](https://workout-retrieval-system.herokuapp.com/) 
+
+## Instructions
+
+-  Frontend - 
+  - Pre-requisite - NodeJs and npm installed.
+  - Go to /frontend dir
+  - cd frontend
+  - npm i
+  - npm start
+
+- Backend- Flask powered backend server with indexing, query searching and image recognition.
+  - Pre-requisite - python environment.
+  - cd backend
+  - pip install -r requirements.txt
+  - python run.py
+
+## API specifications - 
+
+Assuming server is running at url
+
+- POST - "url/imageRecognize" - Accepts request with image data in body encoded in Base64 encoding scheme. Returns the recognized class.
+
+- Example Query - 
+```
+curl --location --request POST 'https://workout-retrieval-system.herokuapp.com/imageRecognize' \
+
+--header 'Content-Type: image/jpeg' \
+
+--data-raw '4gIoSUNDX1BST0ZJTE . . . . . . ' 
+```
+- Example Response - 
+```
+{
+
+equipment: 'Bench Press',
+
+probs: '0.9656155',
+
+success: true
+
+}
+```
+
+- GET - "url/ -" Retrieve the results for the query, accepts json object as body with appropriate content-type header. Returns list of exercises with corresponding muscle groups and equipments.
+
+- Example Query -
+
+```
+{
+
+        "equipments": ["Bench Press"],
+
+        "muscle\_groups" : ["Upper Arms"]
+
+}
+```
+- Example Response - 
+```
+[
+
+     {
+
+        "description": "Lower weight to upper chest. Press bar until arms are extended. Repeat.",
+
+        "equipment": [
+
+            "Barbell",
+
+            "Bench Press"
+
+        ],
+
+        "muscle\_group": "Chest",
+
+        "name": "Incline Bench Press"
+
+    },
+
+    {
+
+        "description": "Lower weight to upper chest. Press bar until arms are extended. Repeat.",
+
+        "equipment": [
+
+	.
+
+	.
+
+	.
+
+	continues . . .
+
+] 
+```
+
+
+
+
 ## User Flow
 
 <img width="2204" alt="Mid Report(5)" src="https://user-images.githubusercontent.com/43843585/165586655-f9935fec-b31c-4374-b3ed-f8c93f7121b5.png">
