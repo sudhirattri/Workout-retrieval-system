@@ -24,15 +24,15 @@ https://workout-retrieval-system.sudhirattri1.repl.co/
 -  Frontend - 
   - Pre-requisite - NodeJs and npm installed.
   - Go to /frontend dir
-  - cd frontend
-  - npm i
-  - npm start
+  - `cd frontend`
+  - `npm i`
+  - `npm start`
 
 - Backend- Flask powered backend server with indexing, query searching and image recognition.
   - Pre-requisite - python environment.
-  - cd backend
-  - pip install -r requirements.txt
-  - python run.py
+  - `cd backend`
+  - `pip install -r requirements.txt`
+  - `python run.py`
 
 ## API specifications - 
 
