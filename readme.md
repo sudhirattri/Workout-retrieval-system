@@ -52,11 +52,11 @@ curl --location --request POST 'https://workout-retrieval-system.herokuapp.com/i
 ```
 {
 
-equipment: 'Bench Press',
+	equipment: 'Bench Press',
 
-probs: '0.9656155',
+	probs: '0.9656155',
 
-success: true
+	success: true
 
 }
 ```
