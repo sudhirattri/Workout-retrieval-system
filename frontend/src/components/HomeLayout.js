@@ -91,9 +91,10 @@ export default function HomeLayout() {
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     
+    console.log(muscleGroups,"Any Muscle Group" in muscleGroups)
     var raw = JSON.stringify({
-      "equipments": ("Any Equipment" in equipments)?([]):(equipments),
-      "muscle_groups": ("Any Muscle Group" in muscleGroups)?([]):(muscleGroups),
+      "equipments": (equipments.includes("Any Equipment"))?([]):(equipments),
+      "muscle_groups": (muscleGroups.includes("Any Muscle Group"))?([]):(muscleGroups),
     });
     
     var requestOptions = {
@@ -103,19 +104,16 @@ export default function HomeLayout() {
       redirect: 'follow',
     };
     
-    let api_endpoint = (development) ? ("http://127.0.0.1:5001/") :("http://workout-retrieval-system.herokuapp.com/")
+    let api_endpoint = (development) ? ("http://127.0.0.1:5001/") :("https://workout-retrieval-system.herokuapp.com/")
     fetch(api_endpoint, requestOptions)
       .then(response => {
         response.json().then(response_json => {
-          console.log("response json",response_json)
           if(response_json["success"]==false){
             setRankedResults(oldArray => [])
           }
           else{
-            let formatted_response = response_json["exercises"].map(function(item, index) {
-              let exercise_obj = item["exercise"];
-              let exercise_name = Object.keys(exercise_obj)[0];
-              let desc = exercise_obj[exercise_name]
+            console.log("respnse",response_json)
+            let formatted_response = response_json.map(function(item, index) {
               return {
                 exercise : item["name"],
                 desc : item["description"],
@@ -254,7 +252,7 @@ export default function HomeLayout() {
         setResultCV("Not recognized as any equipment")
       }
       else{
-        setResultCV("Identified as "+responseJSON["equipment"])
+        setResultCV("Identified as "+responseJSON["equipment"]+" prob: "+probs)
         setEquipments(oldArray => [...oldArray, responseJSON["equipment"]])
       }
     }

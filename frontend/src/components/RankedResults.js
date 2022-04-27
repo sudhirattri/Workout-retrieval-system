@@ -9,6 +9,12 @@ import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import Zoom from '@mui/material/Zoom';
 
+function filt(equipments){
+  if(equipments === undefined)
+    return "null"
+  console.log(equipments)
+  return equipments.join(',')
+}
 export default function RankedResults(props) {
   const [checked, setChecked] = React.useState([0]);
 
@@ -76,7 +82,7 @@ export default function RankedResults(props) {
                                 {item.exercise}
                                 </Typography>
                                 <Typography variant="h7" color="textSecondary" component="p">
-                                  Equipment: {item.equipment} <br></br>
+                                  Equipment: {filt(item.equipment)} <br></br>
                                   Muscle: {item.muscle_group} <br></br>
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
