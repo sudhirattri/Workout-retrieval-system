@@ -59,7 +59,7 @@
         "name": "Upright Row",
         "description": "Pull bar to neck with elbows leading. Allow wrists to flex as bar rises. Lower and repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -83,7 +83,7 @@
         "name": "Rear Delt Row",
         "description": "Keeping upper arm perpendicular to torso, pull barbell up toward upper chest until upper arms are just beyond horizontal. Return and repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -91,7 +91,7 @@
         "name": "Lying Rear Delt Row",
         "description": "Keeping upper arm perpendicular to torso, pull barbell up toward upper chest until upper arms are just beyond parallel to floor. Return and repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -99,7 +99,7 @@
         "name": "Close Grip Bench Press",
         "description": "Lower weight to chest with elbows close to body. Push barbell back up until arms are straight. Repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Bench Press"
         ],
         "muscle_group": "Upper Arms"
     },
@@ -251,7 +251,7 @@
         "name": "Bent-over Row",
         "description": "Pull bar to upper waist. Return until arms are extended and shoulders are stretched downward. Repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -331,7 +331,7 @@
         "name": "Bench Press",
         "description": "Lower weight to chest. Press bar upward until arms are extended. Repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -379,7 +379,7 @@
         "name": "Decline Bench Press",
         "description": "Lower weight to chest. Press bar until arms are extended. Repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -387,7 +387,7 @@
         "name": "Incline Bench Press",
         "description": "Lower weight to upper chest. Press bar until arms are extended. Repeat.",
         "equipment": [
-            "Barbell"
+            "Barbell","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -2699,7 +2699,7 @@
         "name": "Upright Row",
         "description": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.\nBend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.\nLift the kettlebell upwards towards your chest and lower - repeat.",
         "equipment": [
-            "Kettlebells"
+            "Kettlebells","Rowing"
         ],
         "muscle_group": "Traps"
     },
@@ -2731,7 +2731,7 @@
         "name": "Rear Delt Row",
         "description": "Stand with your feet shoulder width apart, holding the kettlebell with both hands in front of your thighs.\nBend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.\nLift the kettlebell upwards towards your upper chest and then lower the kettlebell- repeat.",
         "equipment": [
-            "Kettlebells"
+            "Kettlebells","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -2995,7 +2995,7 @@
         "name": "Single Arm Row",
         "description": "Stand with your feet shoulder width apart, shifting one foot behind you. Hold the kettlebell in the same hand as the leg shifted backwards.\nBend forwards at the hips bringing the kettlebell to the floor while you slightly bend your knee, keeping your back straight.\nLift the kettlebell upwards towards your chest and lower - repeat.",
         "equipment": [
-            "Kettlebells"
+            "Kettlebells","Rowing"
         ],
         "muscle_group": "Lats"
     },
@@ -3187,7 +3187,7 @@
         "name": "Inverted Row",
         "description": "Lower body downward until arms are extended straight while keeping body straight and elbows high (upper arm perpendicular to torso). Pull body toward bar until upper arms are just beyond parallel to one another. Return and repeat.",
         "equipment": [
-            "Bodyweight"
+            "Bodyweight","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -3315,7 +3315,7 @@
         "name": "Underhand Inverted Row",
         "description": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Bodyweight"
+            "Bodyweight","Rowing"
         ],
         "muscle_group": "Upper Arms"
     },
@@ -3371,7 +3371,7 @@
         "name": "Inverted Row",
         "description": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Bodyweight"
+            "Bodyweight","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -3403,7 +3403,7 @@
         "name": "Underhand Inverted Row",
         "description": "Keeping body straight, pull body up to bar. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Bodyweight"
+            "Bodyweight","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -4451,7 +4451,7 @@
         "name": "Upright Row",
         "description": "Use a handle attachment with the cable set to the bottom of the machine.\nPull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Traps"
     },
@@ -4587,7 +4587,7 @@
         "name": "Upright Row",
         "description": "Pull bar to neck with elbows leading. Allow wrists to flex as bar rises. Lower and repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -4699,7 +4699,7 @@
         "name": "Rear Delt Row",
         "description": "Pull cable attachment toward upper chest, just below neck, with elbows up out to sides until elbows travel slightly behind back. Keep upper arms horizontal, perpendicular to trunk. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -4771,7 +4771,7 @@
         "name": "Standing Cross Row",
         "description": "Pull both cable attachments by moving elbows back to sides. Keep upper arms horizontal, perpendicular to trunk. Return and repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -4843,7 +4843,7 @@
         "name": "Bench Press",
         "description": "Push stirrups up over each shoulder until arms are straight and parallel to one another. Return stirrups to original position, until slight stretch is felt in shoulders or chest. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -4931,7 +4931,7 @@
         "name": "Incline Bench Press",
         "description": "Push stirrups up over each shoulder until arms are straight and parallel to one another. Return stirrups to original position, until slight stretch is felt in chest or shoulders. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -5955,7 +5955,7 @@
         "name": "Incline Row",
         "description": "Pull cable attachment to waist while straightening back upright. Pull shoulders back and push chest forward while arching back. Return until arms are extended, shoulders are stretched forward, and lower back is flexed forward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -5971,7 +5971,7 @@
         "name": "Kneeling Row",
         "description": "Pull stirrup up to side until elbow travels beyond surface of back. Return until arm is extended and shoulder is stretched downward. Repeat and continue with opposite side.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -5979,7 +5979,7 @@
         "name": "Lying Row",
         "description": "Pull stirrups down to each side of chest until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched upward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -5987,7 +5987,7 @@
         "name": "One Arm Bent-over Row",
         "description": "Pull cable attachment to side of torso, pulling shoulder back. Return until arm is extended and shoulder is stretched forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -5995,7 +5995,7 @@
         "name": "One Arm Seated Row",
         "description": "Pull cable attachment to side of torso, slightly twisting through waist. Pull shoulder back and push chest forward during contraction. Return until arm is extended and shoulder is stretched forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6011,7 +6011,7 @@
         "name": "One Arm Seated High Row",
         "description": "Pull cable attachment to side of torso, straightening back and leaning back slightly. Pull shoulder back and push chest forward during contraction. Return until arm is extended and torso is pulled forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6035,7 +6035,7 @@
         "name": "Seated High Row",
         "description": "Pull cable attachment to waist and lean back slightly. Pull shoulders back and push chest forward while arching back. Return until torso, arms, and shoulders pulled forward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6051,7 +6051,7 @@
         "name": "Seated Row",
         "description": "Pull cable attachment to waist while straightening lower back. Pull shoulders back and push chest forward while arching back. Return until arms are extended, shoulders are stretched forward, and lower back is flexed forward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6067,7 +6067,7 @@
         "name": "Seated Wide Grip Row",
         "description": "Pull cable attachment to waist while pulling torso upright.   Pull shoulders back and push chest forward while arching back. Return until arms are extended, shoulders are stretched forward, and lower back is flexed forward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6083,7 +6083,7 @@
         "name": "One Arm Standing Row",
         "description": "Pull cable attachment to side of torso while pulling shoulder back, arching spine, and pushing chest forward. Return until arm is extended and shoulder is pulled forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6091,7 +6091,7 @@
         "name": "Low Row",
         "description": "Pull cable attachment to side of torso while pulling shoulder back, arching spine, and pushing chest forward. Return until arm is extended and shoulder is pulled forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6099,7 +6099,7 @@
         "name": "Twisting Standing High Row",
         "description": "Pull cable attachment to side of torso and rotate body toward side of pulling arm. Pull shoulder back and push chest forward. Return until arm is extended and shoulder is pulled forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -6579,7 +6579,7 @@
         "name": "One Arm High Row",
         "description": "Pull cable attachment to side of torso, straightening back and leaning back slightly. Pull shoulder back and push chest forward during contraction. Return until arm is extended and torso is pulled forward. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Waist"
     },
@@ -6603,7 +6603,7 @@
         "name": "Seated Row",
         "description": "Pull cable attachment to waist while straightening lower back. Pull shoulders back and push chest forward while arching back. Return until arms are extended, shoulders are stretched forward, and lower back is flexed forward. Repeat.",
         "equipment": [
-            "Cables"
+            "Cables","Rowing"
         ],
         "muscle_group": "Waist"
     },
@@ -6867,7 +6867,7 @@
         "name": "Barbell Machine Upright Row",
         "description": "Pull bar to neck with elbows leading. Allow wrists to flex as bar rises. Lower and repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -6883,7 +6883,7 @@
         "name": "Incline Rear Delt Row",
         "description": "Pull lever with elbows forward  out to sides until upper arms are just beyond parallel, keeping upper arm perpendicular to torso. Return and repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -6907,7 +6907,7 @@
         "name": "Seated Rear Delt Row",
         "description": "Pull lever with elbows up out to sides until upper arms are just beyond parallel, keeping upper arm horizontal, perpendicular to torso. Return and repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -6931,7 +6931,7 @@
         "name": "T-Bar Rear Delt Row",
         "description": "With elbows out to sides, pull bar up toward upper chest until elbows are same height as shoulders or just beyond, keeping upper arm perpendicular to torso. Return and repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -6939,7 +6939,7 @@
         "name": "Close Grip Bench Press",
         "description": "",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Bench Press"
         ],
         "muscle_group": "Upper Arms"
     },
@@ -7035,7 +7035,7 @@
         "name": "Bent-over Row",
         "description": "",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7067,7 +7067,7 @@
         "name": "Incline Row",
         "description": "Pull lever up as high as possible. Return until arms are extended and shoulders are stretched downward. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7083,7 +7083,7 @@
         "name": "One Arm Standing Row",
         "description": "Pull lever to side while twisting torso toward opposite side. Pull shoulder back and push chest forward during contraction. Return until arm is extended and torso is pulled toward original direction. Repeat. Continue with opposite arm.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7131,7 +7131,7 @@
         "name": "Seated Row (no chest pad)",
         "description": "Pull handles to waist while straightening torso upright. Pull shoulders back and push chest forward while arching back. Return until arms are extended, shoulders are stretched forward, and lower back is flexed forward. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7147,7 +7147,7 @@
         "name": "Seated Low Row",
         "description": "Pull levers back until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7155,7 +7155,7 @@
         "name": "Seated High Row",
         "description": "Pull lever back until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7163,7 +7163,7 @@
         "name": "Underhand Seated Row",
         "description": "Pull levers back until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7179,7 +7179,7 @@
         "name": "T-bar Row",
         "description": "",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -7323,7 +7323,7 @@
         "name": "Bench Press",
         "description": "",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -7379,7 +7379,7 @@
         "name": "Incline Bench Press",
         "description": "Press lever bars up until arms are extended. Lower weight toward upper chest. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -7587,7 +7587,7 @@
         "name": "45\u00b0 Leg Press",
         "description": "Flex hips and knees to lower lever until hips are completely flexed. Push platform by extending knees and hips. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -7611,7 +7611,7 @@
         "name": "Lying Leg Press",
         "description": "Push lever platform away by extending hips and knees until knees are straight. Return lever platform by flexing hips and knees until knees are just short of complete flexion or until hips are completely flexed. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -7635,7 +7635,7 @@
         "name": "Seated Leg Press",
         "description": "Push platform(s) away by extending knees and hips until knees are fully extended. Return until hips are completely flexed. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -7835,7 +7835,7 @@
         "name": "45\u00b0 Leg Press",
         "description": "Lower platform by flexing hips and knees until hips are completely flexed. Return by extending knees and hips. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -7859,7 +7859,7 @@
         "name": "Lying Leg Press",
         "description": "Push lever platform away by extending hips and knees until knees are straight. Return lever platform by flexing hips and knees until knees are just short of complete flexion or until hips are completely flexed. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -7883,7 +7883,7 @@
         "name": "Seated Leg Press",
         "description": "Push platform(s) away by extending knees and hips until knees are fully extended. Return until hips are completely flexed. Repeat.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -7907,7 +7907,7 @@
         "name": "Lever Single Leg Standing Leg Press",
         "description": "Push platform down by extending hip and knee until straight. Return leg to original position. Repeat. Continue with opposite leg positions.",
         "equipment": [
-            "Lever (plate loaded)"
+            "Lever (plate loaded)","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -8379,7 +8379,7 @@
         "name": "Seated Rear Delt Row",
         "description": "Pull lever with elbows up out to sides until upper arms are just beyond parallel, keeping upper arm horizontal, perpendicular to torso. Return and repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -8403,7 +8403,7 @@
         "name": "on pec deck",
         "description": "Pull arms back until elbows are beyond back. Return and repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Pec Deck"
         ],
         "muscle_group": "Shoulders"
     },
@@ -8691,7 +8691,7 @@
         "name": "Seated High Row",
         "description": "Pull lever back until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -8715,7 +8715,7 @@
         "name": "Seated Row",
         "description": "Pull lever back until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -8731,7 +8731,7 @@
         "name": "Seated Row (no chest pad)",
         "description": "Pull handles to waist while straightening torso upright. Pull shoulders back and push chest forward while arching back. Return until arms are extended, shoulders are stretched forward, and lower back is flexed forward. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -8747,7 +8747,7 @@
         "name": "Underhand Seated Row",
         "description": "Pull lever handles back until elbows are behind back and shoulders are pulled back. Return until arms are extended and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -8955,7 +8955,7 @@
         "name": "Pec Deck Fly",
         "description": "Push levers together. Return until chest muscles are stretched. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Pec Deck"
         ],
         "muscle_group": "Chest"
     },
@@ -9003,7 +9003,7 @@
         "name": "Bench Press",
         "description": "Press bar until arms are extended. Lower weight to upp   er chest. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -9059,7 +9059,7 @@
         "name": "Decline Bench Press",
         "description": "Press bar until arms are extended. Lower weight to chest. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -9067,7 +9067,7 @@
         "name": "Incline Bench Press",
         "description": "Press bar until arms are extended. Lower weight to upper chest. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -9371,7 +9371,7 @@
         "name": "Alternating Lying Leg Press",
         "description": "Lower one lever platform toward body by bending knee and hip until weight taps or nearly taps unused portion of weight stack. Push lever platform away by extending knee and hip. Repeat with opposite leg. Continue by alternating between sides.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -9379,7 +9379,7 @@
         "name": "Seated Leg Press",
         "description": "Extend knees and hips until knees are fully extended. Return until hips are completely flexed. Repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -9523,7 +9523,7 @@
         "name": "Alternating Lying Leg Press",
         "description": "Lower one lever platform toward body by bending knee and hip until weight taps or nearly taps unused portion of weight stack. Push lever platform away by extending knee and hip. Repeat with opposite leg. Continue by alternating between sides.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -9531,7 +9531,7 @@
         "name": "Seated Leg Press",
         "description": "Push platform away by extending knees and hips. Return and repeat.",
         "equipment": [
-            "Lever (selectorized)"
+            "Lever (selectorized)","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -9923,7 +9923,7 @@
         "name": "Inverted Row",
         "description": "",
         "equipment": [
-            "Weighted"
+            "Weighted","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -10699,7 +10699,7 @@
         "name": "Rear Delt Row",
         "description": "Pull body up while keeping elbows pointed directly out to each side and body and legs straight. Pull until elbows are directly lateral to each side without allowing elbows to drop. Return until arms are extended straight and shoulders are stretched forward, maintaining high elbow position. Repeat.",
         "equipment": [
-            "Suspended"
+            "Suspended","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -10755,7 +10755,7 @@
         "name": "Inverted Row",
         "description": "Pull body up so sides of chest make contact with handles while keeping body straight. Return until arms are extended straight and shoulders are stretched forward. Repeat.",
         "equipment": [
-            "Suspended"
+            "Suspended","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -11387,7 +11387,7 @@
         "name": "Upright Row",
         "description": "Pull dumbbells to front of shoulder with elbows leading out to sides. Allow wrists to flex as dumbbells rise upward. Lower and repeat.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -11411,7 +11411,7 @@
         "name": "Lying Rear Delt Row",
         "description": "Keeping upper arm perpendicular to torso and dumbbells just below elbows, pull dumbbells up until elbows are just above shoulders. Return and repeat.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -11451,7 +11451,7 @@
         "name": "Rear Delt Row",
         "description": "Pull dumbbell up out to side with upper arm perpendicular to trunk until upper arm is just beyond horizontal. Lower and repeat.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -11515,7 +11515,7 @@
         "name": "Decline Bench Press",
         "description": "Press dumbbells up with elbows to sides until arms are extended. Lower weight to sides of chest until slight stretch is felt in chest or shoulder. Repeat.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -11563,7 +11563,7 @@
         "name": "Incline Bench Press",
         "description": "Press dumbbells up with elbows to sides until arms are extended. Lower weight to sides of upper chest until slight stretch is felt in chest or shoulder. Repeat.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -11699,7 +11699,7 @@
         "name": "Dumbbell Row",
         "description": "Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.\nBend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.\nGrip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.\nSwitch the supporting leg and arm to work the other side.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Traps_middle"
     },
@@ -11715,7 +11715,7 @@
         "name": "Dumbbell Row",
         "description": "Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.\nBend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.\nGrip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.\nSwitch the supporting leg and arm to work the other side.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Lats"
     },
@@ -11859,7 +11859,7 @@
         "name": "Bent-over Row",
         "description": "Pull dumbbell to up to side until it makes contact with ribs or until upper arm is just beyond horizontal. Return until arm is extended and shoulder is stretched downward. Repeat and continue with opposite arm.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -11867,7 +11867,7 @@
         "name": "Lying Row",
         "description": "Pull dumbbells to sides until upper arm is just beyond horizontal or height of back. Return until arms are extended and shoulders are stretched downward. Repeat.",
         "equipment": [
-            "Dumbbells"
+            "Dumbbells","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -12363,7 +12363,7 @@
         "name": "45\u00b0 Leg Press",
         "description": "Lower sled by flexing hips and knees until knees are just short of complete flexion or until hips are completely flexed. Return by extending knees and hips. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -12395,7 +12395,7 @@
         "name": "Lying Leg Press",
         "description": "Extend hips and knees. Return until hips are completely flexed. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -12427,7 +12427,7 @@
         "name": "Seated Leg Press",
         "description": "Extend knees and hips until knees are fully extended. Return until hips are completely flexed. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -12435,7 +12435,7 @@
         "name": "Vertical Leg Press",
         "description": "Lower sled by flexing hips and knees until knees are just short of complete flexion or just before hips raise up from pad. Return by extending knees and hips. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Hips"
     },
@@ -12499,7 +12499,7 @@
         "name": "45\u00b0 Leg Press",
         "description": "Lower sled by flexing hips and knees until knees are just short of complete flexion. Return by extending knees and hips. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -12531,7 +12531,7 @@
         "name": "Lying Leg Press",
         "description": "Extend hips and knees. Flex hips and knees to descend until knees are just short of complete flexion. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -12563,7 +12563,7 @@
         "name": "Seated Leg Press",
         "description": "Push platform away by extending knees and hips. Return until hips are completely flexed. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -12571,7 +12571,7 @@
         "name": "Vertical Leg Press",
         "description": "Lower sled by flexing hips and knees until knees are just short of complete flexion or just before hips raise up from pad. Return by extending knees and hips. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Thighs"
     },
@@ -12699,7 +12699,7 @@
         "name": "on lying leg press",
         "description": "Push sled by extending ankles as far as possible. Return by bending ankles until calves are stretched. Repeat.",
         "equipment": [
-            "Sled"
+            "Sled","Leg Press"
         ],
         "muscle_group": "Calves"
     },
@@ -12843,7 +12843,7 @@
         "name": "Upright Row",
         "description": "Pull bar to neck with elbows leading. Allow wrists to flex as bar rises. Lower and repeat.",
         "equipment": [
-            "Smith"
+            "Smith","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -12859,7 +12859,7 @@
         "name": "Rear Delt Row",
         "description": "Keeping upper arm perpendicular to torso, pull bar up toward upper chest until upper arms are just beyond parallel to floor. Return and repeat.",
         "equipment": [
-            "Smith"
+            "Smith","Rowing"
         ],
         "muscle_group": "Shoulders"
     },
@@ -12867,7 +12867,7 @@
         "name": "Close Grip Bench Press",
         "description": "Lower weight to chest with elbows close to body. Push bar back up until arms are straight. Repeat.",
         "equipment": [
-            "Smith"
+            "Smith","Bench Press"
         ],
         "muscle_group": "Upper Arms"
     },
@@ -12883,7 +12883,7 @@
         "name": "Bent-over Row",
         "description": "",
         "equipment": [
-            "Smith"
+            "Smith","Rowing"
         ],
         "muscle_group": "Back"
     },
@@ -12899,7 +12899,7 @@
         "name": "Bench Press",
         "description": "Lower weight to chest. Press bar until arms are extended. Repeat.",
         "equipment": [
-            "Smith"
+            "Smith","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -12907,7 +12907,7 @@
         "name": "Decline Bench Press",
         "description": "Lower weight to chest. Press bar until arms are extended. Repeat.",
         "equipment": [
-            "Smith"
+            "Smith","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -12915,7 +12915,7 @@
         "name": "Incline Bench Press",
         "description": "Lower weight to upper chest. Press bar until arms are extended. Repeat.",
         "equipment": [
-            "Smith"
+            "Smith","Bench Press"
         ],
         "muscle_group": "Chest"
     },
@@ -13734,5 +13734,109 @@
             "Lever"
         ],
         "muscle_group": "Hips"
+    },
+    "1718": {
+        "name": "Strengthen legs and thighs",
+        "description": "On your stationary bike 2 times a week for 30 to 45 minutes, alternating between high intensity phases and recovery phases. Increase the resistance of your bike during the high intensity phases in order to make your muscles work.",
+        "equipment": [
+            "Bicycle"
+        ],
+        "muscle_group": "Quads"
+    },
+    "1719": {
+        "name": "Strengthen Calves",
+        "description": "On your stationary bike 2 times a week for 30 to 45 minutes, alternating between high intensity phases and recovery phases. Increase the resistance of your bike during the high intensity phases in order to make your muscles work.",
+        "equipment": [
+            "Bicycle"
+        ],
+        "muscle_group": "Calves"
+    },
+    "1720": {
+        "name": "Booty Workout",
+        "description": "Elliptical booty workout will help you tone your backside while also getting a good cardio workout. Really give your backside a good workout by focusing on keeping your heels down while you're on the machine.",
+        "equipment": [
+            "Elliptical"
+        ],
+        "muscle_group": "Hamstrings"
+    },
+    "1721": {
+        "name": "Core Workout",
+        "description": "Not using the handles in this elliptical core workout helps engage all the muscles of your core as you work harder to stay balanced on the machine. The faster you can go, the more you'll work your core in this.",
+        "equipment": [
+            "Elliptical"
+        ],
+        "muscle_group": "Abdominals"
+    },
+    "1722": {
+        "name": "Beginning elliptical workout",
+        "description": "It uses all the different features of the machine, which gives you an idea of what it can do: by pedaling forward you work your quads, and going backward targets the hamstrings and booty.",
+        "equipment": [
+            "Elliptical"
+        ],
+        "muscle_group": "Quads"
+    },
+    "1723": {
+        "name": "Beginning elliptical workout",
+        "description": "Focus on pushing the handles to work on your chest, and pulling the handles will work your upper back.",
+        "equipment": [
+            "Elliptical"
+        ],
+        "muscle_group": "Chest"
+    },
+    "1724": {
+        "name": "Treadmill hamstrings workout",
+        "description": "Run or walk on a treadmill on an incline.",
+        "equipment": [
+            "Treadmill"
+        ],
+        "muscle_group": "Hamstrings"
+    },
+    "1725": {
+        "name": "Treadmill quads workout",
+        "description": "Quads are engaged more effectively while walking on an incline at a slow speed in a backward direction.",
+        "equipment": [
+            "Treadmill"
+        ],
+        "muscle_group": "Quads"
+    },
+    "1726": {
+        "name": "Treadmill calves workout",
+        "description": "Walking on an incline with your treadmill set at a slow setting works out the gastrocnemius muscle effectively.",
+        "equipment": [
+            "Treadmill"
+        ],
+        "muscle_group": "Calves"
+    },
+    "1727": {
+        "name": "Centre Hop and Squat",
+        "description": "Place the step with the small end facing you and stand either side of the box, feet facing forward. Jump with both feet with the aim to land in the middle of the box with feet touching or close to touching. Spring your feet back off the box and go into a squat down over the box in a controlled fashion. Drop one hand down and touch the box, before repeating the movement and alternating the hand you put down on each repetition.",
+        "equipment": [
+            "Aerobic Steppers"
+        ],
+        "muscle_group": "Lowerback"
+    },
+    "1728": {
+        "name": "Stepper sider",
+        "description": "Put your stepper in a vertical position, keep your left foot on the stepper and other on the ground. Keep your body straight. Now with a hop, put your left foot on the ground (on the left side of the stepper). Your right leg will come up on the stepper.",
+        "equipment": [
+            "Aerobic Steppers"
+        ],
+        "muscle_group": "Abdominals"
+    },
+    "1729": {
+        "name": "Squat pop over",
+        "description": "Firstly, squat with your right foot on the floor and your left foot on the step, as your left-hand fingers lightly touch the step. Leap into the air, landing with your left foot on the opposite side, and your right foot and hand on the step. Quickly reverse the move to return to the starting position. That’s one rep.",
+        "equipment": [
+            "Aerobic Steppers"
+        ],
+        "muscle_group": "Hips"
+    },
+    "1730": {
+        "name": "Step-Ups",
+        "description": "Place the box a foot or so in front of you with arms down by your side or with hands together in front of your body. Using your right leg, step onto the box and push through your front heel to lift your left leg up. Fully extend you right leg until your left leg is level with the box before slowly releasing back to the starting position. Repeat for desired repetitions, before switching legs.",
+        "equipment": [
+            "Aerobic Steppers"
+        ],
+        "muscle_group": "Quads"
     }
 }
