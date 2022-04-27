@@ -26,18 +26,3 @@ Next, the user selects the muscle group. Users can select the muscle group in tw
 Then the user is shown the results with exercise ranked according to the input given by the user.
 
 
-#### Data Scraping/Collection of
-
-
-
-#### Data preprocessing
-
-#### Basic Implementation of (Decreasing Priority)
-Text Analysis model
-User Interface
-Features associated with UI
-Search Suggestion
-
-#### Link to the Drive folder for models 
-
-https://drive.google.com/drive/folders/1asINerceJeWTF6zMMeQydGhUXgrPKV2y?usp=sharing
