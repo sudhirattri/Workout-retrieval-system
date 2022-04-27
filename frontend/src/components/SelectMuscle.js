@@ -15,6 +15,7 @@ import { data } from "./../data/data";
 function generate_muscle_groups(){
   let equips = Object.keys(data);
   let muscle_groups_set = new Set()
+  muscle_groups_set.add("Any Muscle Group")
   equips.forEach(equipment => {
     // console.log(data[equipment])
     Object.keys(data[equipment]).forEach(muscle_group => {

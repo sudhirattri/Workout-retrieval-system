@@ -85,12 +85,15 @@ export default function HomeLayout() {
   }
 
   function post_query(development){
+
+    setRankedResults(null)
+
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     
     var raw = JSON.stringify({
-      "equipments": equipments,
-      "muscle_groups": muscleGroups
+      "equipments": ("Any Equipment" in equipments)?([]):(equipments),
+      "muscle_groups": ("Any Muscle Group" in muscleGroups)?([]):(muscleGroups),
     });
     
     var requestOptions = {
@@ -114,8 +117,8 @@ export default function HomeLayout() {
               let exercise_name = Object.keys(exercise_obj)[0];
               let desc = exercise_obj[exercise_name]
               return {
-                exercise : exercise_name,
-                desc : desc,
+                exercise : item["name"],
+                desc : item["description"],
                 equipment : item["equipment"],
                 muscle_group : item["muscle_group"]
               }
@@ -165,7 +168,7 @@ export default function HomeLayout() {
 
   const [equipments, setEquipments] = React.useState([]);
   const [muscleGroups, setMuscleGroups] = React.useState([]);
-  const [rankedResults, setRankedResults] = React.useState([]);
+  const [rankedResults, setRankedResults] = React.useState(null);
 
   const [resultCV, setResultCV] = React.useState(null);
   const [uploadStatus, setUploadStatus] = React.useState(0);
@@ -250,7 +253,7 @@ export default function HomeLayout() {
     const formData = new FormData();
     formData.append("image", uploadImageFile);
 
-    console.log(uploadImageFile)
+    // console.log(uploadImageFile)
 
     const rawResponse = await fetch(api_endpoint, {
       method: 'POST',
@@ -258,10 +261,17 @@ export default function HomeLayout() {
     });
 
     let responseJSON = await rawResponse.json();
-
+    console.log(responseJSON)
     if(responseJSON["success"]==true){
+      let probs = responseJSON["probs"]
       setResultCV(responseJSON["equipment"])
-      setEquipments(oldArray => [...oldArray, responseJSON["equipment"]])
+      if(parseFloat(probs)<0.5){
+        setResultCV("Not recognized as any equipment")
+      }
+      else{
+        setResultCV("Identified as "+responseJSON["equipment"])
+        setEquipments(oldArray => [...oldArray, responseJSON["equipment"]])
+      }
     }
     // await delay(1000);
     setUploadStatus(2);
@@ -377,7 +387,7 @@ export default function HomeLayout() {
                             Image Uploaded
                           </Typography>
                           <Typography variant="h7" gutterBottom>
-                            Identified as : {resultCV}
+                            {resultCV}
                           </Typography>
                         </Box>
 
@@ -399,6 +409,7 @@ export default function HomeLayout() {
                       <input type="file" id='file-picker' onChange={uploadImageFromFiles} style={{"display":"none"}}/>
                       </Button>
                     }
+                    {activeStep !== 2 &&
                     <Button
                     variant="outlined"
                     onClick={handleSecondaryClick}
@@ -406,6 +417,7 @@ export default function HomeLayout() {
                     >
                       {getSecondaryButtonText()}
                     </Button>
+                    }
                   </Box>
                   <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                     {activeStep !== 0 && (

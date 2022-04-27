@@ -40,49 +40,60 @@ export default function RankedResults(props) {
         <Typography variant="h6" gutterBottom marginLeft={4}>
           Results
         </Typography>
-        {rankedResults.length === 0 && (
+        
+        {rankedResults === null ? (
           <Box sx={{ display: 'flex' , justifyContent: 'center', margin: '50px'}}>
             <CircularProgress />
           </Box>
+        ):(
+          <React.Fragment>
+            {rankedResults.length === 0 && (
+              <React.Fragment>
+                <Box sx={{ display: 'flex' , justifyContent: 'center', margin: '50px'}}>
+                    <Typography variant='h5'>No Results Obtained</Typography>
+                </Box>
+              </React.Fragment>
+            )}
+            <Grid item xs={12} margin={2} alignItems="left" justifyContent="left" >
+              <List className='resultsContainer' style={{maxHeight: 500, overflow: 'auto'}} sx={{ width: '100%' , bgcolor: 'white' ,
+                alignContent: 'left'}}  className='result-card'>
+
+                {rankedResults.map((item,index) => {
+                    const labelId = `checkbox-list-label-${index}`;
+
+                    return (
+                      <React.Fragment key={index}>
+                        <Zoom in={zoomIn} style={{ transitionDelay: Math.min(5000,(index*500)).toString()+'ms' }}>
+                          <Box display="flex" flexDirection="row" justifyContent="space-around"
+                            style={{ margin:"0px",padding:"0"}}
+                          >
+                            <Typography xs={2} gutterBottom variant="h5" component="h2" marginTop={2}>
+                              {index+1}
+                            </Typography>
+                            <Card style={{"width":"90%", "margin-bottom":"10px"}}>
+                              <CardContent>
+                                <Typography gutterBottom variant="h6" component="h2">
+                                {item.exercise}
+                                </Typography>
+                                <Typography variant="h7" color="textSecondary" component="p">
+                                  Equipment: {item.equipment} <br></br>
+                                  Muscle: {item.muscle_group} <br></br>
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                  Description: {item.desc} <br></br>
+                                </Typography>
+                              </CardContent>
+                            </Card>
+                          </Box>
+                        </Zoom>
+                        {/* <Divider variant="inset" component="li"/> */}
+                      </React.Fragment>
+                    );
+                })}
+              </List>
+            </Grid>
+          </React.Fragment>
         )}
-        <Grid item xs={12} margin={2} alignItems="left" justifyContent="left" >
-          <List className='resultsContainer' style={{maxHeight: 500, overflow: 'auto'}} sx={{ width: '100%' , bgcolor: 'white' ,
-            alignContent: 'left'}}  className='result-card'>
-
-            {rankedResults.map((item,index) => {
-                const labelId = `checkbox-list-label-${index}`;
-
-                return (
-                  <React.Fragment key={index}>
-                    <Zoom in={zoomIn} style={{ transitionDelay: Math.min(5000,(index*500)).toString()+'ms' }}>
-                      <Box display="flex" flexDirection="row" justifyContent="space-around"
-                        style={{ margin:"0px",padding:"0"}}
-                      >
-                        <Typography xs={2} gutterBottom variant="h5" component="h2" marginTop={2}>
-                          {index+1}
-                        </Typography>
-                        <Card style={{"width":"90%", "margin-bottom":"10px"}}>
-                          <CardContent>
-                            <Typography gutterBottom variant="h6" component="h2">
-                            {item.exercise}
-                            </Typography>
-                            <Typography variant="h7" color="textSecondary" component="p">
-                              Equipment: {item.equipment} <br></br>
-                              Muscle: {item.muscle_group} <br></br>
-                            </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
-                              Description: {item.desc} <br></br>
-                            </Typography>
-                          </CardContent>
-                        </Card>
-                      </Box>
-                    </Zoom>
-                    {/* <Divider variant="inset" component="li"/> */}
-                  </React.Fragment>
-                );
-            })}
-          </List>
-        </Grid>
       </React.Fragment>
     );
   }

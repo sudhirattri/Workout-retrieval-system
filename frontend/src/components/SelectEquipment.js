@@ -22,9 +22,10 @@ import { BrowserView, MobileView } from 'react-device-detect';
 import { data } from "./../data/data";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-const equipment_options = Object.keys(data).map(function(key, index) {
+let generated_equipment = Object.keys(data).map(function(key, index) {
     return key
 });
+const equipment_options = ["Any Equipment"].concat(generated_equipment)
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -216,6 +217,7 @@ export default function SelectEquipment(props) {
               variant="contained"
               sx={{ mt: 2, ml: 1, margin: 2, boxShadow: 10}}
               onClick={captureCamera}
+              className="take-photo"
               >
                 Take Photo
             </Button>
