@@ -21,8 +21,8 @@ https://workout-retrieval-system.sudhirattri1.repl.co/
 
 ## Instructions
 
--  Frontend - 
-  - Pre-requisite - NodeJs and npm installed.
+- Frontend- React based dynamic webapp.
+	- Pre-requisite - NodeJs and npm installed.
   - Go to /frontend dir
   - `cd frontend`
   - `npm i`
